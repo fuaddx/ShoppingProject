@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using ShoppingMvc.Contexts;
+
 namespace ShoppingMvc
 {
     public class Program
@@ -8,7 +11,10 @@ namespace ShoppingMvc
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
-
+            builder.Services.AddDbContext<EvaraDbContext>(opt =>
+            {
+                opt.UseSqlServer(builder.Configuration.GetConnectionString("MSSql"));
+            });
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -22,6 +28,11 @@ namespace ShoppingMvc
 
             app.UseAuthorization();
 
+
+            app.MapControllerRoute(
+            name: "areas",
+            pattern: "{area:exists}/{controller=Slider}/{action=Index}/{id?}"
+            );
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
