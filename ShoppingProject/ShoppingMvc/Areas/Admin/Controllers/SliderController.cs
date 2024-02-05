@@ -80,13 +80,16 @@ namespace ShoppingMvc.Areas.Admin.Controllers
                 query = query.Where(c => c.Title == categoryFilter);
             }
 
-            // Apply date filter
             if (dateFilter.HasValue)
             {
                 DateTime filterDate = dateFilter.Value.Date;
 
-                query = query.Where(c => c.CreatedTime.Value == filterDate);
+                query = query.Where(c => c.CreatedTime.Value.Date == filterDate);
             }
+
+            query = query.OrderBy(c => c.CreatedTime); 
+
+            var results = query.ToList();
 
             if (!string.IsNullOrEmpty(statusFilter) && statusFilter != "All statuses" && statusFilter != "Show all")
             {
@@ -173,6 +176,7 @@ namespace ShoppingMvc.Areas.Admin.Controllers
         [HttpPost]
         public async Task<IActionResult> Update(int? id, SliderUpdateVm vm)
         {
+            TempData["Update"] = false;
             if (id == null || id < 0) return BadRequest();
             if (!ModelState.IsValid)
             {
@@ -193,7 +197,8 @@ namespace ShoppingMvc.Areas.Admin.Controllers
             if (data == null) return NotFound();
             data.Title = vm.Title;
             data.Description = vm.Description;
-
+            data.Discount = vm.Discount;
+            data.Button = vm.Button;
             if (!string.IsNullOrEmpty(data.ImageUrl))
             {
                 string filepath = Path.Combine(_env.WebRootPath, "Assets", "assets", "products", data.ImageUrl);
@@ -209,6 +214,7 @@ namespace ShoppingMvc.Areas.Admin.Controllers
             }
             data.ImageUrl = filename;
             await _db.SaveChangesAsync();
+            TempData["Update"] = true;
             return RedirectToAction(nameof(Index));
         }
         public async Task<IActionResult> DeleteProduct(int? id)

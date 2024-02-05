@@ -1,6 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using ShoppingMvc.Models;
+using ShoppingMvc.Models.Cards;
+using ShoppingMvc.Models.Categories;
 
 namespace ShoppingMvc.Contexts
 {
@@ -10,6 +12,8 @@ namespace ShoppingMvc.Contexts
         {
         }
         public DbSet<Slider> Sliders { get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<Category>  Categorys { get; set; }
         public override Task<int> SaveChangesAsync(CancellationToken cancellationToken=default) 
         {
             IEnumerable<EntityEntry<Slider>> entries = ChangeTracker.Entries<Slider>();

@@ -20,8 +20,8 @@
                     <input class="form-check-input item-checkbox" type="checkbox">
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-4 col-8 flex-grow-1 col-name">
-                <a class="itemside" href="#">
+            <div class="col-lg-4 col-sm-4 col-8 flex-grow-1 col-name" style="width:10%">
+                <a class="itemside" >
                     <div class="left">
                         <img src="~/Assets/assets/products/@item.ImageUrl" class="img-sm img-thumbnail" style="width:100px" alt="Item">
                     </div>
@@ -31,6 +31,7 @@
                 </a>
             </div>
             <div class="col-lg-2 col-sm-2 col-4 col-price"> <span>@item.Description</span> </div>
+            <div class="col-lg-2 col-sm-2 col-4 col-price"> <span>@item.Discount %</span> </div>
             <div class="col-lg-2 col-sm-2 col-4 col-status">
                 @if (item.IsDeleted)
                 {

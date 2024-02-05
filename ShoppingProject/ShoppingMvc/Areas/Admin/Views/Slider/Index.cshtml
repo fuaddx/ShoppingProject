@@ -37,7 +37,7 @@
                         // Perform deletion logic here, e.g., redirect to a delete action
                         selectedItems.each(function () {
                             var itemId = $(this).data('id'); // Assuming you have a data-id attribute on the checkbox
-                            window.location.href = "/ControllerName/DeleteFromData?id=" + itemId;
+                            window.location.href = "/Slider/DeleteFromData?id=" + itemId;
                         });
                     }
                 } else {
@@ -143,17 +143,40 @@
             </script>
         }
     }
+    @if (TempData["Update"] != null)
+    {
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+        @if ((bool)TempData["Update"] == true)
+        {
+            <script>
+                Swal.fire({
+                    title: "Data Updated",
+                    text: "Your file has been Updated",
+                    icon: "success"
+                });
+            </script>
+        }
+        else
+        {
+            <script>
+                Swal.fire({
+                    icon: "error",
+                    title: "Oops...",
+                    text: "Something went wrong!",
+                });
+            </script>
+        }
+    }
     
 }
 <section class="content-main" id="salam">
     <div class="content-header">
         <div>
-            <h2 class="content-title card-title">Products List</h2>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <h2 class="content-title card-title">Slider List</h2>
         </div>
         <div>
-            <a href="#" class="btn btn-light rounded font-md">Export</a>
-            <a href="#" class="btn btn-light rounded  font-md">Import</a>
             <a asp-action="Create" class="btn btn-primary btn-sm rounded">Create new</a>
         </div>
     </div>
