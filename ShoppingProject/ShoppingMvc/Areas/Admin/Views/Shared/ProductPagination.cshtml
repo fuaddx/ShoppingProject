@@ -14,7 +14,7 @@
 @foreach (var item in Model.Items)
 {
     <article>
-        <div class="row align-items-center" style="@(item.IsDeleted ? "background-color: #FF5233;" : "")">
+        <div class="row align-items-center" >
             <div class="col col-check flex-grow-0">
                 <div class="form-check">
                     <input class="form-check-input item-checkbox" type="checkbox">
@@ -33,6 +33,7 @@
             <div class="col-lg-2 col-sm-2 col-4 col-price"> <span>@item.Description</span> </div>
             <div class="col-lg-2 col-sm-2 col-4 col-price"> <span>@item.Discount %</span> </div>
             <div class="col-lg-2 col-sm-2 col-4 col-status">
+                
                 @if (item.IsDeleted)
                 {
                     <span class="badge rounded-pill alert-danger">Disabled</span>

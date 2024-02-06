@@ -28,10 +28,11 @@ namespace ShoppingMvc.Areas.Admin.Controllers
                 UpdatedTime = c.UpdatedTime,
                 IsDeleted = c.IsDeleted,
                 IsArchived = c.IsArchived,
+                Name = c.Name,
             }).ToListAsync();
             int totalCount = await _db.Categorys.CountAsync();
             PaginationVm<IEnumerable<CategoryListItemVm>> pag = new(totalCount, page, (int)Math.Ceiling((decimal)totalCount / count), items);
-            return PartialView("ProductPagination", pag);
+            return PartialView("_CategoryPaginationPartial", pag);
         }
         public async Task<IActionResult> Index(string categoryFilter, DateTime? dateFilter, string statusFilter, int page = 1)
         {
@@ -45,9 +46,10 @@ namespace ShoppingMvc.Areas.Admin.Controllers
                 UpdatedTime = c.UpdatedTime,
                 IsDeleted = c.IsDeleted,
                 IsArchived = c.IsArchived,
+                Name = c.Name,
             });
 
-            // Apply category filter
+            
             if (!string.IsNullOrEmpty(categoryFilter) && categoryFilter != "All categories")
             {
                 query = query.Where(c => c.Name == categoryFilter);
@@ -163,6 +165,15 @@ namespace ShoppingMvc.Areas.Admin.Controllers
             await _db.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
+        public async Task<IActionResult> RestoreArchiveProduct(int? id)
+        {
+            if (id == null) return BadRequest();
+            var data = await _db.Categorys.FindAsync(id);
+            if (data == null) return NotFound();
+            data.IsArchived = false;
+            await _db.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
         public async Task<IActionResult> DeleteFromData(int? id)
         {
             TempData["Delete"] = false;
@@ -179,6 +190,7 @@ namespace ShoppingMvc.Areas.Admin.Controllers
             if (id == null) return BadRequest();
             var data = await _db.Categorys.FindAsync(id);
             if (data == null) return NotFound();
+            data.IsArchived = true;
             await _db.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }

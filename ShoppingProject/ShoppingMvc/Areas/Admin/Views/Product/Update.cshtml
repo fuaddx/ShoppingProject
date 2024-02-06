@@ -1,4 +1,4 @@
-﻿@model SliderUpdateVm
+﻿@model ProductUpdateVm
 @{
     ViewData["Title"] = "Update";
 }
@@ -40,7 +40,7 @@
 }
 <div class="card shadow mb-4">
     <div class="card-header py-3">
-        <h6 class="m-0 font-weight-bold text-primary">Edit Slider</h6>
+        <h6 class="m-0 font-weight-bold text-primary">Edit Product</h6>
     </div>
     <div class="card-body">
         <form asp-action="Update" method="post" enctype="multipart/form-data">
@@ -55,20 +55,25 @@
                 <span asp-validation-for="Description" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Button"></label>
-                <input asp-for="Button" class="form-control">
-                <span asp-validation-for="Button" class="text-danger"></span>
+                <label asp-for="CostPrice"></label>
+                <input asp-for="CostPrice" class="form-control">
+                <span asp-validation-for="CostPrice" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Discount"></label>
-                <select asp-for="Discount" class="form-control">
+                <label asp-for="SellPrice"></label>
+                <input asp-for="SellPrice" class="form-control">
+                <span asp-validation-for="SellPrice" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RateRange"></label>
+                <select asp-for="RateRange" class="form-control">
                     <option value="">None</option>
                     @for (int i = 10; i <= 100; i += 10)
                     {
                         <option value="@i">@i%</option>
                     }
                 </select>
-                <span asp-validation-for="Discount" class="text-danger"></span>
+                <span asp-validation-for="RateRange" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="MainImage"></label>
@@ -81,10 +86,17 @@
                 <input asp-for="MainImage" accept="image/*" class="custom-file-input" id="customFile">
                 <span asp-validation-for="MainImage" class="text-danger"></span>
             </div>
+            <div class="form-group">
+                <label asp-for="CategoryId">Categories</label>
+                <br />
+                <select class="form-control" asp-for="CategoryId" asp-items='@ViewBag.Category'>
+                    <option disabled selected>Select category</option>
+                </select>
+                <span asp-validation-for="CategoryId" class="text-danger"></span>
+            </div>
             <div class="text" style="margin-top:10px">
                 <button class="btn btn-success" style="color:white;background:#088178!important">Edit</button>
-                <a asp-controller="Slider" asp-action="Cancel" class="btn btn-danger">Cancel</a>
-
+                <a asp-controller="Product" asp-action="Cancel" class="btn btn-danger">Cancel</a>
             </div>
         </form>
     </div>

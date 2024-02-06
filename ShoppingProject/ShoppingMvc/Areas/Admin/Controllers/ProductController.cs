@@ -52,11 +52,12 @@ namespace ShoppingMvc.Areas.Admin.Controllers
 
             var query = _db.Products.Select(c => new ProductListItemVm
             {
-                Id = c.Id,
+                 Id = c.Id,
                 CreatedTime = c.CreatedTime,
                 UpdatedTime = c.UpdatedTime,
                 ImageUrl = c.ImageUrl,
                 IsDeleted = c.IsDeleted,
+                IsArchived = c.IsArchived,
                 Title = c.Title,
                 Description = c.Description,
                 CostPrice = c.CostPrice,
@@ -68,7 +69,7 @@ namespace ShoppingMvc.Areas.Admin.Controllers
             // Apply category filter
             if (!string.IsNullOrEmpty(categoryFilter) && categoryFilter != "All categories")
             {
-                query = query.Where(c => c.Title == categoryFilter);
+                query = query.Where(c => c.Category.Name == categoryFilter);
             }
 
             if (dateFilter.HasValue)
@@ -83,8 +84,8 @@ namespace ShoppingMvc.Areas.Admin.Controllers
             var results = query.ToList();
 
             if (!string.IsNullOrEmpty(statusFilter) && statusFilter != "All statuses" && statusFilter != "Show all")
-            {
-                query = query.Where(c => c.IsDeleted && statusFilter == "Disabled" || !c.IsDeleted && statusFilter == "Active");
+            {   
+                query = query.Where(c => c.IsDeleted && statusFilter == "Disabled" || !c.IsDeleted && !c.IsArchived && statusFilter == "Active" || c.IsArchived && statusFilter == "Archived");
             }
 
             var filteredData = await query.ToListAsync();
@@ -103,9 +104,18 @@ namespace ShoppingMvc.Areas.Admin.Controllers
             return View(pag);
         }
 
+
+
         public async Task<IActionResult> Create()
         {
+            ViewBag.Category = new SelectList(_db.Categorys, "Id", "Name");
+            if (!ModelState.IsValid)
+            {
+                ViewBag.Category = new SelectList(_db.Categorys, "Id", "Name");
+                return View();
+            }
             return View();
+          
         }
         public async Task<IActionResult> Cancel()
         {
@@ -116,7 +126,8 @@ namespace ShoppingMvc.Areas.Admin.Controllers
         {
             if (!ModelState.IsValid)
             {
-                return View();
+                ViewBag.Category = new SelectList(_db.Categorys, "Id", "Name");
+                return View(vm);
 
             }
             string filename = null;
@@ -130,7 +141,6 @@ namespace ShoppingMvc.Areas.Admin.Controllers
                 {
                     ModelState.AddModelError("MainImage", "Image must less than given kb");
                 }
-
                 filename = Guid.NewGuid() + Path.GetExtension(vm.MainImage.FileName);
                 using (Stream fs = new FileStream(Path.Combine(_env.WebRootPath, "Assets", "assets", "products", filename), FileMode.Create))
                 {
@@ -144,7 +154,7 @@ namespace ShoppingMvc.Areas.Admin.Controllers
             if (!await _db.Categorys.AnyAsync(c => c.Id == vm.CategoryId))
             {
                 ModelState.AddModelError("CategoryId", "Category doesnt exist");
-                ViewBag.Categories = _db.Categorys;
+                ViewBag.Category = new SelectList(_db.Categorys, "Id", "Name");
                 return View(vm);
             }
             Product product = new Product()
@@ -152,7 +162,7 @@ namespace ShoppingMvc.Areas.Admin.Controllers
                 Title = vm.Title,
                 Description = vm.Description,
                 RateRange = vm.RateRange,
-                CategoryId = vm.CategoryId,
+                CategoryId = (int)vm.CategoryId,
                 CostPrice = vm.CostPrice,
                 SellPrice = vm.SellPrice,
                 ImageUrl = filename,
@@ -165,6 +175,7 @@ namespace ShoppingMvc.Areas.Admin.Controllers
         public async Task<IActionResult> Update(int? id)
         {
             if (id == null) return BadRequest();
+            ViewBag.Category = new SelectList(_db.Categorys, "Id", "Name");
             var data = await _db.Products.FindAsync(id);
             if (data == null) return NotFound();
             return View(new ProductUpdateVm
@@ -175,6 +186,7 @@ namespace ShoppingMvc.Areas.Admin.Controllers
                 CategoryId = data.CategoryId,
                 CostPrice = data.CostPrice,
                 SellPrice = data.SellPrice,
+                ImageUrl = data.ImageUrl
 
             });
         }
@@ -183,7 +195,11 @@ namespace ShoppingMvc.Areas.Admin.Controllers
         {
             TempData["Update"] = false;
             if (id == null || id < 0) return BadRequest();
-           
+            if (!ModelState.IsValid)
+            {
+                ViewBag.Category = new SelectList(_db.Categorys, "Id", "Name");
+                return View(vm);
+            }
             if (vm.MainImage != null)
             {
                 if (!vm.MainImage.IsCorrectType())
@@ -195,21 +211,25 @@ namespace ShoppingMvc.Areas.Admin.Controllers
                     ModelState.AddModelError("ImageFile", "Files length must be less than kb");
                 }
             }
+
             if (vm.CostPrice > vm.SellPrice)
             {
                 ModelState.AddModelError("CostPrice", "Sell price must be bigger than cost price");
             }
-            if (!ModelState.IsValid)
+            
+            if (!await _db.Categorys.AnyAsync(c => c.Id == vm.CategoryId))
             {
-                ViewBag.Categories = _db.Categorys;
+                ModelState.AddModelError("CategoryId", "Category doesnt exist");
+                ViewBag.Category = new SelectList(_db.Categorys, "Id", "Name");
                 return View(vm);
             }
+            
             var data = await _db.Products.FindAsync(id);
             if (data == null) return NotFound();
              data.Title = vm.Title;
             data.Description = vm.Description;
             data.RateRange = vm.RateRange;
-            data.CategoryId = vm.CategoryId;
+            data.CategoryId = (int)vm.CategoryId;
             data.CostPrice = vm.CostPrice;
             data.SellPrice = vm.SellPrice;
             if (!string.IsNullOrEmpty(data.ImageUrl))
@@ -250,6 +270,15 @@ namespace ShoppingMvc.Areas.Admin.Controllers
             await _db.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
+        public async Task<IActionResult> RestoreArchiveProduct(int? id)
+        {
+            if (id == null) return BadRequest();
+            var data = await _db.Products.FindAsync(id);
+            if (data == null) return NotFound();
+            data.IsArchived = false;
+            await _db.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
         public async Task<IActionResult> DeleteFromData(int? id)
         {
             TempData["Delete"] = false;
@@ -266,8 +295,18 @@ namespace ShoppingMvc.Areas.Admin.Controllers
             if (id == null) return BadRequest();
             var data = await _db.Products.FindAsync(id);
             if (data == null) return NotFound();
+            data.IsArchived = true;
             await _db.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
+        }
+        public JsonResult GetDistinctProductNames()
+        {
+            var distinctProductNames = _db.Products
+                .Select(p => p.Title)
+                .Distinct()
+                .ToList();
+
+            return Json(distinctProductNames);
         }
     }
 }

@@ -155,7 +155,7 @@ namespace ShoppingMvc.Areas.Admin.Controllers
             };
             _db.Sliders.AddAsync(slider);
             await _db.SaveChangesAsync();
-            TempData["Response"] = true;
+            TempData["Create"] = true;
             return RedirectToAction(nameof(Index));
         }
         public async Task<IActionResult> Update(int? id)

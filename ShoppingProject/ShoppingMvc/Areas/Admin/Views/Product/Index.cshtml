@@ -37,7 +37,7 @@
                         // Perform deletion logic here, e.g., redirect to a delete action
                         selectedItems.each(function () {
                             var itemId = $(this).data('id'); // Assuming you have a data-id attribute on the checkbox
-                            window.location.href = "/Slider/DeleteFromData?id=" + itemId;
+                            window.location.href = "/Product/DeleteFromData?id=" + itemId;
                         });
                     }
                 } else {
@@ -56,10 +56,20 @@
             var categoryFilter = $("#categoryFilter").val();
             var dateFilter = $("#dateFilter").val();
             var statusFilter = $("#statusFilter").val();
-
+            
+            $.ajax({
+                url: '@Url.Action("GetDistinctProductNames", "Product")',
+                type: 'GET',
+                success: function (data) {
+                    updateCategoryFilter(data, categoryFilter);
+                },
+                error: function () {
+                    console.log('Error fetching distinct product names');
+                }
+            });
             // Use AJAX to send filter values to the server
             $.ajax({
-                url: '@Url.Action("Index", "Slider")',
+                url: '@Url.Action("Index", "Product")',
                 type: 'GET',
                 data: {
                     categoryFilter: categoryFilter,
@@ -78,6 +88,29 @@
             });
 
         }
+        function updateCategoryFilter(productNames, selectedValue) {
+            console.log('Updating category filter with:', productNames);
+            var categoryFilterDropdown = $("#categoryFilter");
+
+            
+
+            // Add default option
+            //categoryFilterDropdown.append($('<option>', {
+                //value: 'All categories',
+                //text: 'All categories'
+            //}));
+
+            // Add options for each product name
+            //$.each(productNames, function (index, item) {
+               // categoryFilterDropdown.append($('<option>', {
+                   // value: item,
+                    //text: item
+               // }));
+            //  });
+
+            // Set the selected value
+            categoryFilterDropdown.val(selectedValue);
+        }
         function selectAllCheckboxes() {
             var headerCheckbox = document.getElementById("selectAllCheckbox");
             var checkboxes = document.querySelectorAll(".card-body input[type='checkbox']");
@@ -86,11 +119,13 @@
                 checkbox.checked = headerCheckbox.checked;
             });
         }
+
+        }
     </script>
-    @if (TempData["Response"] != null)
+    @if (TempData["Create"] != null)
     {
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-        @if ((bool)TempData["Response"] == true)
+        @if ((bool)TempData["Create"] == true)
         {
             <script>
                 Swal.fire({
@@ -174,7 +209,7 @@
 <section class="content-main" id="salam">
     <div class="content-header">
         <div>
-            <h2 class="content-title card-title">Slider List</h2>
+            <h2 class="content-title card-title">Product List</h2>
         </div>
         <div>
             <a asp-action="Create" class="btn btn-primary btn-sm rounded">Create new</a>
@@ -207,6 +242,7 @@
                         <option>All statuses</option>
                         <option>Active</option>
                         <option>Disabled</option>
+                        <option>Archived</option>
                         <option>Show all</option>
                     </select>
                 </div>
@@ -220,7 +256,7 @@
 
 
         <div class="card-body" class="hello" id="hellobody">
-            <partial model="Model" name="ProductPagination" />
+            <partial model="Model" name="ProductPagination2" />
         </div> <!-- card-body end// -->
     </div> <!-- card end// -->
 
