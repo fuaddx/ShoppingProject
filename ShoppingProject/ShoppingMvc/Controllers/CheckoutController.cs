@@ -34,7 +34,8 @@ namespace ShoppingMvc.Controllers
                     Category = c.Category,
                     RateRange = c.RateRange,
                     Tags = c.TagProduct.Select(p => p.Tag)
-                }).ToListAsync()
+                }).ToListAsync(),
+
             };
             return View();
         }

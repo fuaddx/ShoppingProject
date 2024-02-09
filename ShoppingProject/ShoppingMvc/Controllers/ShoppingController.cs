@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using ShoppingMvc.Contexts;
 using ShoppingMvc.ViewModels.BasketVm;
+using ShoppingMvc.ViewModels.CategoryVm;
 using ShoppingMvc.ViewModels.CommonVm;
 using ShoppingMvc.ViewModels.HomeVm;
 using ShoppingMvc.ViewModels.ProductVm;
@@ -20,8 +21,8 @@ namespace ShoppingMvc.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            int take = 4;
-            var items = _db.Products.Where(p => !p.IsDeleted).Take(take).Select(c => new ProductListItemVm
+            int take = 7;
+            var items = _db.Products.Take(take).Select(c => new ProductListItemVm
             {
                 Id = c.Id,
                 CreatedTime = c.CreatedTime,
@@ -37,7 +38,7 @@ namespace ShoppingMvc.Controllers
                 RateRange = c.RateRange,
                 Tags = c.TagProduct.Select(p => p.Tag)
             });
-            int count = await _db.Products.CountAsync(x => !x.IsDeleted);
+            int count = await _db.Products.CountAsync();
             PaginationVm<IEnumerable<ProductListItemVm>> pag = new(count, 1, (int)Math.Ceiling((decimal)count / take), items);
             HomeVm vm = new HomeVm
             {
@@ -57,13 +58,24 @@ namespace ShoppingMvc.Controllers
                     RateRange = c.RateRange,
                     Tags = c.TagProduct.Select(p => p.Tag)
                 }).ToListAsync(),
+                CategoryListItemVms = await _db.Categorys.Select(c => new CategoryListItemVm
+                {
+                    Id = c.Id,
+                    Name = c.Name
+                }).ToListAsync(),
+                PaginationProduct = pag
             };
             return View(vm);
             
         }
         public async Task<IActionResult> ProductPagination(int page = 1, int count = 8)
         {
-            var items = _db.Products.Where(p => !p.IsDeleted).Skip((page - 1) * count).Take(count).Select(c => new ProductListItemVm
+            if (count == 1)
+            {
+                // If count is 1, set page to 1 to ensure only one item is shown
+                page = 1;
+            }
+            var items = _db.Products.Skip((page - 1) * count).Take(count).Select(c => new ProductListItemVm
             {
                 Id = c.Id,
                 CreatedTime = c.CreatedTime,
@@ -79,10 +91,15 @@ namespace ShoppingMvc.Controllers
                 RateRange = c.RateRange,
                 Tags = c.TagProduct.Select(p => p.Tag)
             });
-            int totalCount = await _db.Products.CountAsync(x => !x.IsDeleted);
-            PaginationVm<IEnumerable<ProductListItemVm>> pag = new(totalCount, page, (int)Math.Ceiling((decimal)totalCount / count), items);
+            int totalCount = await _db.Products.CountAsync();
+            int totalPages = (int)Math.Ceiling((double)totalCount / count);
+            if (page > totalPages)
+            {
+                page = totalPages;
+            }
+            PaginationVm<IEnumerable<ProductListItemVm>> pag = new(totalCount, page,totalPages, items);
 
-            return PartialView("_ShopProductPartial", pag);
+            return PartialView("ProductPagination", pag);
         }
         
         public async Task<IActionResult> AddBasket(int? id)

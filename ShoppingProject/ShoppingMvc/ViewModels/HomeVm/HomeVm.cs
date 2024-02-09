@@ -1,4 +1,5 @@
 ﻿using ShoppingMvc.Models;
+using ShoppingMvc.ViewModels.CategoryVm;
 using ShoppingMvc.ViewModels.Commentvm;
 using ShoppingMvc.ViewModels.CommonVm;
 using ShoppingMvc.ViewModels.ProductVm;
@@ -10,9 +11,10 @@ namespace ShoppingMvc.ViewModels.HomeVm
 {
     public class HomeVm
     {
-        public PaginationVm<IEnumerable<ProductListItemVm>> PaginationProduct { get; set; }
+        public PaginationVm<IEnumerable<ProductListItemVm>> PaginationProduct {  get; set; }
         public IEnumerable<SliderListItemVm> SliderListItems { get; set; }
         public IEnumerable<ProductListItemVm> ProductListItems { get; set; }
+        public IEnumerable<CategoryListItemVm> CategoryListItemVms { get; set; }
         public List<Comment> Comments { get; set; }
         public IEnumerable<CommentViewModel> CommentViewModels { get; set; }
 
