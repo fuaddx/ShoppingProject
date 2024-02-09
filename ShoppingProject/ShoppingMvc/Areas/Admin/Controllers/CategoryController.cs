@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ShoppingMvc.Contexts;
 using ShoppingMvc.Helpers;
@@ -10,6 +11,7 @@ using ShoppingMvc.ViewModels.CommonVm;
 namespace ShoppingMvc.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin")]
     public class CategoryController : Controller
     {
         EvaraDbContext _db {  get; set; }
@@ -68,7 +70,7 @@ namespace ShoppingMvc.Areas.Admin.Controllers
 
             if (!string.IsNullOrEmpty(statusFilter) && statusFilter != "All statuses" && statusFilter != "Show all")
             {
-                query = query.Where(c => c.IsDeleted && statusFilter == "Disabled" || !c.IsDeleted && statusFilter == "Active" || !c.IsArchived && statusFilter == "Archived");
+                query = query.Where(c => c.IsDeleted && statusFilter == "Disabled" || !c.IsDeleted && !c.IsArchived && statusFilter == "Active" || c.IsArchived && statusFilter == "Archived");
             }
 
             var filteredData = await query.ToListAsync();

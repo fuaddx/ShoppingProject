@@ -1,5 +1,6 @@
 ﻿
 using ShoppingMvc.Models.Categories;
+using ShoppingMvc.Models.Tags;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ShoppingMvc.Models.Cards
@@ -16,5 +17,7 @@ namespace ShoppingMvc.Models.Cards
         public string? ImageUrl { get; set; }
         public int RateRange { get; set; }
         public string Title { get; set; }
+        public int Count { get; set; }
+        public IEnumerable<ProductTag> TagProduct { get; set; }
     }
 }

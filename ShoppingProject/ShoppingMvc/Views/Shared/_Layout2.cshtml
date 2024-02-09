@@ -17,6 +17,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="~/Assets/assets/imgs/theme/favicon.svg">
     <!-- Template CSS -->
     <link rel="stylesheet" href="~/Assets/assets/css/main.css?v=3.4">
+    @await RenderSectionAsync("Styles", required: false)
 </head>
 
 <body>
@@ -54,7 +55,15 @@
                                         <li><a href="#"><img src="~/Assets/assets/imgs/theme/flag-ru.png" alt="">Pусский</a></li>
                                     </ul>
                                 </li>
-                                <li><i class="fi-rs-user"></i><a href="page-login-register.html">Log In / Sign Up</a></li>
+
+                                @if (User.Identity.IsAuthenticated)
+                                {
+                                    <li><i class="fi-rs-user"></i><a style="font-size:15px">Hi, @User.Identity.Name &#128509;</a><span> / </span><a asp-action="Logout" asp-controller="Auth">Logout</a></li>
+                                }
+                                else
+                                {
+                                    <li><i class="fi-rs-user"></i><a asp-controller="Auth" asp-action="Login">Log In</a><span>/</span><a asp-controller="Auth" asp-action="Register">Sign Up</a></li>
+                                }
                             </ul>
                         </div>
                     </div>
@@ -77,24 +86,14 @@
                                 <li>
                                     <a href="shop-grid-right.html">Shop <i class="fi-rs-angle-down"></i></a>
                                     <ul class="sub-menu">
-                                        <li><a href="shop-grid-right.html">Shop Grid – Right Sidebar</a></li>
-                                        <li><a href="shop-grid-left.html">Shop Grid – Left Sidebar</a></li>
-                                        <li><a href="shop-list-right.html">Shop List – Right Sidebar</a></li>
-                                        <li><a href="shop-list-left.html">Shop List – Left Sidebar</a></li>
-                                        <li><a href="shop-fullwidth.html">Shop - Wide</a></li>
+                                        <li><a asp-action="Index" asp-controller="Shopping">Shop List</a></li>
                                         <li>
-                                            <a href="#">Single Product <i class="fi-rs-angle-right"></i></a>
-                                            <ul class="level-menu">
-                                                <li><a href="shop-product-right.html">Product – Right Sidebar</a></li>
-                                                <li><a href="shop-product-left.html">Product – Left Sidebar</a></li>
-                                                <li><a href="shop-product-full.html">Product – No sidebar</a></li>
-                                            </ul>
+                                            <a asp-controller="ProductDetails" asp-action="Index">Single Product</a>
                                         </li>
                                         <li><a href="shop-filter.html">Shop – Filter</a></li>
                                         <li><a href="shop-wishlist.html">Shop – Wishlist</a></li>
                                         <li><a href="shop-cart.html">Shop – Cart</a></li>
                                         <li><a href="shop-checkout.html">Shop – Checkout</a></li>
-                                        <li><a href="shop-compare.html">Shop – Compare</a></li>
                                     </ul>
                                 </li>
                                 <li class="position-static">
@@ -593,6 +592,8 @@
     <script src="~/Assets/assets/js/plugins/jquery.theia.sticky.js"></script>
     <!-- Template  JS -->
     <script src="~/Assets/assets/js/main.js?v=3.4"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/4.0.0/jquery.validate.unobtrusive.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 
 </html>

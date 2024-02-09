@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using ShoppingMvc.Models.Tags;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ShoppingMvc.ViewModels.ProductVm
 {
@@ -15,5 +16,7 @@ namespace ShoppingMvc.ViewModels.ProductVm
         public string Title { get; set; }
         public int RateRange { get; set; }
         public bool IsArchived { get; set; }
+        public Tag? Tag { get; set; }
+        public IEnumerable<int> TagsId { get; set; }
     }
 }

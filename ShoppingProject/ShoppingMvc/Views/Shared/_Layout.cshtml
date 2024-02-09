@@ -1,4 +1,8 @@
 ﻿
+@model HomeVm
+
+
+
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 
@@ -16,7 +20,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="~/Assets/assets/imgs/theme/favicon.svg">
     <!-- Template CSS -->
     <link rel="stylesheet" href="~/Assets/assets/css/main.css?v=3.4">
-   
+    @await RenderSectionAsync("Styles", required: false)
     
 </head>
 
@@ -54,55 +58,51 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>       
                 <div class="modal-body">
                     <div class="row">
-                        <div class="col-md-6 col-sm-12 col-xs-12">
-                            <div class="detail-gallery">
-                                <span class="zoom-icon"><i class="fi-rs-search"></i></span>
-                                <!-- MAIN SLIDES -->
-                                <div class="product-image-slider">
-                                    <figure class="border-radius-10">
-                                        <img src="~/Assets/assets/imgs/shop/product-16-2.jpg" alt="product image">
-                                    </figure>
-                                    <figure class="border-radius-10">
-                                        <img src="~/Assets/assets/imgs/shop/product-16-1.jpg" alt="product image">
-                                    </figure>
-                                    <figure class="border-radius-10">
-                                        <img src="~/Assets/assets/imgs/shop/product-16-3.jpg" alt="product image">
-                                    </figure>
-                                    <figure class="border-radius-10">
-                                        <img src="~/Assets/assets/imgs/shop/product-16-4.jpg" alt="product image">
-                                    </figure>
-                                    <figure class="border-radius-10">
-                                        <img src="~/Assets/assets/imgs/shop/product-16-5.jpg" alt="product image">
-                                    </figure>
-                                    <figure class="border-radius-10">
-                                        <img src="~/Assets/assets/imgs/shop/product-16-6.jpg" alt="product image">
-                                    </figure>
-                                    <figure class="border-radius-10">
-                                        <img src="~/Assets/assets/imgs/shop/product-16-7.jpg" alt="product image">
-                                    </figure>
+                        
+                            <div class="col-md-6 col-sm-12 col-xs-12">
+                                <div class="detail-gallery">
+                                    <span class="zoom-icon"><i class="fi-rs-search"></i></span>
+                                    <!-- MAIN SLIDES -->
+                                    <div class="product-image-slider">
+                                       @*  <figure class="border-radius-10" style="background-image: url('Assets/assets/products/@item.ImageUrl');height:437px">
+                                        </figure> *@
+                                        <figure class="border-radius-10" style="background-image: url('Assets/assets/imgs/banner/menu-banner-7.png');object-fit:cover;height:437px">
+                                        </figure>
+                                        <figure class="border-radius-10" style="background-image: url('Assets/assets/imgs/banner/menu-banner-7.png');object-fit:cover;height:437px">
+                                        </figure>
+                                        <figure class="border-radius-10" style="background-image: url('Assets/assets/imgs/banner/menu-banner-7.png');object-fit:cover;height:437px">
+                                        </figure>
+                                        <figure class="border-radius-10" style="background-image: url('Assets/assets/imgs/banner/menu-banner-7.png');object-fit:cover;height:437px">
+                                        </figure>
+                                        <figure class="border-radius-10" style="background-image: url('Assets/assets/imgs/banner/menu-banner-7.png');object-fit:cover;height:437px">
+                                        </figure>
+                                        <figure class="border-radius-10" style="background-image: url('Assets/assets/imgs/banner/menu-banner-7.png');object-fit:cover;height:437px">
+                                        </figure>
+                                    </div>
+                                    <!-- THUMBNAILS -->
+                                    <div class="slider-nav-thumbnails pl-15 pr-15">
+                                        <div><img src="~/Assets/assets/imgs/shop/thumbnail-3.jpg" alt="product image"></div>
+                                        <div><img src="~/Assets/assets/imgs/shop/thumbnail-4.jpg" alt="product image"></div>
+                                        <div><img src="~/Assets/assets/imgs/shop/thumbnail-5.jpg" alt="product image"></div>
+                                        <div><img src="~/Assets/assets/imgs/shop/thumbnail-6.jpg" alt="product image"></div>
+                                        <div><img src="~/Assets/assets/imgs/shop/thumbnail-7.jpg" alt="product image"></div>
+                                        <div><img src="~/Assets/assets/imgs/shop/thumbnail-8.jpg" alt="product image"></div>
+                                        <div><img src="~/Assets/assets/imgs/shop/thumbnail-9.jpg" alt="product image"></div>
+                                    </div>
                                 </div>
-                                <!-- THUMBNAILS -->
-                                <div class="slider-nav-thumbnails pl-15 pr-15">
-                                    <div><img src="~/Assets/assets/imgs/shop/thumbnail-3.jpg" alt="product image"></div>
-                                    <div><img src="~/Assets/assets/imgs/shop/thumbnail-4.jpg" alt="product image"></div>
-                                    <div><img src="~/Assets/assets/imgs/shop/thumbnail-5.jpg" alt="product image"></div>
-                                    <div><img src="~/Assets/assets/imgs/shop/thumbnail-6.jpg" alt="product image"></div>
-                                    <div><img src="~/Assets/assets/imgs/shop/thumbnail-7.jpg" alt="product image"></div>
-                                    <div><img src="~/Assets/assets/imgs/shop/thumbnail-8.jpg" alt="product image"></div>
-                                    <div><img src="~/Assets/assets/imgs/shop/thumbnail-9.jpg" alt="product image"></div>
+                                <!-- End Gallery -->
+                                <div class="social-icons single-share">
+                                    <ul class="text-grey-5 d-inline-block">
+                                        <li><strong class="mr-10">Share this:</strong></li>
+                                        <li class="social-facebook"><a href="#"><img src="~/Assets/assets/imgs/theme/icons/icon-facebook.svg" alt=""></a></li>
+                                        <li class="social-twitter"> <a href="#"><img src="~/Assets/assets/imgs/theme/icons/icon-twitter.svg" alt=""></a></li>
+                                        <li class="social-instagram"><a href="#"><img src="~/Assets/assets/imgs/theme/icons/icon-instagram.svg" alt=""></a></li>
+                                        <li class="social-linkedin"><a href="#"><img src="~/Assets/assets/imgs/theme/icons/icon-pinterest.svg" alt=""></a></li>
+                                    </ul>
                                 </div>
                             </div>
-                            <!-- End Gallery -->
-                            <div class="social-icons single-share">
-                                <ul class="text-grey-5 d-inline-block">
-                                    <li><strong class="mr-10">Share this:</strong></li>
-                                    <li class="social-facebook"><a href="#"><img src="~/Assets/assets/imgs/theme/icons/icon-facebook.svg" alt=""></a></li>
-                                    <li class="social-twitter"> <a href="#"><img src="~/Assets/assets/imgs/theme/icons/icon-twitter.svg" alt=""></a></li>
-                                    <li class="social-instagram"><a href="#"><img src="~/Assets/assets/imgs/theme/icons/icon-instagram.svg" alt=""></a></li>
-                                    <li class="social-linkedin"><a href="#"><img src="~/Assets/assets/imgs/theme/icons/icon-pinterest.svg" alt=""></a></li>
-                                </ul>
-                            </div>
-                        </div>
+                        
+                       
                         <div class="col-md-6 col-sm-12 col-xs-12">
                             <div class="detail-info">
                                 <h3 class="title-detail mt-30">Colorful Pattern Shirts HD450</h3>
@@ -214,7 +214,14 @@
                                         <li><a href="#"><img src="~/Assets/assets/imgs/theme/flag-ru.png" alt="">Pусский</a></li>
                                     </ul>
                                 </li>
-                                <li><i class="fi-rs-user"></i><a href="page-login-register.html">Log In / Sign Up</a></li>
+                                @if (User.Identity.IsAuthenticated)
+                                {
+                                    <li><i class="fi-rs-user"></i><a style="font-size:15px">Hi, @User.Identity.Name &#128509;</a><span> / </span><a asp-action="Logout" asp-controller="Auth">Logout</a></li>
+                                }
+                                else
+                                {
+                                    <li><i class="fi-rs-user"></i><a asp-controller="Auth" asp-action="Login">Log In</a><span>/</span><a asp-controller="Auth" asp-action="Register">Sign Up</a></li>
+                                }
                             </ul>
                         </div>
                     </div>
@@ -246,58 +253,9 @@
                                 <input type="text" placeholder="Search for items...">
                             </form>
                         </div>
-                        <div class="header-action-right">
-                            <div class="header-action-2">
-                                <div class="header-action-icon-2">
-                                    <a href="shop-wishlist.html">
-                                        <img class="svgInject" alt="Evara" src="~/Assets/assets/imgs/theme/icons/icon-heart.svg">
-                                        <span class="pro-count blue">4</span>
-                                    </a>
-                                </div>
-                                <div class="header-action-icon-2">
-                                    <a class="mini-cart-icon" href="shop-cart.html">
-                                        <img alt="Evara" src="~/Assets/assets/imgs/theme/icons/icon-cart.svg">
-                                        <span class="pro-count blue">2</span>
-                                    </a>
-                                    <div class="cart-dropdown-wrap cart-dropdown-hm2">
-                                        <ul>
-                                            <li>
-                                                <div class="shopping-cart-img">
-                                                    <a href="shop-product-right.html"><img alt="Evara" src="~/Assets/assets/imgs/shop/thumbnail-3.jpg"></a>
-                                                </div>
-                                                <div class="shopping-cart-title">
-                                                    <h4><a href="shop-product-right.html">Daisy Casual Bag</a></h4>
-                                                    <h4><span>1 × </span>$800.00</h4>
-                                                </div>
-                                                <div class="shopping-cart-delete">
-                                                    <a href="#"><i class="fi-rs-cross-small"></i></a>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="shopping-cart-img">
-                                                    <a href="shop-product-right.html"><img alt="Evara" src="~/Assets/assets/imgs/shop/thumbnail-2.jpg"></a>
-                                                </div>
-                                                <div class="shopping-cart-title">
-                                                    <h4><a href="shop-product-right.html">Corduroy Shirts</a></h4>
-                                                    <h4><span>1 × </span>$3200.00</h4>
-                                                </div>
-                                                <div class="shopping-cart-delete">
-                                                    <a href="#"><i class="fi-rs-cross-small"></i></a>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                        <div class="shopping-cart-footer">
-                                            <div class="shopping-cart-total">
-                                                <h4>Total <span>$4000.00</span></h4>
-                                            </div>
-                                            <div class="shopping-cart-button">
-                                                <a href="shop-cart.html" class="outline">View cart</a>
-                                                <a href="shop-checkout.html">Checkout</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div id="basket">
+                            @await Component.InvokeAsync("Basket")
+
                         </div>
                     </div>
                 </div>
@@ -505,24 +463,14 @@
                                     <li>
                                         <a href="shop-grid-right.html">Shop <i class="fi-rs-angle-down"></i></a>
                                         <ul class="sub-menu">
-                                            <li><a href="shop-grid-right.html">Shop Grid – Right Sidebar</a></li>
-                                            <li><a href="shop-grid-left.html">Shop Grid – Left Sidebar</a></li>
-                                            <li><a href="shop-list-right.html">Shop List – Right Sidebar</a></li>
-                                            <li><a href="shop-list-left.html">Shop List – Left Sidebar</a></li>
-                                            <li><a href="shop-fullwidth.html">Shop - Wide</a></li>
+                                            <li><a asp-action="Index" asp-controller="Shopping">Shop List</a></li>
                                             <li>
-                                                <a href="#">Single Product <i class="fi-rs-angle-right"></i></a>
-                                                <ul class="level-menu">
-                                                    <li><a href="shop-product-right.html">Product – Right Sidebar</a></li>
-                                                    <li><a href="shop-product-left.html">Product – Left Sidebar</a></li>
-                                                    <li><a href="shop-product-full.html">Product – No sidebar</a></li>
-                                                </ul>
+                                                <a asp-controller="ProductDetails" asp-action="Index">Single Product</a>
                                             </li>
                                             <li><a href="shop-filter.html">Shop – Filter</a></li>
                                             <li><a href="shop-wishlist.html">Shop – Wishlist</a></li>
                                             <li><a href="shop-cart.html">Shop – Cart</a></li>
                                             <li><a href="shop-checkout.html">Shop – Checkout</a></li>
-                                            <li><a href="shop-compare.html">Shop – Compare</a></li>
                                         </ul>
                                     </li>
                                     <li class="position-static">

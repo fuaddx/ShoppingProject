@@ -1,1879 +1,1967 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ShoppingMvc.bundle.scp.css",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ShoppingMvc.bundle.scp.css",
       "PackagePath": "staticwebassets\\ShoppingMvc.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\css\\main.css",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\css\\main.css",
       "PackagePath": "staticwebassets\\Admin\\assets\\css\\main.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\css\\main.css.map",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\css\\main.css.map",
       "PackagePath": "staticwebassets\\Admin\\assets\\css\\main.css.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\css\\vendors\\bootstrap.css",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\css\\vendors\\bootstrap.css",
       "PackagePath": "staticwebassets\\Admin\\assets\\css\\vendors\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\css\\vendors\\bootstrap.css.map",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\css\\vendors\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\Admin\\assets\\css\\vendors\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\css\\vendors\\material-icon-round.css",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\css\\vendors\\material-icon-round.css",
       "PackagePath": "staticwebassets\\Admin\\assets\\css\\vendors\\material-icon-round.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\css\\vendors\\normalize.css",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\css\\vendors\\normalize.css",
       "PackagePath": "staticwebassets\\Admin\\assets\\css\\vendors\\normalize.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\css\\vendors\\perfect-scrollbar.css",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\css\\vendors\\perfect-scrollbar.css",
       "PackagePath": "staticwebassets\\Admin\\assets\\css\\vendors\\perfect-scrollbar.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\css\\vendors\\select2.min.css",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\css\\vendors\\select2.min.css",
       "PackagePath": "staticwebassets\\Admin\\assets\\css\\vendors\\select2.min.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\fonts\\material-icon\\MaterialIcons-Outlined.ttf",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\fonts\\material-icon\\MaterialIcons-Outlined.ttf",
       "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\material-icon\\MaterialIcons-Outlined.ttf"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\fonts\\material-icon\\MaterialIcons-Outlined.woff",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\fonts\\material-icon\\MaterialIcons-Outlined.woff",
       "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\material-icon\\MaterialIcons-Outlined.woff"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\fonts\\material-icon\\MaterialIcons-Outlined.woff2",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\fonts\\material-icon\\MaterialIcons-Outlined.woff2",
       "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\material-icon\\MaterialIcons-Outlined.woff2"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\fonts\\material-icon\\MaterialIcons-Round.ttf",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\fonts\\material-icon\\MaterialIcons-Round.ttf",
       "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\material-icon\\MaterialIcons-Round.ttf"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\fonts\\material-icon\\MaterialIcons-Round.woff",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\fonts\\material-icon\\MaterialIcons-Round.woff",
       "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\material-icon\\MaterialIcons-Round.woff"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\fonts\\material-icon\\MaterialIcons-Round.woff2",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\fonts\\material-icon\\MaterialIcons-Round.woff2",
       "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\material-icon\\MaterialIcons-Round.woff2"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\fonts\\material-icon\\MaterialIcons-Sharp.ttf",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\fonts\\material-icon\\MaterialIcons-Sharp.ttf",
       "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\material-icon\\MaterialIcons-Sharp.ttf"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\fonts\\material-icon\\MaterialIcons-Sharp.woff",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\fonts\\material-icon\\MaterialIcons-Sharp.woff",
       "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\material-icon\\MaterialIcons-Sharp.woff"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\fonts\\material-icon\\MaterialIcons-Sharp.woff2",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\fonts\\material-icon\\MaterialIcons-Sharp.woff2",
       "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\material-icon\\MaterialIcons-Sharp.woff2"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\fonts\\material-icon\\MaterialIcons-TwoTone.ttf",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\fonts\\material-icon\\MaterialIcons-TwoTone.ttf",
       "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\material-icon\\MaterialIcons-TwoTone.ttf"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\fonts\\material-icon\\MaterialIcons-TwoTone.woff",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\fonts\\material-icon\\MaterialIcons-TwoTone.woff",
       "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\material-icon\\MaterialIcons-TwoTone.woff"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\fonts\\material-icon\\MaterialIcons-TwoTone.woff2",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\fonts\\material-icon\\MaterialIcons-TwoTone.woff2",
       "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\material-icon\\MaterialIcons-TwoTone.woff2"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\fonts\\material-icon\\MaterialIcons.ttf",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\fonts\\material-icon\\MaterialIcons.ttf",
       "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\material-icon\\MaterialIcons.ttf"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\fonts\\material-icon\\MaterialIcons.woff",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\fonts\\material-icon\\MaterialIcons.woff",
       "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\material-icon\\MaterialIcons.woff"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\fonts\\material-icon\\MaterialIcons.woff2",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\fonts\\material-icon\\MaterialIcons.woff2",
       "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\material-icon\\MaterialIcons.woff2"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\brands\\brand-1.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\brands\\brand-1.jpg",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\brands\\brand-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\brands\\brand-10.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\brands\\brand-10.jpg",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\brands\\brand-10.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\brands\\brand-11.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\brands\\brand-11.jpg",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\brands\\brand-11.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\brands\\brand-12.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\brands\\brand-12.jpg",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\brands\\brand-12.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\brands\\brand-13.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\brands\\brand-13.jpg",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\brands\\brand-13.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\brands\\brand-14.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\brands\\brand-14.jpg",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\brands\\brand-14.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\brands\\brand-15.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\brands\\brand-15.jpg",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\brands\\brand-15.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\brands\\brand-16.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\brands\\brand-16.jpg",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\brands\\brand-16.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\brands\\brand-17.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\brands\\brand-17.jpg",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\brands\\brand-17.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\brands\\brand-18.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\brands\\brand-18.jpg",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\brands\\brand-18.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\brands\\brand-2.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\brands\\brand-2.jpg",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\brands\\brand-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\brands\\brand-3.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\brands\\brand-3.jpg",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\brands\\brand-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\brands\\brand-4.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\brands\\brand-4.jpg",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\brands\\brand-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\brands\\brand-5.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\brands\\brand-5.jpg",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\brands\\brand-5.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\brands\\brand-6.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\brands\\brand-6.jpg",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\brands\\brand-6.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\brands\\brand-7.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\brands\\brand-7.jpg",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\brands\\brand-7.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\brands\\brand-8.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\brands\\brand-8.jpg",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\brands\\brand-8.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\brands\\brand-9.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\brands\\brand-9.jpg",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\brands\\brand-9.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\brands\\brand.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\brands\\brand.jpg",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\brands\\brand.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\card-brands\\1.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\card-brands\\1.png",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\card-brands\\1.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\card-brands\\2.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\card-brands\\2.png",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\card-brands\\2.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\card-brands\\3.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\card-brands\\3.png",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\card-brands\\3.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\card-brands\\4.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\card-brands\\4.png",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\card-brands\\4.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\icons\\stars-active.svg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\icons\\stars-active.svg",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\icons\\stars-active.svg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\icons\\starts-disable.svg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\icons\\starts-disable.svg",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\icons\\starts-disable.svg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\items\\1.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\items\\1.jpg",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\items\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\items\\10.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\items\\10.jpg",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\items\\10.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\items\\11.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\items\\11.jpg",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\items\\11.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\items\\12-1.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\items\\12-1.jpg",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\items\\12-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\items\\12-2.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\items\\12-2.jpg",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\items\\12-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\items\\12.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\items\\12.jpg",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\items\\12.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\items\\2.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\items\\2.jpg",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\items\\2.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\items\\3.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\items\\3.jpg",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\items\\3.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\items\\4.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\items\\4.jpg",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\items\\4.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\items\\5.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\items\\5.jpg",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\items\\5.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\items\\6.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\items\\6.jpg",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\items\\6.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\items\\7.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\items\\7.jpg",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\items\\7.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\items\\8.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\items\\8.jpg",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\items\\8.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\items\\9.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\items\\9.jpg",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\items\\9.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\misc\\map.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\misc\\map.jpg",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\misc\\map.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\people\\avatar1.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\people\\avatar1.jpg",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\people\\avatar1.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\people\\avatar2.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\people\\avatar2.jpg",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\people\\avatar2.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\people\\avatar3.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\people\\avatar3.jpg",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\people\\avatar3.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\people\\avatar4.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\people\\avatar4.jpg",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\people\\avatar4.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\theme\\404.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\theme\\404.png",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\theme\\404.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\theme\\favicon.svg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\theme\\favicon.svg",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\theme\\favicon.svg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\theme\\flag-cn.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\theme\\flag-cn.png",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\theme\\flag-cn.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\theme\\flag-fr.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\theme\\flag-fr.png",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\theme\\flag-fr.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\theme\\flag-jp.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\theme\\flag-jp.png",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\theme\\flag-jp.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\theme\\flag-us.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\theme\\flag-us.png",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\theme\\flag-us.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\theme\\logo.svg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\theme\\logo.svg",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\theme\\logo.svg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\theme\\upload.svg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\imgs\\theme\\upload.svg",
       "PackagePath": "staticwebassets\\Admin\\assets\\imgs\\theme\\upload.svg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\js\\custom-chart.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\js\\custom-chart.js",
       "PackagePath": "staticwebassets\\Admin\\assets\\js\\custom-chart.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\js\\main.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\js\\main.js",
       "PackagePath": "staticwebassets\\Admin\\assets\\js\\main.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\js\\vendors\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\js\\vendors\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\Admin\\assets\\js\\vendors\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\js\\vendors\\bootstrap.min.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\js\\vendors\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\Admin\\assets\\js\\vendors\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\js\\vendors\\chart.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\js\\vendors\\chart.js",
       "PackagePath": "staticwebassets\\Admin\\assets\\js\\vendors\\chart.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\js\\vendors\\jquery-3.6.0.min.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\js\\vendors\\jquery-3.6.0.min.js",
       "PackagePath": "staticwebassets\\Admin\\assets\\js\\vendors\\jquery-3.6.0.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\js\\vendors\\jquery.fullscreen.min.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\js\\vendors\\jquery.fullscreen.min.js",
       "PackagePath": "staticwebassets\\Admin\\assets\\js\\vendors\\jquery.fullscreen.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\js\\vendors\\perfect-scrollbar.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\js\\vendors\\perfect-scrollbar.js",
       "PackagePath": "staticwebassets\\Admin\\assets\\js\\vendors\\perfect-scrollbar.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\js\\vendors\\select2.min.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\js\\vendors\\select2.min.js",
       "PackagePath": "staticwebassets\\Admin\\assets\\js\\vendors\\select2.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\sass\\abstracts\\_import-vendors.scss",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\sass\\abstracts\\_import-vendors.scss",
       "PackagePath": "staticwebassets\\Admin\\assets\\sass\\abstracts\\_import-vendors.scss"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\sass\\abstracts\\_mixins.scss",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\sass\\abstracts\\_mixins.scss",
       "PackagePath": "staticwebassets\\Admin\\assets\\sass\\abstracts\\_mixins.scss"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\sass\\abstracts\\_variables.scss",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\sass\\abstracts\\_variables.scss",
       "PackagePath": "staticwebassets\\Admin\\assets\\sass\\abstracts\\_variables.scss"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\sass\\base\\_helpers.scss",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\sass\\base\\_helpers.scss",
       "PackagePath": "staticwebassets\\Admin\\assets\\sass\\base\\_helpers.scss"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\sass\\base\\_typography.scss",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\sass\\base\\_typography.scss",
       "PackagePath": "staticwebassets\\Admin\\assets\\sass\\base\\_typography.scss"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\sass\\components\\_buttons.scss",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\sass\\components\\_buttons.scss",
       "PackagePath": "staticwebassets\\Admin\\assets\\sass\\components\\_buttons.scss"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\sass\\components\\_elements.scss",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\sass\\components\\_elements.scss",
       "PackagePath": "staticwebassets\\Admin\\assets\\sass\\components\\_elements.scss"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\sass\\components\\_forms.scss",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\sass\\components\\_forms.scss",
       "PackagePath": "staticwebassets\\Admin\\assets\\sass\\components\\_forms.scss"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\sass\\components\\_items.scss",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\sass\\components\\_items.scss",
       "PackagePath": "staticwebassets\\Admin\\assets\\sass\\components\\_items.scss"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\sass\\components\\_lists.scss",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\sass\\components\\_lists.scss",
       "PackagePath": "staticwebassets\\Admin\\assets\\sass\\components\\_lists.scss"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\sass\\components\\_navigation.scss",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\sass\\components\\_navigation.scss",
       "PackagePath": "staticwebassets\\Admin\\assets\\sass\\components\\_navigation.scss"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\sass\\layout\\_layout-dark.scss",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\sass\\layout\\_layout-dark.scss",
       "PackagePath": "staticwebassets\\Admin\\assets\\sass\\layout\\_layout-dark.scss"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\sass\\layout\\_layout.scss",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\sass\\layout\\_layout.scss",
       "PackagePath": "staticwebassets\\Admin\\assets\\sass\\layout\\_layout.scss"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\sass\\layout\\_responsive.scss",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\sass\\layout\\_responsive.scss",
       "PackagePath": "staticwebassets\\Admin\\assets\\sass\\layout\\_responsive.scss"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\sass\\layout\\_spacing.scss",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\sass\\layout\\_spacing.scss",
       "PackagePath": "staticwebassets\\Admin\\assets\\sass\\layout\\_spacing.scss"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\sass\\main.scss",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Admin\\assets\\sass\\main.scss",
       "PackagePath": "staticwebassets\\Admin\\assets\\sass\\main.scss"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\css\\main.css",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\css\\main.css",
       "PackagePath": "staticwebassets\\Assets\\assets\\css\\main.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\css\\main.css.map",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\css\\main.css.map",
       "PackagePath": "staticwebassets\\Assets\\assets\\css\\main.css.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\css\\plugins\\animate.css",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\css\\plugins\\animate.css",
       "PackagePath": "staticwebassets\\Assets\\assets\\css\\plugins\\animate.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\css\\plugins\\jquery-ui.css",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\css\\plugins\\jquery-ui.css",
       "PackagePath": "staticwebassets\\Assets\\assets\\css\\plugins\\jquery-ui.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\css\\plugins\\magnific-popup.css",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\css\\plugins\\magnific-popup.css",
       "PackagePath": "staticwebassets\\Assets\\assets\\css\\plugins\\magnific-popup.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\css\\plugins\\perfect-scrollbar.css",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\css\\plugins\\perfect-scrollbar.css",
       "PackagePath": "staticwebassets\\Assets\\assets\\css\\plugins\\perfect-scrollbar.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\css\\plugins\\select2.min.css",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\css\\plugins\\select2.min.css",
       "PackagePath": "staticwebassets\\Assets\\assets\\css\\plugins\\select2.min.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\css\\plugins\\slick.css",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\css\\plugins\\slick.css",
       "PackagePath": "staticwebassets\\Assets\\assets\\css\\plugins\\slick.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\css\\vendors\\bootstrap.min.css",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\css\\vendors\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\Assets\\assets\\css\\vendors\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\css\\vendors\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\css\\vendors\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\Assets\\assets\\css\\vendors\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\css\\vendors\\evara-font.css",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\css\\vendors\\evara-font.css",
       "PackagePath": "staticwebassets\\Assets\\assets\\css\\vendors\\evara-font.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\css\\vendors\\fontawesome-all.min.css",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\css\\vendors\\fontawesome-all.min.css",
       "PackagePath": "staticwebassets\\Assets\\assets\\css\\vendors\\fontawesome-all.min.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\css\\vendors\\normalize.css",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\css\\vendors\\normalize.css",
       "PackagePath": "staticwebassets\\Assets\\assets\\css\\vendors\\normalize.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\css\\vendors\\uicons-regular-straight.css",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\css\\vendors\\uicons-regular-straight.css",
       "PackagePath": "staticwebassets\\Assets\\assets\\css\\vendors\\uicons-regular-straight.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-brands-400.eot",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-brands-400.eot",
       "PackagePath": "staticwebassets\\Assets\\assets\\fonts\\awesome\\fa-brands-400.eot"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-brands-400.svg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-brands-400.svg",
       "PackagePath": "staticwebassets\\Assets\\assets\\fonts\\awesome\\fa-brands-400.svg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-brands-400.ttf",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-brands-400.ttf",
       "PackagePath": "staticwebassets\\Assets\\assets\\fonts\\awesome\\fa-brands-400.ttf"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-brands-400.woff",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-brands-400.woff",
       "PackagePath": "staticwebassets\\Assets\\assets\\fonts\\awesome\\fa-brands-400.woff"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-brands-400.woff2",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-brands-400.woff2",
       "PackagePath": "staticwebassets\\Assets\\assets\\fonts\\awesome\\fa-brands-400.woff2"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-brands-400d41d.eot",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-brands-400d41d.eot",
       "PackagePath": "staticwebassets\\Assets\\assets\\fonts\\awesome\\fa-brands-400d41d.eot"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-duotone-900.eot",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-duotone-900.eot",
       "PackagePath": "staticwebassets\\Assets\\assets\\fonts\\awesome\\fa-duotone-900.eot"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-duotone-900.svg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-duotone-900.svg",
       "PackagePath": "staticwebassets\\Assets\\assets\\fonts\\awesome\\fa-duotone-900.svg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-duotone-900.ttf",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-duotone-900.ttf",
       "PackagePath": "staticwebassets\\Assets\\assets\\fonts\\awesome\\fa-duotone-900.ttf"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-duotone-900.woff",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-duotone-900.woff",
       "PackagePath": "staticwebassets\\Assets\\assets\\fonts\\awesome\\fa-duotone-900.woff"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-duotone-900.woff2",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-duotone-900.woff2",
       "PackagePath": "staticwebassets\\Assets\\assets\\fonts\\awesome\\fa-duotone-900.woff2"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-duotone-900d41d.eot",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-duotone-900d41d.eot",
       "PackagePath": "staticwebassets\\Assets\\assets\\fonts\\awesome\\fa-duotone-900d41d.eot"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-light-300.eot",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-light-300.eot",
       "PackagePath": "staticwebassets\\Assets\\assets\\fonts\\awesome\\fa-light-300.eot"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-light-300.svg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-light-300.svg",
       "PackagePath": "staticwebassets\\Assets\\assets\\fonts\\awesome\\fa-light-300.svg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-light-300.ttf",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-light-300.ttf",
       "PackagePath": "staticwebassets\\Assets\\assets\\fonts\\awesome\\fa-light-300.ttf"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-light-300.woff",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-light-300.woff",
       "PackagePath": "staticwebassets\\Assets\\assets\\fonts\\awesome\\fa-light-300.woff"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-light-300.woff2",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-light-300.woff2",
       "PackagePath": "staticwebassets\\Assets\\assets\\fonts\\awesome\\fa-light-300.woff2"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-light-300d41d.eot",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-light-300d41d.eot",
       "PackagePath": "staticwebassets\\Assets\\assets\\fonts\\awesome\\fa-light-300d41d.eot"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-regular-400.eot",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-regular-400.eot",
       "PackagePath": "staticwebassets\\Assets\\assets\\fonts\\awesome\\fa-regular-400.eot"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-regular-400.svg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-regular-400.svg",
       "PackagePath": "staticwebassets\\Assets\\assets\\fonts\\awesome\\fa-regular-400.svg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-regular-400.ttf",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-regular-400.ttf",
       "PackagePath": "staticwebassets\\Assets\\assets\\fonts\\awesome\\fa-regular-400.ttf"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-regular-400.woff",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-regular-400.woff",
       "PackagePath": "staticwebassets\\Assets\\assets\\fonts\\awesome\\fa-regular-400.woff"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-regular-400.woff2",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-regular-400.woff2",
       "PackagePath": "staticwebassets\\Assets\\assets\\fonts\\awesome\\fa-regular-400.woff2"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-regular-400d41d.eot",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-regular-400d41d.eot",
       "PackagePath": "staticwebassets\\Assets\\assets\\fonts\\awesome\\fa-regular-400d41d.eot"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-solid-900.eot",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-solid-900.eot",
       "PackagePath": "staticwebassets\\Assets\\assets\\fonts\\awesome\\fa-solid-900.eot"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-solid-900.svg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-solid-900.svg",
       "PackagePath": "staticwebassets\\Assets\\assets\\fonts\\awesome\\fa-solid-900.svg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-solid-900.ttf",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-solid-900.ttf",
       "PackagePath": "staticwebassets\\Assets\\assets\\fonts\\awesome\\fa-solid-900.ttf"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-solid-900.woff",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-solid-900.woff",
       "PackagePath": "staticwebassets\\Assets\\assets\\fonts\\awesome\\fa-solid-900.woff"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-solid-900.woff2",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-solid-900.woff2",
       "PackagePath": "staticwebassets\\Assets\\assets\\fonts\\awesome\\fa-solid-900.woff2"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-solid-900d41d.eot",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\awesome\\fa-solid-900d41d.eot",
       "PackagePath": "staticwebassets\\Assets\\assets\\fonts\\awesome\\fa-solid-900d41d.eot"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\evara-font\\evara-font.eot",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\evara-font\\evara-font.eot",
       "PackagePath": "staticwebassets\\Assets\\assets\\fonts\\evara-font\\evara-font.eot"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\evara-font\\evara-font.svg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\evara-font\\evara-font.svg",
       "PackagePath": "staticwebassets\\Assets\\assets\\fonts\\evara-font\\evara-font.svg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\evara-font\\evara-font.ttf",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\evara-font\\evara-font.ttf",
       "PackagePath": "staticwebassets\\Assets\\assets\\fonts\\evara-font\\evara-font.ttf"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\evara-font\\evara-font.woff",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\evara-font\\evara-font.woff",
       "PackagePath": "staticwebassets\\Assets\\assets\\fonts\\evara-font\\evara-font.woff"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\evara-font\\evara-font.woff2",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\evara-font\\evara-font.woff2",
       "PackagePath": "staticwebassets\\Assets\\assets\\fonts\\evara-font\\evara-font.woff2"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\uicons\\uicons-regular-straight.eot",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\uicons\\uicons-regular-straight.eot",
       "PackagePath": "staticwebassets\\Assets\\assets\\fonts\\uicons\\uicons-regular-straight.eot"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\uicons\\uicons-regular-straight.woff",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\uicons\\uicons-regular-straight.woff",
       "PackagePath": "staticwebassets\\Assets\\assets\\fonts\\uicons\\uicons-regular-straight.woff"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\uicons\\uicons-regular-straight.woff2",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\fonts\\uicons\\uicons-regular-straight.woff2",
       "PackagePath": "staticwebassets\\Assets\\assets\\fonts\\uicons\\uicons-regular-straight.woff2"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\banner-1.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\banner-1.png",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\banner\\banner-1.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\banner-10.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\banner-10.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\banner\\banner-10.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\banner-11.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\banner-11.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\banner\\banner-11.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\banner-11.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\banner-11.png",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\banner\\banner-11.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\banner-12.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\banner-12.png",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\banner\\banner-12.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\banner-13.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\banner-13.png",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\banner\\banner-13.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\banner-2.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\banner-2.png",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\banner\\banner-2.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\banner-3.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\banner-3.png",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\banner\\banner-3.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\banner-4.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\banner-4.png",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\banner\\banner-4.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\banner-5.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\banner-5.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\banner\\banner-5.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\banner-5.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\banner-5.png",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\banner\\banner-5.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\banner-6.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\banner-6.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\banner\\banner-6.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\banner-7.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\banner-7.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\banner\\banner-7.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\banner-8.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\banner-8.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\banner\\banner-8.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\banner-9.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\banner-9.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\banner\\banner-9.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\brand-1.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\brand-1.png",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\banner\\brand-1.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\brand-2.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\brand-2.png",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\banner\\brand-2.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\brand-3.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\brand-3.png",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\banner\\brand-3.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\brand-4.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\brand-4.png",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\banner\\brand-4.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\brand-5.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\brand-5.png",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\banner\\brand-5.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\brand-6.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\brand-6.png",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\banner\\brand-6.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\menu-banner-10.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\menu-banner-10.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\banner\\menu-banner-10.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\menu-banner-2.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\menu-banner-2.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\banner\\menu-banner-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\menu-banner-3.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\menu-banner-3.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\banner\\menu-banner-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\menu-banner-4.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\menu-banner-4.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\banner\\menu-banner-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\menu-banner-5.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\menu-banner-5.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\banner\\menu-banner-5.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\menu-banner-6.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\menu-banner-6.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\banner\\menu-banner-6.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\menu-banner-7.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\menu-banner-7.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\banner\\menu-banner-7.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\menu-banner-7.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\menu-banner-7.png",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\banner\\menu-banner-7.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\menu-banner-8.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\menu-banner-8.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\banner\\menu-banner-8.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\menu-banner-9.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\menu-banner-9.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\banner\\menu-banner-9.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\menu-banner.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\banner\\menu-banner.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\banner\\menu-banner.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\blog\\blog-1.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\blog\\blog-1.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\blog\\blog-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\blog\\blog-10.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\blog\\blog-10.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\blog\\blog-10.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\blog\\blog-2.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\blog\\blog-2.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\blog\\blog-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\blog\\blog-3.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\blog\\blog-3.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\blog\\blog-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\blog\\blog-4.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\blog\\blog-4.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\blog\\blog-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\blog\\blog-5.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\blog\\blog-5.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\blog\\blog-5.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\blog\\blog-6.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\blog\\blog-6.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\blog\\blog-6.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\blog\\blog-8.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\blog\\blog-8.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\blog\\blog-8.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\blog\\blog-9.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\blog\\blog-9.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\blog\\blog-9.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\page\\about-1.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\page\\about-1.png",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\page\\about-1.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\page\\avatar-1.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\page\\avatar-1.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\page\\avatar-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\page\\avatar-2.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\page\\avatar-2.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\page\\avatar-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\page\\avatar-3.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\page\\avatar-3.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\page\\avatar-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\page\\avatar-4.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\page\\avatar-4.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\page\\avatar-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\page\\avatar-5.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\page\\avatar-5.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\page\\avatar-5.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\page\\avatar-6.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\page\\avatar-6.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\page\\avatar-6.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\page\\avatar-7.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\page\\avatar-7.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\page\\avatar-7.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\page\\avatar-8.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\page\\avatar-8.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\page\\avatar-8.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\page\\company-1.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\page\\company-1.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\page\\company-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\page\\company-2.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\page\\company-2.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\page\\company-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\page\\company-3.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\page\\company-3.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\page\\company-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\page\\img-1.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\page\\img-1.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\page\\img-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\category-thumb-1.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\category-thumb-1.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\category-thumb-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\category-thumb-2.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\category-thumb-2.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\category-thumb-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\category-thumb-3.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\category-thumb-3.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\category-thumb-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\category-thumb-4.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\category-thumb-4.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\category-thumb-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\category-thumb-5.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\category-thumb-5.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\category-thumb-5.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\category-thumb-6.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\category-thumb-6.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\category-thumb-6.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\category-thumb-7.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\category-thumb-7.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\category-thumb-7.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\category-thumb-8.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\category-thumb-8.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\category-thumb-8.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-1-1.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-1-1.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\product-1-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-1-2.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-1-2.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\product-1-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-10-1.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-10-1.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\product-10-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-10-2.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-10-2.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\product-10-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-11-1.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-11-1.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\product-11-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-11-2.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-11-2.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\product-11-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-12-1.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-12-1.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\product-12-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-12-2.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-12-2.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\product-12-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-13-1.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-13-1.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\product-13-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-13-2.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-13-2.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\product-13-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-14-1.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-14-1.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\product-14-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-14-2.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-14-2.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\product-14-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-15-1.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-15-1.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\product-15-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-15-2.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-15-2.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\product-15-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-16-1.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-16-1.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\product-16-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-16-2.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-16-2.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\product-16-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-16-3.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-16-3.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\product-16-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-16-4.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-16-4.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\product-16-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-16-5.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-16-5.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\product-16-5.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-16-6.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-16-6.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\product-16-6.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-16-7.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-16-7.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\product-16-7.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-2-1.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-2-1.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\product-2-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-2-2.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-2-2.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\product-2-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-3-1.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-3-1.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\product-3-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-3-2.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-3-2.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\product-3-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-4-1.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-4-1.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\product-4-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-4-2.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-4-2.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\product-4-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-5-1.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-5-1.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\product-5-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-5-2.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-5-2.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\product-5-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-6-1.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-6-1.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\product-6-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-6-2.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-6-2.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\product-6-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-7-1.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-7-1.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\product-7-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-7-2.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-7-2.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\product-7-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-8-1.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-8-1.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\product-8-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-8-2.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-8-2.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\product-8-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-9-1.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-9-1.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\product-9-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-9-2.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\product-9-2.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\product-9-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\thumbnail-1.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\thumbnail-1.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\thumbnail-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\thumbnail-2.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\thumbnail-2.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\thumbnail-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\thumbnail-3.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\thumbnail-3.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\thumbnail-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\thumbnail-4.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\thumbnail-4.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\thumbnail-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\thumbnail-5.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\thumbnail-5.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\thumbnail-5.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\thumbnail-6.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\thumbnail-6.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\thumbnail-6.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\thumbnail-7.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\thumbnail-7.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\thumbnail-7.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\thumbnail-8.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\thumbnail-8.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\thumbnail-8.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\thumbnail-9.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\shop\\thumbnail-9.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\shop\\thumbnail-9.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\slider\\slider-1.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\slider\\slider-1.png",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\slider\\slider-1.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\slider\\slider-111.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\slider\\slider-111.png",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\slider\\slider-111.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\slider\\slider-2.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\slider\\slider-2.png",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\slider\\slider-2.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\slider\\slider-3.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\slider\\slider-3.png",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\slider\\slider-3.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\slider\\slider-4.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\slider\\slider-4.png",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\slider\\slider-4.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\slider\\slider-5.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\slider\\slider-5.png",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\slider\\slider-5.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\slider\\slider-6.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\slider\\slider-6.png",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\slider\\slider-6.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\slider\\slider-7.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\slider\\slider-7.png",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\slider\\slider-7.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\404.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\404.png",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\theme\\404.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\app-store.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\app-store.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\theme\\app-store.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\btn-brush-bg-1.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\btn-brush-bg-1.png",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\theme\\btn-brush-bg-1.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\btn-brush-bg-2.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\btn-brush-bg-2.png",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\theme\\btn-brush-bg-2.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\btn-brush-bg-3.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\btn-brush-bg-3.png",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\theme\\btn-brush-bg-3.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\favicon.svg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\favicon.svg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\theme\\favicon.svg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\flag-dt.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\flag-dt.png",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\theme\\flag-dt.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\flag-fr.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\flag-fr.png",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\theme\\flag-fr.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\flag-ru.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\flag-ru.png",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\theme\\flag-ru.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\google-play.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\google-play.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\theme\\google-play.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\icons\\feature-1.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\icons\\feature-1.png",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\theme\\icons\\feature-1.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\icons\\feature-2.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\icons\\feature-2.png",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\theme\\icons\\feature-2.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\icons\\feature-3.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\icons\\feature-3.png",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\theme\\icons\\feature-3.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\icons\\feature-4.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\icons\\feature-4.png",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\theme\\icons\\feature-4.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\icons\\feature-5.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\icons\\feature-5.png",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\theme\\icons\\feature-5.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\icons\\feature-6.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\icons\\feature-6.png",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\theme\\icons\\feature-6.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\icons\\icon-cart.svg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\icons\\icon-cart.svg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\theme\\icons\\icon-cart.svg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\icons\\icon-dribbble.svg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\icons\\icon-dribbble.svg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\theme\\icons\\icon-dribbble.svg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\icons\\icon-email.svg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\icons\\icon-email.svg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\theme\\icons\\icon-email.svg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\icons\\icon-facebook.svg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\icons\\icon-facebook.svg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\theme\\icons\\icon-facebook.svg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\icons\\icon-heart.svg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\icons\\icon-heart.svg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\theme\\icons\\icon-heart.svg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\icons\\icon-instagram.svg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\icons\\icon-instagram.svg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\theme\\icons\\icon-instagram.svg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\icons\\icon-pinterest.svg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\icons\\icon-pinterest.svg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\theme\\icons\\icon-pinterest.svg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\icons\\icon-twitter.svg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\icons\\icon-twitter.svg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\theme\\icons\\icon-twitter.svg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\icons\\icon-youtube.svg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\icons\\icon-youtube.svg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\theme\\icons\\icon-youtube.svg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\icons\\search.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\icons\\search.png",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\theme\\icons\\search.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\logo-2.svg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\logo-2.svg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\theme\\logo-2.svg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\logo.svg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\logo.svg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\theme\\logo.svg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\payment-method.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\payment-method.png",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\theme\\payment-method.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\rating-stars.png",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\rating-stars.png",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\theme\\rating-stars.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\topbar-bg.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\imgs\\theme\\topbar-bg.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\imgs\\theme\\topbar-bg.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\main.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\main.js",
       "PackagePath": "staticwebassets\\Assets\\assets\\js\\main.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\plugins\\TweenMax.min.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\plugins\\TweenMax.min.js",
       "PackagePath": "staticwebassets\\Assets\\assets\\js\\plugins\\TweenMax.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\plugins\\counterup.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\plugins\\counterup.js",
       "PackagePath": "staticwebassets\\Assets\\assets\\js\\plugins\\counterup.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\plugins\\custom-parallax.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\plugins\\custom-parallax.js",
       "PackagePath": "staticwebassets\\Assets\\assets\\js\\plugins\\custom-parallax.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\plugins\\images-loaded.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\plugins\\custom.js",
+      "PackagePath": "staticwebassets\\Assets\\assets\\js\\plugins\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\plugins\\images-loaded.js",
       "PackagePath": "staticwebassets\\Assets\\assets\\js\\plugins\\images-loaded.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\plugins\\isotope.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\plugins\\isotope.js",
       "PackagePath": "staticwebassets\\Assets\\assets\\js\\plugins\\isotope.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\plugins\\jquery-ui.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\plugins\\jquery-ui.js",
       "PackagePath": "staticwebassets\\Assets\\assets\\js\\plugins\\jquery-ui.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\plugins\\jquery.countdown.min.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\plugins\\jquery.countdown.min.js",
       "PackagePath": "staticwebassets\\Assets\\assets\\js\\plugins\\jquery.countdown.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\plugins\\jquery.elevatezoom.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\plugins\\jquery.elevatezoom.js",
       "PackagePath": "staticwebassets\\Assets\\assets\\js\\plugins\\jquery.elevatezoom.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\plugins\\jquery.syotimer.min.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\plugins\\jquery.syotimer.min.js",
       "PackagePath": "staticwebassets\\Assets\\assets\\js\\plugins\\jquery.syotimer.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\plugins\\jquery.theia.sticky.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\plugins\\jquery.theia.sticky.js",
       "PackagePath": "staticwebassets\\Assets\\assets\\js\\plugins\\jquery.theia.sticky.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\plugins\\jquery.vticker-min.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\plugins\\jquery.vticker-min.js",
       "PackagePath": "staticwebassets\\Assets\\assets\\js\\plugins\\jquery.vticker-min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\plugins\\leaflet.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\plugins\\leaflet.js",
       "PackagePath": "staticwebassets\\Assets\\assets\\js\\plugins\\leaflet.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\plugins\\magnific-popup.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\plugins\\magnific-popup.js",
       "PackagePath": "staticwebassets\\Assets\\assets\\js\\plugins\\magnific-popup.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\plugins\\perfect-scrollbar.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\plugins\\perfect-scrollbar.js",
       "PackagePath": "staticwebassets\\Assets\\assets\\js\\plugins\\perfect-scrollbar.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\plugins\\scrollup.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\plugins\\scrollup.js",
       "PackagePath": "staticwebassets\\Assets\\assets\\js\\plugins\\scrollup.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\plugins\\select2.min.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\plugins\\select2.min.js",
       "PackagePath": "staticwebassets\\Assets\\assets\\js\\plugins\\select2.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\plugins\\slick.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\plugins\\slick.js",
       "PackagePath": "staticwebassets\\Assets\\assets\\js\\plugins\\slick.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\plugins\\waypoints.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\plugins\\waypoints.js",
       "PackagePath": "staticwebassets\\Assets\\assets\\js\\plugins\\waypoints.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\plugins\\wow.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\plugins\\wow.js",
       "PackagePath": "staticwebassets\\Assets\\assets\\js\\plugins\\wow.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\shop.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\shop.js",
       "PackagePath": "staticwebassets\\Assets\\assets\\js\\shop.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\vendor\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\vendor\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\Assets\\assets\\js\\vendor\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\vendor\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\vendor\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\Assets\\assets\\js\\vendor\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\vendor\\jquery-3.6.0.min.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\vendor\\jquery-3.6.0.min.js",
       "PackagePath": "staticwebassets\\Assets\\assets\\js\\vendor\\jquery-3.6.0.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\vendor\\jquery-migrate-3.3.0.min.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\vendor\\jquery-migrate-3.3.0.min.js",
       "PackagePath": "staticwebassets\\Assets\\assets\\js\\vendor\\jquery-migrate-3.3.0.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\vendor\\modernizr-3.6.0.min.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\js\\vendor\\modernizr-3.6.0.min.js",
       "PackagePath": "staticwebassets\\Assets\\assets\\js\\vendor\\modernizr-3.6.0.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\0218dcad-fc32-4d45-b7ae-1535c33b586a.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\0218dcad-fc32-4d45-b7ae-1535c33b586a.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\0218dcad-fc32-4d45-b7ae-1535c33b586a.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\048e0698-a03c-4e12-aa03-a42f8237678a.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\0417278f-2b7b-4e43-a713-58045c207b93.jpg",
+      "PackagePath": "staticwebassets\\Assets\\assets\\products\\0417278f-2b7b-4e43-a713-58045c207b93.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\048e0698-a03c-4e12-aa03-a42f8237678a.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\048e0698-a03c-4e12-aa03-a42f8237678a.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\0757b14d-8fac-43e7-9e25-48d5ad73a6fa.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\0757b14d-8fac-43e7-9e25-48d5ad73a6fa.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\0757b14d-8fac-43e7-9e25-48d5ad73a6fa.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\092a7f93-c3d8-4164-9c52-40721e56a7e0.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\0852f49d-6d8f-48e3-8871-c9c24f9c84bf.jpg",
+      "PackagePath": "staticwebassets\\Assets\\assets\\products\\0852f49d-6d8f-48e3-8871-c9c24f9c84bf.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\092a7f93-c3d8-4164-9c52-40721e56a7e0.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\092a7f93-c3d8-4164-9c52-40721e56a7e0.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\0b073374-976c-4afa-9368-ca4c1ee6447b.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\0b073374-976c-4afa-9368-ca4c1ee6447b.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\0b073374-976c-4afa-9368-ca4c1ee6447b.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\0b72631c-2d90-457a-a6e1-17e8442b8bcb.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\0b72631c-2d90-457a-a6e1-17e8442b8bcb.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\0b72631c-2d90-457a-a6e1-17e8442b8bcb.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\0f00938e-c3ab-4611-a198-e2f4e217d6e6.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\0c48a395-230e-42a0-b71e-45619743be48.jpg",
+      "PackagePath": "staticwebassets\\Assets\\assets\\products\\0c48a395-230e-42a0-b71e-45619743be48.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\0e9c49c7-440c-477c-8519-f456bb98cb26.jpg",
+      "PackagePath": "staticwebassets\\Assets\\assets\\products\\0e9c49c7-440c-477c-8519-f456bb98cb26.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\0f00938e-c3ab-4611-a198-e2f4e217d6e6.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\0f00938e-c3ab-4611-a198-e2f4e217d6e6.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\10613fec-3791-4a16-86f1-c7eeba7a23a3.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\10613fec-3791-4a16-86f1-c7eeba7a23a3.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\10613fec-3791-4a16-86f1-c7eeba7a23a3.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\1473db9b-4152-49fd-ab36-2eed97ff0b0b.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\12f30476-53dc-4c69-af1b-31e1e36c4b3a.jpg",
+      "PackagePath": "staticwebassets\\Assets\\assets\\products\\12f30476-53dc-4c69-af1b-31e1e36c4b3a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\1473db9b-4152-49fd-ab36-2eed97ff0b0b.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\1473db9b-4152-49fd-ab36-2eed97ff0b0b.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\14cd85fd-093a-40e6-a20e-e5691cf372cf.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\14cd85fd-093a-40e6-a20e-e5691cf372cf.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\14cd85fd-093a-40e6-a20e-e5691cf372cf.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\152e427a-28fa-4491-bdea-7451a0f342e9.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\152e427a-28fa-4491-bdea-7451a0f342e9.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\152e427a-28fa-4491-bdea-7451a0f342e9.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\18a5dbf7-e878-445b-b27a-21f41fa9097c.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\18a5dbf7-e878-445b-b27a-21f41fa9097c.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\18a5dbf7-e878-445b-b27a-21f41fa9097c.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\25e98dee-7ec3-4a23-ab9f-cf7aebda6b83.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\25e98dee-7ec3-4a23-ab9f-cf7aebda6b83.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\25e98dee-7ec3-4a23-ab9f-cf7aebda6b83.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\2b2d0974-aacf-43ac-9c74-e76ea8d12918.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\2b2d0974-aacf-43ac-9c74-e76ea8d12918.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\2b2d0974-aacf-43ac-9c74-e76ea8d12918.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\2f180244-c13d-4c3a-be54-c33919139ca7.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\2f180244-c13d-4c3a-be54-c33919139ca7.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\2f180244-c13d-4c3a-be54-c33919139ca7.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\383d8d5d-3347-471a-b302-189a1d9d76d6.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\383d8d5d-3347-471a-b302-189a1d9d76d6.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\383d8d5d-3347-471a-b302-189a1d9d76d6.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\3b6f4148-c32c-4dd3-9cee-eb9ecbb5baa8.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\39aec12c-8990-4056-8c1d-b239797d2be0.jpg",
+      "PackagePath": "staticwebassets\\Assets\\assets\\products\\39aec12c-8990-4056-8c1d-b239797d2be0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\3b6f4148-c32c-4dd3-9cee-eb9ecbb5baa8.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\3b6f4148-c32c-4dd3-9cee-eb9ecbb5baa8.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\3bdbb19b-c9d2-4fe8-8257-1ec7a4e7b627.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\3bdbb19b-c9d2-4fe8-8257-1ec7a4e7b627.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\3bdbb19b-c9d2-4fe8-8257-1ec7a4e7b627.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\3eb9eeb8-3123-4380-9942-b3d0c73e10e7.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\3ce29b84-485f-4811-8526-6fe7a1ce34ae.jpg",
+      "PackagePath": "staticwebassets\\Assets\\assets\\products\\3ce29b84-485f-4811-8526-6fe7a1ce34ae.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\3eb9eeb8-3123-4380-9942-b3d0c73e10e7.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\3eb9eeb8-3123-4380-9942-b3d0c73e10e7.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\3fb3073f-e345-4bc3-b6d0-eb05eb61587b.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\3fb3073f-e345-4bc3-b6d0-eb05eb61587b.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\3fb3073f-e345-4bc3-b6d0-eb05eb61587b.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\443cc41f-64ef-4441-ac74-8a6b34fe0b27.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\443cc41f-64ef-4441-ac74-8a6b34fe0b27.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\443cc41f-64ef-4441-ac74-8a6b34fe0b27.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\4cab0bca-f817-4e6a-a8a8-d2b4cc74cb55.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\4a1827df-a682-4cfa-a5d9-3d5afaf5969b.jpg",
+      "PackagePath": "staticwebassets\\Assets\\assets\\products\\4a1827df-a682-4cfa-a5d9-3d5afaf5969b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\4a22b8ba-7fac-4eca-94fb-83ed2e6bfa29.jpg",
+      "PackagePath": "staticwebassets\\Assets\\assets\\products\\4a22b8ba-7fac-4eca-94fb-83ed2e6bfa29.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\4cab0bca-f817-4e6a-a8a8-d2b4cc74cb55.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\4cab0bca-f817-4e6a-a8a8-d2b4cc74cb55.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\4ea43cc1-81ca-4d71-b25f-76729fbb7dbe.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\4ea43cc1-81ca-4d71-b25f-76729fbb7dbe.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\4ea43cc1-81ca-4d71-b25f-76729fbb7dbe.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\4f1b4b4d-6e7e-46da-9189-df549b350509.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\4f1b4b4d-6e7e-46da-9189-df549b350509.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\4f1b4b4d-6e7e-46da-9189-df549b350509.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\51c86888-bfa0-4ce8-8366-389fa8a48897.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\500517a4-0bef-4f6e-95cc-a3724294a65a.jpg",
+      "PackagePath": "staticwebassets\\Assets\\assets\\products\\500517a4-0bef-4f6e-95cc-a3724294a65a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\51c86888-bfa0-4ce8-8366-389fa8a48897.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\51c86888-bfa0-4ce8-8366-389fa8a48897.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\5377168e-fa60-449f-8a10-de9025f939ed.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\5327502a-74cc-486e-8430-b19fc1dd0648.jpg",
+      "PackagePath": "staticwebassets\\Assets\\assets\\products\\5327502a-74cc-486e-8430-b19fc1dd0648.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\5377168e-fa60-449f-8a10-de9025f939ed.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\5377168e-fa60-449f-8a10-de9025f939ed.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\5ebe0429-2e1a-4c39-8b97-8b701bb3e992.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\5ebe0429-2e1a-4c39-8b97-8b701bb3e992.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\5ebe0429-2e1a-4c39-8b97-8b701bb3e992.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\62b6318f-f701-4a97-a68b-1e70304e3f86.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\62b6318f-f701-4a97-a68b-1e70304e3f86.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\62b6318f-f701-4a97-a68b-1e70304e3f86.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\6cbff775-b431-4a75-8182-f9832a3f664f.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\6b0c91e4-fa90-4bb5-9329-4988140f7f4e.jpg",
+      "PackagePath": "staticwebassets\\Assets\\assets\\products\\6b0c91e4-fa90-4bb5-9329-4988140f7f4e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\6cbff775-b431-4a75-8182-f9832a3f664f.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\6cbff775-b431-4a75-8182-f9832a3f664f.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\6f8caaa3-f1ee-4c6a-bd0f-b9e4a23a460c.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\6f8caaa3-f1ee-4c6a-bd0f-b9e4a23a460c.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\6f8caaa3-f1ee-4c6a-bd0f-b9e4a23a460c.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\845edb2e-a94f-4495-8f3f-63c977647edc.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\845edb2e-a94f-4495-8f3f-63c977647edc.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\845edb2e-a94f-4495-8f3f-63c977647edc.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\892af6b8-564f-413d-9732-461b148f2cf3.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\85f38fcf-ebf1-4bdf-9fbd-0e20a9ab5bcd.jpg",
+      "PackagePath": "staticwebassets\\Assets\\assets\\products\\85f38fcf-ebf1-4bdf-9fbd-0e20a9ab5bcd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\892af6b8-564f-413d-9732-461b148f2cf3.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\892af6b8-564f-413d-9732-461b148f2cf3.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\8c29aa00-e2b6-40eb-a979-f554fe89d570.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\8c29aa00-e2b6-40eb-a979-f554fe89d570.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\8c29aa00-e2b6-40eb-a979-f554fe89d570.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\997a5499-c0bd-4630-9640-1e606a48142d.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\997a5499-c0bd-4630-9640-1e606a48142d.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\997a5499-c0bd-4630-9640-1e606a48142d.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\9b556357-0ae5-43d6-8292-24c3117c4101.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\9b556357-0ae5-43d6-8292-24c3117c4101.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\9b556357-0ae5-43d6-8292-24c3117c4101.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\9f375922-4666-4131-8201-a3ba57fa79b1.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\9c000f9f-89b8-4191-8aef-b45a334831ed.jpg",
+      "PackagePath": "staticwebassets\\Assets\\assets\\products\\9c000f9f-89b8-4191-8aef-b45a334831ed.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\9f375922-4666-4131-8201-a3ba57fa79b1.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\9f375922-4666-4131-8201-a3ba57fa79b1.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\a7ba5122-4910-4500-ac47-ca7d63ccd099.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\a7ba5122-4910-4500-ac47-ca7d63ccd099.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\a7ba5122-4910-4500-ac47-ca7d63ccd099.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\ac1ca5e6-a9f3-4814-a8fe-15ef7622be5e.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\ab44e175-bd2f-495f-821c-ea39755f3fac.jpg",
+      "PackagePath": "staticwebassets\\Assets\\assets\\products\\ab44e175-bd2f-495f-821c-ea39755f3fac.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\ac1ca5e6-a9f3-4814-a8fe-15ef7622be5e.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\ac1ca5e6-a9f3-4814-a8fe-15ef7622be5e.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\adfccfdb-571a-4bab-9d06-48436eeb207b.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\ad7a7d94-c229-4863-b2c0-1bf556154ba3.jpg",
+      "PackagePath": "staticwebassets\\Assets\\assets\\products\\ad7a7d94-c229-4863-b2c0-1bf556154ba3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\adfccfdb-571a-4bab-9d06-48436eeb207b.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\adfccfdb-571a-4bab-9d06-48436eeb207b.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\aebc8e94-9095-4b70-b802-2f77545c8416.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\aebc8e94-9095-4b70-b802-2f77545c8416.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\aebc8e94-9095-4b70-b802-2f77545c8416.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\aef13e85-c7ce-48cb-aedd-763481a12810.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\aef13e85-c7ce-48cb-aedd-763481a12810.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\aef13e85-c7ce-48cb-aedd-763481a12810.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\b314d568-11c3-4045-9401-d37911a0e1d8.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\b314d568-11c3-4045-9401-d37911a0e1d8.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\b314d568-11c3-4045-9401-d37911a0e1d8.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\b8d399ee-49e1-4154-b7ba-71bfa4900480.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\b8d399ee-49e1-4154-b7ba-71bfa4900480.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\b8d399ee-49e1-4154-b7ba-71bfa4900480.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\ba680f63-57dc-4956-afcc-f0d1a1ea51e6.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\b96681e1-766e-40e0-9bc7-86b1ff634ac7.jpg",
+      "PackagePath": "staticwebassets\\Assets\\assets\\products\\b96681e1-766e-40e0-9bc7-86b1ff634ac7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\ba680f63-57dc-4956-afcc-f0d1a1ea51e6.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\ba680f63-57dc-4956-afcc-f0d1a1ea51e6.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\bec8c977-2b6b-49e4-a200-4c3f5403f51a.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\bbbcd697-9d41-4444-9638-851bb251b98e.jpg",
+      "PackagePath": "staticwebassets\\Assets\\assets\\products\\bbbcd697-9d41-4444-9638-851bb251b98e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\bec8c977-2b6b-49e4-a200-4c3f5403f51a.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\bec8c977-2b6b-49e4-a200-4c3f5403f51a.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\c68f7d85-d6a3-4d28-b59e-e1a3c227fb2f.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\bf6f589c-e788-4b0e-a10a-b0ec8d2711cd.jpg",
+      "PackagePath": "staticwebassets\\Assets\\assets\\products\\bf6f589c-e788-4b0e-a10a-b0ec8d2711cd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\c68f7d85-d6a3-4d28-b59e-e1a3c227fb2f.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\c68f7d85-d6a3-4d28-b59e-e1a3c227fb2f.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\c6b07233-3667-4a7b-ba04-3d20f66d99bd.jpg",
-      "PackagePath": "staticwebassets\\Assets\\assets\\products\\c6b07233-3667-4a7b-ba04-3d20f66d99bd.jpg"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\d1a4b588-3c86-481a-a9d9-31b85604e2c5.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\d1a4b588-3c86-481a-a9d9-31b85604e2c5.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\d1a4b588-3c86-481a-a9d9-31b85604e2c5.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\d2c4c357-5df2-4363-9ddf-baf54dd0278c.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\d2c4c357-5df2-4363-9ddf-baf54dd0278c.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\d2c4c357-5df2-4363-9ddf-baf54dd0278c.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\d5964178-0048-4f57-b44f-83e8e060ec0d.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\d5964178-0048-4f57-b44f-83e8e060ec0d.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\d5964178-0048-4f57-b44f-83e8e060ec0d.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\d79b9ca9-f244-44f1-941c-ed26d9508dd5.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\d79b9ca9-f244-44f1-941c-ed26d9508dd5.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\d79b9ca9-f244-44f1-941c-ed26d9508dd5.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\db7dd37c-09a4-4323-a8c7-52530582c294.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\db7dd37c-09a4-4323-a8c7-52530582c294.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\db7dd37c-09a4-4323-a8c7-52530582c294.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\e13fdc7f-cc6c-43a0-b039-5acf119cbafd.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\e13fdc7f-cc6c-43a0-b039-5acf119cbafd.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\e13fdc7f-cc6c-43a0-b039-5acf119cbafd.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\e545438a-503d-40c6-bc68-ebf1ea56f9dd.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\e545438a-503d-40c6-bc68-ebf1ea56f9dd.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\e545438a-503d-40c6-bc68-ebf1ea56f9dd.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\eb1ca0b9-23f5-42fe-9858-eb8444c86949.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\e60a1758-437f-4301-831f-32c11cdce366.jpg",
+      "PackagePath": "staticwebassets\\Assets\\assets\\products\\e60a1758-437f-4301-831f-32c11cdce366.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\eb1ca0b9-23f5-42fe-9858-eb8444c86949.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\eb1ca0b9-23f5-42fe-9858-eb8444c86949.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\f202709c-3999-402b-b5c1-a158e0c3283d.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\ef62f4cf-ccf8-46ee-8140-34ea6566a752.jpg",
+      "PackagePath": "staticwebassets\\Assets\\assets\\products\\ef62f4cf-ccf8-46ee-8140-34ea6566a752.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\f005fb99-aebb-4da5-8a63-356d03e2f67a.jpg",
+      "PackagePath": "staticwebassets\\Assets\\assets\\products\\f005fb99-aebb-4da5-8a63-356d03e2f67a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\f202709c-3999-402b-b5c1-a158e0c3283d.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\f202709c-3999-402b-b5c1-a158e0c3283d.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\f397c977-a364-4bc9-ac3a-cfaefe65eb73.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\f397c977-a364-4bc9-ac3a-cfaefe65eb73.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\f397c977-a364-4bc9-ac3a-cfaefe65eb73.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\f523c028-dccc-4e07-9b98-65aea1ffc9cd.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\f523c028-dccc-4e07-9b98-65aea1ffc9cd.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\f523c028-dccc-4e07-9b98-65aea1ffc9cd.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\f9ce346c-d83f-4c41-861c-cd7cf33cd882.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\f9ce346c-d83f-4c41-861c-cd7cf33cd882.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\f9ce346c-d83f-4c41-861c-cd7cf33cd882.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\fcb5419f-ca39-4072-afac-232f56747a1d.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\fcb5419f-ca39-4072-afac-232f56747a1d.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\fcb5419f-ca39-4072-afac-232f56747a1d.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\ffb4b610-c31d-4ecb-b197-4969699bf833.jpg",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\ffb4b610-c31d-4ecb-b197-4969699bf833.jpg",
       "PackagePath": "staticwebassets\\Assets\\assets\\products\\ffb4b610-c31d-4ecb-b197-4969699bf833.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\abstracts\\_functions.scss",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\abstracts\\_functions.scss",
       "PackagePath": "staticwebassets\\Assets\\assets\\sass\\abstracts\\_functions.scss"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\abstracts\\_mixins.scss",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\abstracts\\_mixins.scss",
       "PackagePath": "staticwebassets\\Assets\\assets\\sass\\abstracts\\_mixins.scss"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\abstracts\\_variables.scss",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\abstracts\\_variables.scss",
       "PackagePath": "staticwebassets\\Assets\\assets\\sass\\abstracts\\_variables.scss"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\base\\_animation.scss",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\base\\_animation.scss",
       "PackagePath": "staticwebassets\\Assets\\assets\\sass\\base\\_animation.scss"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\base\\_common.scss",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\base\\_common.scss",
       "PackagePath": "staticwebassets\\Assets\\assets\\sass\\base\\_common.scss"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\base\\_typography.scss",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\base\\_typography.scss",
       "PackagePath": "staticwebassets\\Assets\\assets\\sass\\base\\_typography.scss"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\components\\_banners.scss",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\components\\_banners.scss",
       "PackagePath": "staticwebassets\\Assets\\assets\\sass\\components\\_banners.scss"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\components\\_buttons.scss",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\components\\_buttons.scss",
       "PackagePath": "staticwebassets\\Assets\\assets\\sass\\components\\_buttons.scss"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\components\\_card.scss",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\components\\_card.scss",
       "PackagePath": "staticwebassets\\Assets\\assets\\sass\\components\\_card.scss"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\components\\_form.scss",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\components\\_form.scss",
       "PackagePath": "staticwebassets\\Assets\\assets\\sass\\components\\_form.scss"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\components\\_misc.scss",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\components\\_misc.scss",
       "PackagePath": "staticwebassets\\Assets\\assets\\sass\\components\\_misc.scss"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\components\\_slider.scss",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\components\\_slider.scss",
       "PackagePath": "staticwebassets\\Assets\\assets\\sass\\components\\_slider.scss"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\components\\_tabs.scss",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\components\\_tabs.scss",
       "PackagePath": "staticwebassets\\Assets\\assets\\sass\\components\\_tabs.scss"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\layout\\_footer.scss",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\layout\\_footer.scss",
       "PackagePath": "staticwebassets\\Assets\\assets\\sass\\layout\\_footer.scss"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\layout\\_header.scss",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\layout\\_header.scss",
       "PackagePath": "staticwebassets\\Assets\\assets\\sass\\layout\\_header.scss"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\layout\\_navigation.scss",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\layout\\_navigation.scss",
       "PackagePath": "staticwebassets\\Assets\\assets\\sass\\layout\\_navigation.scss"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\layout\\_responsive.scss",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\layout\\_responsive.scss",
       "PackagePath": "staticwebassets\\Assets\\assets\\sass\\layout\\_responsive.scss"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\layout\\_sidebar.scss",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\layout\\_sidebar.scss",
       "PackagePath": "staticwebassets\\Assets\\assets\\sass\\layout\\_sidebar.scss"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\layout\\_spacing.scss",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\layout\\_spacing.scss",
       "PackagePath": "staticwebassets\\Assets\\assets\\sass\\layout\\_spacing.scss"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\main.scss",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\main.scss",
       "PackagePath": "staticwebassets\\Assets\\assets\\sass\\main.scss"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\pages\\_blog.scss",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\pages\\_blog.scss",
       "PackagePath": "staticwebassets\\Assets\\assets\\sass\\pages\\_blog.scss"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\pages\\_page.scss",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\pages\\_page.scss",
       "PackagePath": "staticwebassets\\Assets\\assets\\sass\\pages\\_page.scss"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\pages\\_shop.scss",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\pages\\_shop.scss",
       "PackagePath": "staticwebassets\\Assets\\assets\\sass\\pages\\_shop.scss"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\themes\\_default.scss",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\themes\\_default.scss",
       "PackagePath": "staticwebassets\\Assets\\assets\\sass\\themes\\_default.scss"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\vendors\\_vendors-import.scss",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\sass\\vendors\\_vendors-import.scss",
       "PackagePath": "staticwebassets\\Assets\\assets\\sass\\vendors\\_vendors-import.scss"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

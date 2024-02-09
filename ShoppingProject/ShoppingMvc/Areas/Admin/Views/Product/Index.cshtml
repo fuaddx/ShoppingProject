@@ -56,17 +56,7 @@
             var categoryFilter = $("#categoryFilter").val();
             var dateFilter = $("#dateFilter").val();
             var statusFilter = $("#statusFilter").val();
-            
-            $.ajax({
-                url: '@Url.Action("GetDistinctProductNames", "Product")',
-                type: 'GET',
-                success: function (data) {
-                    updateCategoryFilter(data, categoryFilter);
-                },
-                error: function () {
-                    console.log('Error fetching distinct product names');
-                }
-            });
+
             // Use AJAX to send filter values to the server
             $.ajax({
                 url: '@Url.Action("Index", "Product")',
@@ -88,29 +78,6 @@
             });
 
         }
-        function updateCategoryFilter(productNames, selectedValue) {
-            console.log('Updating category filter with:', productNames);
-            var categoryFilterDropdown = $("#categoryFilter");
-
-            
-
-            // Add default option
-            //categoryFilterDropdown.append($('<option>', {
-                //value: 'All categories',
-                //text: 'All categories'
-            //}));
-
-            // Add options for each product name
-            //$.each(productNames, function (index, item) {
-               // categoryFilterDropdown.append($('<option>', {
-                   // value: item,
-                    //text: item
-               // }));
-            //  });
-
-            // Set the selected value
-            categoryFilterDropdown.val(selectedValue);
-        }
         function selectAllCheckboxes() {
             var headerCheckbox = document.getElementById("selectAllCheckbox");
             var checkboxes = document.querySelectorAll(".card-body input[type='checkbox']");
@@ -119,9 +86,9 @@
                 checkbox.checked = headerCheckbox.checked;
             });
         }
-
-        }
     </script>
+
+
     @if (TempData["Create"] != null)
     {
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
@@ -215,7 +182,7 @@
             <a asp-action="Create" class="btn btn-primary btn-sm rounded">Create new</a>
         </div>
     </div>
-    <div class="card mb-4">
+    <div class="card mb-4" style="width:1172px">
         <header class="card-header">
             <div class="row align-items-center">
                 <div class="col col-check flex-grow-0">

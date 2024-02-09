@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ShoppingMvc.Contexts;
@@ -13,6 +14,7 @@ using ShoppingMvc.ViewModels.SliderVm;
 namespace ShoppingMvc.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin")]
     public class ProductController : Controller
     {
        EvaraDbContext _db {  get; set; }
@@ -39,7 +41,8 @@ namespace ShoppingMvc.Areas.Admin.Controllers
                 CostPrice = c.CostPrice,
                 SellPrice = c.SellPrice,
                 Category = c.Category,
-                RateRange = c.RateRange
+                RateRange = c.RateRange,
+                Tags = c.TagProduct.Select(p => p.Tag)
             }).ToListAsync();
             int totalCount = await _db.Products.CountAsync();
             PaginationVm<IEnumerable<ProductListItemVm>> pag = new(totalCount, page, (int)Math.Ceiling((decimal)totalCount / count), items);
@@ -63,7 +66,8 @@ namespace ShoppingMvc.Areas.Admin.Controllers
                 CostPrice = c.CostPrice,
                 SellPrice = c.SellPrice,
                 Category = c.Category,
-                RateRange = c.RateRange
+                RateRange = c.RateRange,
+                Tags = c.TagProduct.Select(p => p.Tag)
             });
 
             // Apply category filter
@@ -108,6 +112,7 @@ namespace ShoppingMvc.Areas.Admin.Controllers
 
         public async Task<IActionResult> Create()
         {
+            ViewBag.Tags = new SelectList(_db.Tags, "Id", "Title");
             ViewBag.Category = new SelectList(_db.Categorys, "Id", "Name");
             if (!ModelState.IsValid)
             {
@@ -126,6 +131,7 @@ namespace ShoppingMvc.Areas.Admin.Controllers
         {
             if (!ModelState.IsValid)
             {
+                ViewBag.Tags = new SelectList(_db.Tags, "Id", "Title");
                 ViewBag.Category = new SelectList(_db.Categorys, "Id", "Name");
                 return View(vm);
 
@@ -153,8 +159,16 @@ namespace ShoppingMvc.Areas.Admin.Controllers
             }
             if (!await _db.Categorys.AnyAsync(c => c.Id == vm.CategoryId))
             {
+                ViewBag.Tags = new SelectList(_db.Tags, "Id", "Title");
                 ModelState.AddModelError("CategoryId", "Category doesnt exist");
                 ViewBag.Category = new SelectList(_db.Categorys, "Id", "Name");
+                return View(vm);
+            }
+            if (await _db.Tags.Where(c => vm.TagsId.Contains(c.Id)).Select(c => c.Id).CountAsync() != vm.TagsId.Count())
+            {
+                ViewBag.Category = new SelectList(_db.Categorys, "Id", "Name");
+                ModelState.AddModelError("TagsId", "TagsId doesnt exist");
+                ViewBag.Tags = new SelectList(_db.Tags, "Id", "Title");
                 return View(vm);
             }
             Product product = new Product()
@@ -163,20 +177,27 @@ namespace ShoppingMvc.Areas.Admin.Controllers
                 Description = vm.Description,
                 RateRange = vm.RateRange,
                 CategoryId = (int)vm.CategoryId,
+                TagProduct = vm.TagsId.Select(id => new ProductTag
+                {
+                    TagId = id,
+                }).ToList(),
                 CostPrice = vm.CostPrice,
                 SellPrice = vm.SellPrice,
                 ImageUrl = filename,
             };
             _db.Products.AddAsync(product);
             await _db.SaveChangesAsync();
-            TempData["Response"] = true;
+            TempData["Create"] = true;
             return RedirectToAction(nameof(Index));
         }
         public async Task<IActionResult> Update(int? id)
         {
             if (id == null) return BadRequest();
             ViewBag.Category = new SelectList(_db.Categorys, "Id", "Name");
-            var data = await _db.Products.FindAsync(id);
+            ViewBag.Tags = new SelectList(_db.Tags, "Id", "Title");
+            var data = await _db.Products
+                .Include(p => p.TagProduct)
+                .SingleOrDefaultAsync(p => p.Id == id);
             if (data == null) return NotFound();
             return View(new ProductUpdateVm
             {
@@ -186,7 +207,8 @@ namespace ShoppingMvc.Areas.Admin.Controllers
                 CategoryId = data.CategoryId,
                 CostPrice = data.CostPrice,
                 SellPrice = data.SellPrice,
-                ImageUrl = data.ImageUrl
+                ImageUrl = data.ImageUrl,
+                TagsId = data.TagProduct.Select(i => i.TagId).ToList(),
 
             });
         }
@@ -223,15 +245,21 @@ namespace ShoppingMvc.Areas.Admin.Controllers
                 ViewBag.Category = new SelectList(_db.Categorys, "Id", "Name");
                 return View(vm);
             }
-            
-            var data = await _db.Products.FindAsync(id);
-            if (data == null) return NotFound();
+            if (!vm.TagsId.Any())
+            {
+                ModelState.AddModelError("TagsId", "You must select at least 1 Tag");
+            }
+
+            var data = await _db.Products
+                .Include(P => P.TagProduct)
+                .SingleOrDefaultAsync(p => p.Id == id);
              data.Title = vm.Title;
             data.Description = vm.Description;
             data.RateRange = vm.RateRange;
             data.CategoryId = (int)vm.CategoryId;
             data.CostPrice = vm.CostPrice;
             data.SellPrice = vm.SellPrice;
+            if (data == null) return NotFound();
             if (!string.IsNullOrEmpty(data.ImageUrl))
             {
                 string filepath = Path.Combine(_env.WebRootPath, "Assets", "assets", "products", data.ImageUrl);
@@ -246,6 +274,10 @@ namespace ShoppingMvc.Areas.Admin.Controllers
                 await vm.MainImage.CopyToAsync(fs);
             }
             data.ImageUrl = filename;
+             if (!Enumerable.SequenceEqual(data.TagProduct.Select(p => p.TagId), vm.TagsId))
+            {
+                data.TagProduct = vm.TagsId.Select(c => new ProductTag { TagId = c, ProductId = data.Id }).ToList();
+            }
             await _db.SaveChangesAsync();
             TempData["Update"] = true;
             return RedirectToAction(nameof(Index));
