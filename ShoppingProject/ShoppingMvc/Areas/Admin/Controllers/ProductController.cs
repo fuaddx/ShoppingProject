@@ -181,8 +181,8 @@ namespace ShoppingMvc.Areas.Admin.Controllers
                 {
                     TagId = id,
                 }).ToList(),
-                CostPrice = vm.CostPrice,
-                SellPrice = vm.SellPrice,
+                CostPrice = (float)vm.CostPrice,
+                SellPrice = (float)vm.SellPrice,
                 ImageUrl = filename,
             };
             _db.Products.AddAsync(product);

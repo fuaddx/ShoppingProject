@@ -407,6 +407,59 @@ namespace ShoppingMvc.Migrations
                     b.ToTable("Replys");
                 });
 
+            modelBuilder.Entity("ShoppingMvc.Models.Setting", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("Address")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("CreatedTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Hours")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsArchived")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Logo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PhoneNumber")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("UpdatedTime")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Settings");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Address = "562 Wellington Road, Street 32, San Francisco",
+                            Hours = "10:00 - 18:00, Mon - Sat",
+                            IsArchived = false,
+                            IsDeleted = false,
+                            Logo = "http://localhost:5063/Assets/assets/imgs/theme/logo.svg",
+                            PhoneNumber = "+01 2222 365 /(+91) 01 2345 6789"
+                        });
+                });
+
             modelBuilder.Entity("ShoppingMvc.Models.Slider", b =>
                 {
                     b.Property<int>("Id")

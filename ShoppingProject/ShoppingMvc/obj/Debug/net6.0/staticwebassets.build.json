@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0AmiJl9ZE55aPBuUNzLRwNVi0lsul0tsc+pR5LtY/b8=",
+  "Hash": "l4CWwWc1b08guvbo7pNBqwMIYmSGHzD/LmeFtthdIxQ=",
   "Source": "ShoppingMvc",
   "BasePath": "_content/ShoppingMvc",
   "Mode": "Default",
@@ -6950,6 +6950,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Assets\\assets\\products\\5377168e-fa60-449f-8a10-de9025f939ed.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\57ec034e-b083-42da-801e-09b34d1c74bd.jpg",
+      "SourceId": "ShoppingMvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\",
+      "BasePath": "_content/ShoppingMvc",
+      "RelativePath": "Assets/assets/products/57ec034e-b083-42da-801e-09b34d1c74bd.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Assets\\assets\\products\\57ec034e-b083-42da-801e-09b34d1c74bd.jpg"
     },
     {
       "Identity": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\wwwroot\\Assets\\assets\\products\\5ebe0429-2e1a-4c39-8b97-8b701bb3e992.jpg",

@@ -8,9 +8,9 @@ namespace ShoppingMvc.ViewModels.ProductVm
         public IFormFile MainImage { get; set; }
         public string? Description { get; set; }
         [Column(TypeName = "smallmoney")]
-        public decimal SellPrice { get; set; }
+        public float SellPrice { get; set; }
         [Column(TypeName = "smallmoney")]
-        public decimal CostPrice { get; set; }
+        public float CostPrice { get; set; }
         public int? CategoryId { get; set; }
         public string? ImageUrl { get; set; }
         public string Title { get; set; }

@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using ShoppingMvc.Contexts;
+using ShoppingMvc.Helpers;
 using ShoppingMvc.Models;
 
 namespace ShoppingMvc
@@ -50,6 +51,7 @@ namespace ShoppingMvc
                 options.AccessDeniedPath = new PathString("/Home/AccessDenied");
                 options.SlidingExpiration = true;
             });
+            builder.Services.AddScoped<LayoutService>();
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

@@ -73,6 +73,145 @@
                 })
         });
     </script>
+
+    <script>
+        // JavaScript function to apply price filter
+        function applyPriceFilter() {
+            var minPrice = $("#slider-range").slider("values", 0);
+            var maxPrice = $("#slider-range").slider("values", 1);
+            var found = false;
+
+            $(".product-cart-wrap").each(function () {
+                var productPrice = parseFloat($(this).data("price"));
+                if (productPrice >= minPrice && productPrice <= maxPrice) {
+                    $(this).show();
+                    found = true;
+                } else {
+                    $(this).hide();
+                }
+            });
+            if (!found) {
+                $("#nothing-found").show();
+            } else {
+                $("#nothing-found").hide();
+            }
+        }
+
+        // jQuery UI slider initialization
+        $(function () {
+            var minSellPrice = 16;
+            var maxSellPrice = 400;
+
+            $("#slider-range").slider({
+                range: true,
+                min: minSellPrice,
+                max: maxSellPrice,
+                values: [minSellPrice, maxSellPrice], // Set default values for the slider
+                slide: function (event, ui) {
+                    $("#amount").val("$" + ui.values[0] + " - $" + ui.values[1]);
+                }
+            });
+            $("#amount").val("$" + $("#slider-range").slider("values", 0) +
+                " - $" + $("#slider-range").slider("values", 1));
+        });
+    </script>
+
+    <script>
+        function sortProducts(sortBy) {
+            var productList = $("#product-list");
+            var productWrappers = productList.children(".product-cart-wrap").get();
+
+            productWrappers.sort(function (a, b) {
+                var aValue, bValue;
+
+                switch (sortBy) {
+                    case 'PriceHighToLow':
+                    case 'PriceLowToHigh':
+                        aValue = parseFloat($(a).data('price'));
+                        bValue = parseFloat($(b).data('price'));
+                        break;
+                    case 'ReleaseDate':
+                        aValue = new Date($(a).data('created-date'));
+                        bValue = new Date($(b).data('created-date'));
+                        break;
+                    case 'Rating':
+                        aValue = parseFloat($(a).data('rating'));
+                        bValue = parseFloat($(b).data('rating'));
+                        break;
+                }
+
+
+                return sortBy === 'PriceHighToLow' || sortBy === 'ReleaseDate' ? aValue - bValue : bValue - aValue;
+            });
+
+            productList.empty().append(productWrappers);
+            $("#sort-by-selected").text(sortBy);
+        }
+    </script>
+
+
+    <script>
+    var itemsPerPage = 7;
+
+        function displayProducts(pageNumber) {
+            var productList = $("#product-list");
+            var products = productList.children(".product-cart-wrap");
+
+            // Calculate the index range of products to display for the given page number
+            var startIndex = (pageNumber - 1) * itemsPerPage;
+            var endIndex = startIndex + itemsPerPage;
+
+            // Hide all products
+            products.hide();
+
+            // Display products for the current page
+            products.slice(startIndex, endIndex).show();
+
+            // Update the total number of products displayed
+            updateTotalProductCount(products.length);
+        }
+
+        function updateTotalProductCount(totalProducts) {
+            $(".totall-product strong").text(totalProducts);
+        }
+
+        // Example usage:
+        $(document).ready(function () {
+            // Initial display of products (page 1)
+            displayProducts(1);
+        });
+</script>
+
+<script>
+        function updateItemCount() {
+            var visibleProducts = $("#product-list .product-cart-wrap:visible").length;
+            $("#item-count").text(visibleProducts);
+        }
+
+        // Call the function when the page loads and whenever the number of visible products changes
+        $(document).ready(function () {
+            updateItemCount();
+        });
+
+        // Function to display products for the current page
+        function displayProducts() {
+            var productWrappers = $("#product-list .product-cart-wrap");
+
+            // Hide all products
+            productWrappers.hide();
+
+            if (itemsPerPage === 'All') {
+                // Show all products if 'All' is selected
+                productWrappers.show();
+            } else {
+                // Show the specified number of products per page
+                productWrappers.slice(0, itemsPerPage).show();
+            }
+
+            // Update the item count
+            updateItemCount();
+        }
+</script>
 }
 <main class="main">
     <div class="page-header breadcrumb-wrap">
@@ -89,7 +228,7 @@
                 <div class="col-lg-9">
                     <div class="shop-product-fillter style-2">
                         <div class="totall-product">
-                            <p> We found <strong class="text-brand">688</strong> items for you!</p>
+                            <p> We found <strong id="item-count" class="text-brand">0</strong> items for you!</p>
                         </div>
                         <div class="sort-by-product-area">
                             <div class="sort-by-cover mr-10">
@@ -98,16 +237,15 @@
                                         <span><i class="fi-rs-apps"></i>Show:</span>
                                     </div>
                                     <div class="sort-by-dropdown-wrap">
-                                        <span> 10 <i class="fi-rs-angle-small-down"></i></span>
+                                        <span id="show-items-dropdown">1 <i class="fi-rs-angle-small-down"></i></span>
                                     </div>
                                 </div>
                                 <div class="sort-by-dropdown">
                                     <ul>
-                                        <li><a class="active" href="#">10</a></li>
-                                        <li><a href="#">20</a></li>
-                                        <li><a href="#">30</a></li>
-                                        <li><a href="#">40</a></li>
-                                        <li><a href="#">All</a></li>
+                                        <li><a class="active" href="#" onclick="changeItemsPerPage(1)">1</a></li>
+                                        <li><a href="#" onclick="changeItemsPerPage(3)">3</a></li>
+                                        <li><a href="#" onclick="changeItemsPerPage(5)">5</a></li>
+                                        <li><a href="#" onclick="changeItemsPerPage('All')">All</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -117,20 +255,23 @@
                                         <span><i class="fi-rs-apps-sort"></i>Sort by:</span>
                                     </div>
                                     <div class="sort-by-dropdown-wrap">
-                                        <span> Featured <i class="fi-rs-angle-small-down"></i></span>
+                                        <span id="sort-by-selected">Featured <i class="fi-rs-angle-small-down"></i></span>
                                     </div>
                                 </div>
                                 <div class="sort-by-dropdown">
                                     <ul>
-                                        <li><a class="active" href="#">Featured</a></li>
-                                        <li><a href="#">Price: Low to High</a></li>
-                                        <li><a href="#">Price: High to Low</a></li>
-                                        <li><a href="#">Release Date</a></li>
-                                        <li><a href="#">Avg. Rating</a></li>
+                                        <li><a class="active" href="#" onclick="sortProducts('Featured')">Featured</a></li>
+                                        <li><a href="#" onclick="sortProducts('PriceLowToHigh')">Price: High to Low</a></li>
+                                        <li><a href="#" onclick="sortProducts('PriceHighToLow')">Price: Low to High</a></li>
+                                        <li><a href="#" onclick="sortProducts('ReleaseDate')">Release Date</a></li>
+                                        <li><a href="#" onclick="sortProducts('Rating')">Avg. Rating</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div id="nothing-found" style="display: none;">
+                        <p style="font-size:20px;color:red;text-align:center">Nothing Found</p>
                     </div>
                     <div class="product-list mb-50" id="hellobody">
                     <partial model="Model.PaginationProduct" name="ProductPagination" />
@@ -188,8 +329,9 @@
                                 </div>
                             </div>
                         </div>
-                        <a href="shop-grid-right.html" class="btn btn-sm btn-default"><i class="fi-rs-filter mr-5"></i> Fillter</a>
+                        <a href="javascript:void(0);" onclick="applyPriceFilter()" class="btn btn-sm btn-default"><i class="fi-rs-filter mr-5"></i> Filter</a>
                     </div>
+                    
                     <!-- Product sidebar Widget -->
                     <div class="sidebar-widget product-sidebar  mb-30 p-30 bg-grey border-radius-10">
                         <div class="widget-header position-relative mb-20 pb-10">
