@@ -2,6 +2,7 @@
 {
     public class SliderUpdateVm
     {
+        public int Id { get; set; }
         public IFormFile MainImage { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }

@@ -1,0 +1,120 @@
+﻿@model ProfileSettingsVm
+
+
+
+
+
+<section class="content-main">
+    <div class="content-header">
+    </div>
+    <div class="card">
+        <div class="card-body">
+            <div class="row gx-5">
+                <aside class="col-lg-3 border-end">
+                    <nav class="nav nav-pills flex-lg-column mb-4">
+                        <a class="nav-link active" aria-current="page" href="#">General</a>
+
+                    </nav>
+                </aside>
+                <div class="col-lg-9">
+                    <section class="content-body p-xl-4">
+                        <form asp-controller="Auth" asp-action="UpdateProfile" method="post" enctype="multipart/form-data">
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <div class="row gx-3">
+                                        <div class="col-6  mb-3">
+                                            <label class="form-label">First name</label>
+                                            <input class="form-control" asp-for="Name" type="text" placeholder="Type here">
+                                            <span asp-validation-for="Name" class="text-danger"></span>
+                                        </div> <!-- col .// -->
+                                        <div class="col-6  mb-3">
+                                            <label class="form-label">Last name</label>
+                                            <input class="form-control" asp-for="Surname" type="text" placeholder="Type here">
+                                            <span asp-validation-for="Surname" class="text-danger"></span>
+                                        </div> <!-- col .// -->
+                                        <div class="col-6  mb-3">
+                                            <label class="form-label">User name</label>
+                                            <input class="form-control" asp-for="UserName" type="text" placeholder="Type here">
+                                            <span asp-validation-for="UserName" class="text-danger"></span>
+                                        </div> <!-- col .// -->
+                                        <div class="col-lg-6  mb-3">
+                                            <label class="form-label">Email</label>
+                                            <input class="form-control" asp-for="Email" type="email" placeholder="example@mail.com">
+                                            <span asp-validation-for="Email" class="text-danger"></span>
+                                        </div> <!-- col .// -->
+                                        <div class="col-lg-6  mb-3">
+                                            <label class="form-label">Phone</label>
+                                            <input class="form-control" type="tel" asp-for="PhoneNumber" placeholder="+1234567890">
+                                            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                                        </div> <!-- col .// -->
+                                        <div class="col-lg-6  mb-3">
+                                            <label class="form-label">Current Password</label>
+                                            <input class="form-control form-control-user" placeholder="Current Password" asp-for="CurrentPassword">
+                                            <span class="text-danger" asp-validation-for="CurrentPassword"></span>
+                                            <span asp-validation-for="CurrentPassword" class="text-danger"></span>
+                                        </div>
+                                        <div class="col-lg-6  mb-3">
+                                            <label class="form-label">Password</label>
+                                            <input class="form-control form-control-user" placeholder="Password" asp-for="Password">
+                                            <span class="text-danger" asp-validation-for="Password"></span>
+                                            <span asp-validation-for="Password" class="text-danger"></span>
+                                        </div>
+                                        <label class="form-label">ConfirmPassword</label>
+                                        <div class="col-lg-6  mb-3">
+                                            <input class="form-control form-control-user" placeholder="ConfirmPassword" asp-for="ConfirmPassword">
+                                            <span class="text-danger" asp-validation-for="ConfirmPassword"></span>
+                                            <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                                        </div>
+                                    </div> 
+                                </div> 
+                                <aside class="col-lg-4">
+                                    @{
+                                        @if (string.IsNullOrEmpty(Model.ProfileImageUrl))
+                                        {
+                                            <figure class="text-lg-center">
+                                                <img class="img-lg mb-3 img-avatar" src="/Assets/assets/imgs/people/avatar1.jpg" alt="User Photo">
+                                                <figcaption>
+                                                    <input class="btn btn-light rounded font-md" href="#" placeholder="Upload" asp-for="@Model.ProfileImageFile" />
+                                                    <span asp-validation-for="ProfileImageFile" class="text-danger"></span>
+                                                </figcaption>
+                                            </figure>
+                                        }
+                                        else
+                                        {
+                                            <figure class="text-lg-center">
+                                                <img class="img-lg mb-3 img-avatar" src="/@Model.ProfileImageUrl" alt="User Photo">
+                                                <button class="btn btn-danger rounded font-md" asp-action="RemoveProfileImage" asp-controller="Auth">
+                                                    <i class="icons material-icons md-backup font-md"></i> Remove Image
+                                                </button>
+                                            </figure>
+                                        }
+                                    }
+                                </aside> 
+                            </div> 
+                            <br>
+                            <button class="btn btn-primary" type="submit">Save changes</button>
+                        </form>
+                        <hr class="my-5">
+                        <div class="row" style="max-width:920px">
+                            
+                            <div class="col-md">
+                                @if (User.IsInRole("Admin"))
+                                {
+                                    <p>This is an admin account. Deactivation option is not available.</p>
+                                }
+                                else
+                                {
+                                    <form id="deleteForm" action="@Url.Action("DeleteFromData", "Auth")" method="post">
+                                        <button type="submit" class="btn float-end btn-light rounded btn-sm font-md">Deactivate</button>
+                                        <h6>Remove account</h6>
+                                        <small class="text-muted d-block" style="width:70%">Once you delete your account, there is no going back.</small>
+                                    </form>
+                                }
+                            </div>
+                        </div> 
+                    </section> 
+                </div> 
+            </div> 
+        </div>
+    </div>
+</section> 

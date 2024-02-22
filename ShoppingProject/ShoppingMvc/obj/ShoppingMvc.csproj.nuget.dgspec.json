@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\ShoppingMvc.csproj": {}
+    "C:\\Users\\ASUS\\Desktop\\FinalShoppingProject\\ShoppingProject\\ShoppingMvc\\ShoppingMvc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\ShoppingMvc.csproj": {
+    "C:\\Users\\ASUS\\Desktop\\FinalShoppingProject\\ShoppingProject\\ShoppingMvc\\ShoppingMvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\ShoppingMvc.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\FinalShoppingProject\\ShoppingProject\\ShoppingMvc\\ShoppingMvc.csproj",
         "projectName": "ShoppingMvc",
-        "projectPath": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\ShoppingMvc.csproj",
+        "projectPath": "C:\\Users\\ASUS\\Desktop\\FinalShoppingProject\\ShoppingProject\\ShoppingMvc\\ShoppingMvc.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Desktop\\Shopping-old\\ShoppingProject\\ShoppingMvc\\obj\\",
+        "outputPath": "C:\\Users\\ASUS\\Desktop\\FinalShoppingProject\\ShoppingProject\\ShoppingMvc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNet.Mvc": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.26, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.25, )"

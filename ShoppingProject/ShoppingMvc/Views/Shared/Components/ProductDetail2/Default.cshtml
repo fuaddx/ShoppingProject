@@ -1,0 +1,27 @@
+﻿@model HomeVm
+
+@foreach (var item in Model.ProductListItems.Take(4))
+{
+    @if (!item.IsDeleted && !item.IsArchived)
+    {
+        @if (item.Tags != null && item.Tags.First() == "Best Sell" || item.Tags.First() == "New")
+        {
+<div class="single-post clearfix" style="height:280px">
+    <div class="product-img product-img-zoom">
+            <img style="height:190px;width:218px" class="default-img"
+                 src="@(!string.IsNullOrEmpty(item.PrimaryImageName) ? $"/Assets/assets/products/{item.PrimaryImageName}" : "/Assets/assets/imgs/shop/product-2-1.jpg")"
+                 alt="">
+    </div>
+    <div class="content pt-10">
+        <h5><a href="shop-product-detail.html">@item.Title</a></h5>
+        <p class="price mb-0 mt-5">$@item.SellPrice</p>
+        <div class="product-rate">
+            <div class="product-rating" style="width:90%"></div>
+        </div>
+    </div>
+</div>
+        }
+    }
+}
+
+       

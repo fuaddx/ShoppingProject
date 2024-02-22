@@ -1,8 +1,9 @@
 ﻿namespace ShoppingMvc.ViewModels.TagVm
 {
-	public class TagUpdatedVm
+    public class TagUpdatedVm
 	{
-		private string _title;
+        public int Id { get; set; }
+        private string _title;
 
 		public string Title
 		{

@@ -4,19 +4,16 @@
 @section scripts {
     <script>
         $(document).ready(function () {
-            // Function to update cart totals
             function updateCartTotals() {
                 var subtotal = 0;
                 $(".subtotal span").each(function () {
                     subtotal += parseFloat($(this).text().replace("$", "").replace(",", ""));
                 });
-                $(".cart_total_amount span").text("$" + subtotal.toFixed(0)); // Update cart subtotal
+                $(".cart_total_amount span").text("$" + subtotal.toFixed(0)); 
 
-                // Since the shipping is free, the total will be the same as the subtotal
-                $(".cart_total_amount strong span").text("$" + subtotal.toFixed(0)); // Update cart total
+                $(".cart_total_amount strong span").text("$" + subtotal.toFixed(0)); 
             }
 
-            // Event listener for quantity change buttons
             $(".qty-change").on("click", function (ev) {
                 ev.preventDefault();
                 var $row = $(this).closest("tr");
@@ -36,12 +33,11 @@
 
                 $quantityElement.text(quantity);
                 var subtotal = price * quantity;
-                $subtotalElement.text("$" + subtotal.toFixed(0)); // Display price without decimals
+                $subtotalElement.text("$" + subtotal.toFixed(0)); 
 
-                updateCartTotals(); // Update cart totals after quantity change
+                updateCartTotals(); 
             });
 
-            // Event listener for manually entered quantity
             $(".qty-val").on("input", function () {
                 var $row = $(this).closest("tr");
                 var quantity = parseInt($(this).text());
@@ -54,12 +50,11 @@
                 var $subtotalElement = $row.find(".subtotal span");
 
                 var subtotal = price * quantity;
-                $subtotalElement.text("$" + subtotal.toFixed(0)); // Display price without decimals
+                $subtotalElement.text("$" + subtotal.toFixed(0));
 
-                updateCartTotals(); // Update cart totals after quantity change
+                updateCartTotals(); 
             });
 
-            // Initial update of cart totals on page load
             updateCartTotals();
         });
     </script>
@@ -74,5 +69,7 @@
             </div>
         </div>
     </div>
+    <div id="basket">
     @await Component.InvokeAsync("ShopCart")
+    </div>
 </main>

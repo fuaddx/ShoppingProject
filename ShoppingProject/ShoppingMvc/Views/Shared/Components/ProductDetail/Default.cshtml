@@ -1,0 +1,56 @@
+﻿
+@model CombinedvmModel
+
+<div class="row related-products">
+    @foreach (var item in Model.HomeVm.ProductListItems)
+    {
+        @if (!item.IsDeleted && !item.IsArchived)
+        {
+            
+                <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+                    <div class="product-cart-wrap mb-30">
+                        <div class="product-img-action-wrap">
+                            <div class="product-img product-img-zoom">
+                                <a href="ProductDetails/Index/@item.Id">
+                                    <img style="height:280px" class="default-img"
+                                         src="@(!string.IsNullOrEmpty(item.PrimaryImageName) ? $"/Assets/assets/products/{item.PrimaryImageName}" : "/Assets/assets/imgs/shop/product-2-1.jpg")"
+                                         alt="">
+                                </a>
+                            </div>
+                            <div class="product-action-1">
+                                <a asp-action="Index" asp-controller="ProductDetails" asp-route-id="@item.Id" aria-label="Quick view" class="action-btn hover-up" data-bs-target="#quickViewModal"><i class="fi-rs-eye"></i></a>
+
+                            </div>
+                            @if (item.Tags != null)
+                            {
+                                <div class="product-badges product-badges-position product-badges-mrg">
+                                    <span class="hot">@item.Tags.First()</span>
+                                </div>
+                            }
+                        </div>
+                        <div class="product-content-wrap">
+                            <div class="product-category">
+                                <a href="shop-grid-right.html">@item.CategoryName</a>
+                            </div>
+                            <h2><a href="shop-product-right.html">@item.Title</a></h2>
+                            <div class="rating-result" title="90%">
+                                <span>
+                                    <span>@item.DiscountRate%</span>
+                                </span>
+                            </div>
+                            <div class="product-price">
+                                <span>$@item.SellPrice </span>
+                                <span class="old-price">$@item.Price</span>
+                            </div>
+                            <div class="product-action-1 show">
+                                <div onclick="addProductToBasket(@item.Id)" class="product-action-1 show">
+                                    <a aria-label="Add To Cart" class="action-btn hover-up"><i class="fi-rs-shopping-bag-add"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        }
+    }
+
+</div>

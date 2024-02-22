@@ -73,9 +73,70 @@
                 })
         });
     </script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
-        // JavaScript function to apply price filter
+
+        function fetchBasket() {
+            fetch(window.location.origin + '/Basket/Index')
+                .then(res => res.text())
+                .then(data => $("#basket").html(data));
+        }
+
+        function addProductToBasket(productId) {
+
+            $.ajax({
+                url: `/Basket/AddProductToBasket/${productId}`,
+                type: 'POST',
+            }).done(function (data) {
+                Command: toastr["success"]("Product added");
+                toastr.options = {
+                    "closeButton": false,
+                    "debug": false,
+                    "newestOnTop": false,
+                    "progressBar": false,
+                    "positionClass": "toast-top-right",
+                    "preventDuplicates": false,
+                    "onclick": null,
+                    "showDuration": "300",
+                    "hideDuration": "500",
+                    "timeOut": "1000",
+                    "extendedTimeOut": "1000",
+                    "showEasing": "swing",
+                    "hideEasing": "linear",
+                    "showMethod": "fadeIn",
+                    "hideMethod": "fadeOut"
+                };
+
+                fetchBasket();
+
+            }).fail(function () {
+                Command: toastr["danger"]("Product deleted");
+                toastr.options = {
+                    "closeButton": false,
+                    "debug": false,
+                    "newestOnTop": false,
+                    "progressBar": false,
+                    "positionClass": "toast-top-right",
+                    "preventDuplicates": false,
+                    "onclick": null,
+                    "showDuration": "300",
+                    "hideDuration": "500",
+                    "timeOut": "1000",
+                    "extendedTimeOut": "1000",
+                    "showEasing": "swing",
+                    "hideEasing": "linear",
+                    "showMethod": "fadeIn",
+                    "hideMethod": "fadeOut"
+                };
+            });
+
+        };
+
+
+
+        fetchBasket();
+    </script>
+    <script>
         function applyPriceFilter() {
             var minPrice = $("#slider-range").slider("values", 0);
             var maxPrice = $("#slider-range").slider("values", 1);
@@ -97,7 +158,6 @@
             }
         }
 
-        // jQuery UI slider initialization
         $(function () {
             var minSellPrice = 16;
             var maxSellPrice = 400;
@@ -106,7 +166,7 @@
                 range: true,
                 min: minSellPrice,
                 max: maxSellPrice,
-                values: [minSellPrice, maxSellPrice], // Set default values for the slider
+                values: [minSellPrice, maxSellPrice], 
                 slide: function (event, ui) {
                     $("#amount").val("$" + ui.values[0] + " - $" + ui.values[1]);
                 }
@@ -151,68 +211,51 @@
 
 
     <script>
-    var itemsPerPage = 7;
+        var itemsPerPage = 7;
 
         function displayProducts(pageNumber) {
             var productList = $("#product-list");
             var products = productList.children(".product-cart-wrap");
 
-            // Calculate the index range of products to display for the given page number
             var startIndex = (pageNumber - 1) * itemsPerPage;
             var endIndex = startIndex + itemsPerPage;
 
-            // Hide all products
             products.hide();
 
-            // Display products for the current page
             products.slice(startIndex, endIndex).show();
-
-            // Update the total number of products displayed
             updateTotalProductCount(products.length);
         }
 
-        function updateTotalProductCount(totalProducts) {
-            $(".totall-product strong").text(totalProducts);
-        }
+    </script>
 
-        // Example usage:
-        $(document).ready(function () {
-            // Initial display of products (page 1)
-            displayProducts(1);
-        });
-</script>
-
-<script>
+    <script>
         function updateItemCount() {
             var visibleProducts = $("#product-list .product-cart-wrap:visible").length;
             $("#item-count").text(visibleProducts);
         }
 
-        // Call the function when the page loads and whenever the number of visible products changes
         $(document).ready(function () {
             updateItemCount();
         });
 
-        // Function to display products for the current page
         function displayProducts() {
             var productWrappers = $("#product-list .product-cart-wrap");
 
-            // Hide all products
             productWrappers.hide();
 
             if (itemsPerPage === 'All') {
-                // Show all products if 'All' is selected
                 productWrappers.show();
             } else {
-                // Show the specified number of products per page
                 productWrappers.slice(0, itemsPerPage).show();
             }
 
             // Update the item count
             updateItemCount();
         }
-</script>
+    </script>
 }
+
+
 <main class="main">
     <div class="page-header breadcrumb-wrap">
         <div class="container">
@@ -231,24 +274,7 @@
                             <p> We found <strong id="item-count" class="text-brand">0</strong> items for you!</p>
                         </div>
                         <div class="sort-by-product-area">
-                            <div class="sort-by-cover mr-10">
-                                <div class="sort-by-product-wrap">
-                                    <div class="sort-by">
-                                        <span><i class="fi-rs-apps"></i>Show:</span>
-                                    </div>
-                                    <div class="sort-by-dropdown-wrap">
-                                        <span id="show-items-dropdown">1 <i class="fi-rs-angle-small-down"></i></span>
-                                    </div>
-                                </div>
-                                <div class="sort-by-dropdown">
-                                    <ul>
-                                        <li><a class="active" href="#" onclick="changeItemsPerPage(1)">1</a></li>
-                                        <li><a href="#" onclick="changeItemsPerPage(3)">3</a></li>
-                                        <li><a href="#" onclick="changeItemsPerPage(5)">5</a></li>
-                                        <li><a href="#" onclick="changeItemsPerPage('All')">All</a></li>
-                                    </ul>
-                                </div>
-                            </div>
+                            
                             <div class="sort-by-cover">
                                 <div class="sort-by-product-wrap">
                                     <div class="sort-by">
@@ -274,20 +300,76 @@
                         <p style="font-size:20px;color:red;text-align:center">Nothing Found</p>
                     </div>
                     <div class="product-list mb-50" id="hellobody">
-                    <partial model="Model.PaginationProduct" name="ProductPagination" />
+                        <div id="product-list">
+                        @foreach (var item in Model.ProductListItems)
+                            {
+                                @if (!item.IsDeleted && !item.IsArchived)
+                            {
+                                <div class="product-cart-wrap" data-price="@item.SellPrice" data-rating="@item.DiscountRate" data-created-date="@item.CreatedDate">
+                                    <div class="product-img-action-wrap">
+                                        <div class="product-img product-img-zoom">
+                                            <div class="product-img-inner">
+                                                <a href="ProductDetails/Index/@item.Id">
+                                                    <img  class="default-img"
+                                                         src="@(!string.IsNullOrEmpty(item.PrimaryImageName) ? $"/Assets/assets/products/{item.PrimaryImageName}" : "/Assets/assets/imgs/shop/product-2-1.jpg")"
+                                                         alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="product-action-1">
+                                            <a asp-action="Index" asp-controller="ProductDetails" asp-route-id="@item.Id" aria-label="Quick view" class="action-btn hover-up" data-bs-target="#quickViewModal"><i class="fi-rs-eye"></i></a>
+                                        </div>
+
+                                        @if (item.Tags != null)
+                                        {
+                                            <div class="product-badges product-badges-position product-badges-mrg">
+                                                <span class="hot">@item.Tags.First()</span>
+                                            </div>
+                                        }
+                                    </div>
+                                    <div class="product-content-wrap">
+                                        <div class="product-category">
+                                            <a href="shop-grid-right.html">@item.CategoryName</a>
+                                        </div>
+
+                                        <h2><a href="shop-product-right.html">@item.Title</a></h2>
+                                        <div class="product-price">
+                                                <span>$@item.SellPrice </span>
+                                            <span class="old-price">$@item.Price</span>
+                                        </div>
+                                        <p class="mt-15">@item.Description</p>
+                                        <div class="product-action-1 show">
+                                                <div onclick="addProductToBasket(@item.Id)" class="product-action-1 show">
+                                                    <a aria-label="Add To Cart" class="action-btn hover-up"><i class="fi-rs-shopping-bag-add"></i></a>
+                                                </div>
+                                           
+                                            <div class="rating-result" title="90%">
+                                                <span>
+                                                    <span>@item.DiscountRate %</span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        }
+                        </div>
+                        
                     </div>
                 </div>
                 <div class="col-lg-3 primary-sidebar sticky-sidebar">
                     <div class="widget-category mb-30">
                         <h5 class="section-title style-1 mb-30 wow fadeIn animated">Category</h5>
                         <ul class="categories">
-                            @foreach(var item in Model.CategoryListItemVms)
-                            {
-                                <li><a href="shop-grid-right.html">@item.Name</a></li>
-                            }
+                            <li><a href="shop-grid-right.html">Shoes</a></li>
+                            <li><a href="shop-grid-right.html">Vehicle</a></li>
+                            <li><a href="shop-grid-right.html">Dresses</a></li>
+                            <li><a href="shop-grid-right.html">Swimwear</a></li>
+                            <li><a href="shop-grid-right.html">Beauty</a></li>
+                            <li><a href="shop-grid-right.html">Phone</a></li>
+                            <li><a href="shop-grid-right.html">Accessories</a></li>
                         </ul>
                     </div>
-                    <!-- Fillter By Price -->
                     <div class="sidebar-widget price_range range mb-30">
                         <div class="widget-header position-relative mb-20 pb-10">
                             <h5 class="widget-title mb-10">Fill by price</h5>
@@ -303,78 +385,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="list-group">
-                            <div class="list-group-item mb-10 mt-10">
-                                <label class="fw-900">Color</label>
-                                <div class="custome-checkbox">
-                                    <input class="form-check-input" type="checkbox" name="checkbox" id="exampleCheckbox1" value="">
-                                    <label class="form-check-label" for="exampleCheckbox1"><span>Red (56)</span></label>
-                                    <br>
-                                    <input class="form-check-input" type="checkbox" name="checkbox" id="exampleCheckbox2" value="">
-                                    <label class="form-check-label" for="exampleCheckbox2"><span>Green (78)</span></label>
-                                    <br>
-                                    <input class="form-check-input" type="checkbox" name="checkbox" id="exampleCheckbox3" value="">
-                                    <label class="form-check-label" for="exampleCheckbox3"><span>Blue (54)</span></label>
-                                </div>
-                                <label class="fw-900 mt-15">Item Condition</label>
-                                <div class="custome-checkbox">
-                                    <input class="form-check-input" type="checkbox" name="checkbox" id="exampleCheckbox11" value="">
-                                    <label class="form-check-label" for="exampleCheckbox11"><span>New (1506)</span></label>
-                                    <br>
-                                    <input class="form-check-input" type="checkbox" name="checkbox" id="exampleCheckbox21" value="">
-                                    <label class="form-check-label" for="exampleCheckbox21"><span>Refurbished (27)</span></label>
-                                    <br>
-                                    <input class="form-check-input" type="checkbox" name="checkbox" id="exampleCheckbox31" value="">
-                                    <label class="form-check-label" for="exampleCheckbox31"><span>Used (45)</span></label>
-                                </div>
-                            </div>
-                        </div>
+                        
                         <a href="javascript:void(0);" onclick="applyPriceFilter()" class="btn btn-sm btn-default"><i class="fi-rs-filter mr-5"></i> Filter</a>
                     </div>
                     
-                    <!-- Product sidebar Widget -->
-                    <div class="sidebar-widget product-sidebar  mb-30 p-30 bg-grey border-radius-10">
-                        <div class="widget-header position-relative mb-20 pb-10">
-                            <h5 class="widget-title mb-10">New products</h5>
-                            <div class="bt-1 border-color-1"></div>
-                        </div>
-                        <div class="single-post clearfix">
-                            <div class="image">
-                                <img src="~/Assets/assets/imgs/shop/thumbnail-3.jpg" alt="#">
-                            </div>
-                            <div class="content pt-10">
-                                <h5><a href="shop-product-detail.html">Chen Cardigan</a></h5>
-                                <p class="price mb-0 mt-5">$99.50</p>
-                                <div class="product-rate">
-                                    <div class="product-rating" style="width:90%"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single-post clearfix">
-                            <div class="image">
-                                <img src="~/Assets/assets/imgs/shop/thumbnail-4.jpg" alt="#">
-                            </div>
-                            <div class="content pt-10">
-                                <h6><a href="shop-product-detail.html">Chen Sweater</a></h6>
-                                <p class="price mb-0 mt-5">$89.50</p>
-                                <div class="product-rate">
-                                    <div class="product-rating" style="width:80%"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single-post clearfix">
-                            <div class="image">
-                                <img src="~/Assets/assets/imgs/shop/thumbnail-5.jpg" alt="#">
-                            </div>
-                            <div class="content pt-10">
-                                <h6><a href="shop-product-detail.html">Colorful Jacket</a></h6>
-                                <p class="price mb-0 mt-5">$25</p>
-                                <div class="product-rate">
-                                    <div class="product-rating" style="width:60%"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                     <div class="banner-img wow fadeIn mb-45 animated d-lg-block d-none">
                         <img src="~/Assets/assets/imgs/banner/banner-11.jpg" alt="">
                         <div class="banner-text">

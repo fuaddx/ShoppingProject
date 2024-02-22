@@ -1,4 +1,203 @@
-﻿@model ShoppingMvc.ViewModels.HomeVm.HomeVm
+﻿@model ShoppingMvc.ViewModels.ProductDetailVms.ProductDetailVm
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<style>
+    .product-color-red {
+        background: red;
+        display: block;
+        width: 26px;
+        height: 26px;
+        border-radius: 40px;
+    }
+
+    .product-color-blue {
+        background-color: blue;
+    }
+</style>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var currentRating = 0;
+        var ratingDivContainer = document.getElementById("product-rating-container");
+        var ratingDiv = document.getElementById("product-rating");
+
+        function updateRatingDisplay() {
+            ratingDiv.style.width = currentRating + "%";
+        }
+
+        ratingDivContainer.addEventListener("mousemove", function (event) {
+            var rect = ratingDivContainer.getBoundingClientRect();
+            var offsetX = event.clientX - rect.left;
+            var percentage = (offsetX / rect.width) * 100;
+            currentRating = Math.round(percentage);
+            updateRatingDisplay();
+        });
+
+        ratingDivContainer.addEventListener("click", function () {
+            document.getElementById("Rating").value = currentRating;
+        });
+    });
+
+    function handleAddComment(productId) {
+        var commentMessage = document.getElementById("commentMessage").value;
+        var currentRating = parseFloat(document.getElementById("Rating").value);
+
+        $.ajax({
+            type: 'POST',
+            url: '/ProductDetails/AddComment',
+            data: {
+                productId: productId,
+                message: commentMessage,
+                rating: currentRating
+            },
+            success: function (response) {
+                Swal.fire({
+                    icon: "success",
+                    title: "Comment has been added",
+                    showConfirmButton: false,
+                    timer: 1500
+                });
+                window.location.reload();
+            },
+            error: function (xhr, status, error) {
+                Swal.fire({
+                    position: "top-center",
+                    icon: "error",
+                    title: "Comment Couldn't be sent",
+                    showConfirmButton: false,
+                    timer: 1500
+                });
+            }
+        });
+    }
+
+    function handleAddReplyComment(commentId, productId) {
+        var replyCommentMessage = document.getElementById(`replyCommentMessage${commentId}`).value;
+        var reviewsContainer = document.getElementById("NavTabsForScroll");
+
+        $.ajax({
+            type: 'POST',
+            url: '/ProductDetails/AddReply',
+            data: {
+                commentId: commentId,
+                message: replyCommentMessage,
+                productId: productId,
+            },
+            success: function (response) {
+                Swal.fire({
+                    icon: "success",
+                    title: "Comment has been added",
+                    showConfirmButton: false,
+                    timer: 1500
+                });
+                window.location.reload();
+
+                reviewsContainer.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                })
+            },
+            error: function (xhr, status, error) {
+                console.log(error)
+                Swal.fire({
+                    position: "top-center",
+                    icon: "error",
+                    title: "Comment Couldn't be sent",
+                    showConfirmButton: false,
+                    timer: 1500
+                });
+            }
+        });
+    }
+</script>
+<script>
+    $(document).ready(function() {
+        $('.image-link').magnificPopup({type:'image'});
+    });
+</script>
+<script>
+    function showReplyModal(commentId) {
+        $('#parentCommentId').val(commentId);
+        $(`#replyModal${commentId}`).modal('show');
+    }
+    function closeReplyModal(commentId) {
+        $('#parentCommentId').val(commentId);
+        $(`#replyModal${commentId}`).modal('hide');
+
+    }
+
+</script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+
+    function fetchBasket() {
+        fetch(window.location.origin + '/Basket/Index')
+            .then(res => res.text())
+            .then(data => $("#basket").html(data));
+    }
+
+    function addProductToBasket(productId) {
+
+        $.ajax({
+            url: `/Basket/AddProductToBasket/${productId}`,
+            type: 'POST',
+        }).done(function (data) {
+            Command: toastr["success"]("Product added");
+            toastr.options = {
+                "closeButton": false,
+                "debug": false,
+                "newestOnTop": false,
+                "progressBar": false,
+                "positionClass": "toast-top-right",
+                "preventDuplicates": false,
+                "onclick": null,
+                "showDuration": "300",
+                "hideDuration": "500",
+                "timeOut": "1000",
+                "extendedTimeOut": "1000",
+                "showEasing": "swing",
+                "hideEasing": "linear",
+                "showMethod": "fadeIn",
+                "hideMethod": "fadeOut"
+            };
+
+            fetchBasket();
+
+        }).fail(function () {
+            Command: toastr["danger"]("Product deleted");
+            toastr.options = {
+                "closeButton": false,
+                "debug": false,
+                "newestOnTop": false,
+                "progressBar": false,
+                "positionClass": "toast-top-right",
+                "preventDuplicates": false,
+                "onclick": null,
+                "showDuration": "300",
+                "hideDuration": "500",
+                "timeOut": "1000",
+                "extendedTimeOut": "1000",
+                "showEasing": "swing",
+                "hideEasing": "linear",
+                "showMethod": "fadeIn",
+                "hideMethod": "fadeOut"
+            };
+        });
+    };
+
+
+
+    fetchBasket();
+</script>
+
 
 
 <main class="main">
@@ -6,8 +205,8 @@
         <div class="container">
             <div class="breadcrumb">
                 <a href="index.html" rel="nofollow">Home</a>
-                <span></span> Fashion
-                <span></span> Abstract Print Patchwork Dress
+                <span></span> @Model.Product.CategoryName
+                <span></span> @Model.Product.Title
             </div>
         </div>
     </div>
@@ -22,37 +221,27 @@
                                     <span class="zoom-icon"><i class="fi-rs-search"></i></span>
                                     <!-- MAIN SLIDES -->
                                     <div class="product-image-slider">
-                                        <figure class="border-radius-10">
-                                            <img src="~/Assets/assets/imgs/shop/product-16-2.jpg" alt="product image">
-                                        </figure>
-                                        <figure class="border-radius-10">
-                                            <img src="~/Assets/assets/imgs/shop/product-16-1.jpg" alt="product image">
-                                        </figure>
-                                        <figure class="border-radius-10">
-                                            <img src="~/Assets/assets/imgs/shop/product-16-3.jpg" alt="product image">
-                                        </figure>
-                                        <figure class="border-radius-10">
-                                            <img src="~/Assets/assets/imgs/shop/product-16-4.jpg" alt="product image">
-                                        </figure>
-                                        <figure class="border-radius-10">
-                                            <img src="~/Assets/assets/imgs/shop/product-16-5.jpg" alt="product image">
-                                        </figure>
-                                        <figure class="border-radius-10">
-                                            <img src="~/Assets/assets/imgs/shop/product-16-6.jpg" alt="product image">
-                                        </figure>
-                                        <figure class="border-radius-10">
-                                            <img src="~/Assets/assets/imgs/shop/product-16-7.jpg" alt="product image">
-                                        </figure>
+                                        @{
+                                            @foreach (var image in Model.Product.ProductImages)
+                                            {
+                                                <a href="/@image.ImageUrl" class="image-link">
+                                                    <figure class="border-radius-10" style="height: 524px">
+                                                        <img style="width: 100%; height: 100%" src="/@image.ImageUrl" alt="@image.ImageName">
+                                                    </figure>
+                                                </a>
+                                            }
+                                        }
+                                        
                                     </div>
                                     <!-- THUMBNAILS -->
                                     <div class="slider-nav-thumbnails pl-15 pr-15">
-                                        <div><img src="~/Assets/assets/imgs/shop/thumbnail-3.jpg" alt="product image"></div>
-                                        <div><img src="~/Assets/assets/imgs/shop/thumbnail-4.jpg" alt="product image"></div>
-                                        <div><img src="~/Assets/assets/imgs/shop/thumbnail-5.jpg" alt="product image"></div>
-                                        <div><img src="~/Assets/assets/imgs/shop/thumbnail-6.jpg" alt="product image"></div>
-                                        <div><img src="~/Assets/assets/imgs/shop/thumbnail-7.jpg" alt="product image"></div>
-                                        <div><img src="~/Assets/assets/imgs/shop/thumbnail-8.jpg" alt="product image"></div>
-                                        <div><img src="~/Assets/assets/imgs/shop/thumbnail-9.jpg" alt="product image"></div>
+                                        @{
+                                            foreach (var image in Model.Product.ProductImages)
+                                            {
+                                                <div><img width="140" height="90" src="/@image.ImageUrl" alt="@image.ImageName"></div>
+
+                                            }
+                                        }
                                     </div>
                                 </div>
                                 <!-- End Gallery -->
@@ -68,29 +257,31 @@
                             </div>
                             <div class="col-md-6 col-sm-12 col-xs-12">
                                 <div class="detail-info">
-                                    <h2 class="title-detail">Colorful Pattern Shirts HD450</h2>
+                                    <h2 class="title-detail">@Model.Product.Title</h2>
                                     <div class="product-detail-rating">
                                         <div class="pro-details-brand">
-                                            <span> Brands: <a href="shop-grid-right.html">Bootstrap</a></span>
+                                            <span> Category: <a href="shop-grid-right.html">@Model.Product.CategoryName</a></span>
                                         </div>
                                         <div class="product-rate-cover text-end">
                                             <div class="product-rate d-inline-block">
-                                                <div class="product-rating" style="width:90%">
+                                                <div class="product-rating" style="width:@Model.TotalRatingPercentage%">
                                                 </div>
                                             </div>
-                                            <span class="font-small ml-5 text-muted"> (25 reviews)</span>
+                                            <span class="font-small ml-5 text-muted"> (@Model.Comments.Count)</span>
                                         </div>
                                     </div>
                                     <div class="clearfix product-price-cover">
                                         <div class="product-price primary-color float-left">
-                                            <ins><span class="text-brand">$120.00</span></ins>
-                                            <ins><span class="old-price font-md ml-15">$200.00</span></ins>
-                                            <span class="save-price  font-md color3 ml-15">25% Off</span>
+                                            <ins><span class="text-brand">$@Model.Product.SellPrice</span></ins>
+                                            <ins><span class="old-price font-md ml-15">$@Model.Product.Price</span></ins>
+                                            <span class="save-price  font-md color3 ml-15">@Model.Product.DiscountRate% Off</span>
                                         </div>
                                     </div>
                                     <div class="bt-1 border-color-1 mt-15 mb-15"></div>
                                     <div class="short-desc mb-30">
-                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam rem officia, corrupti reiciendis minima nisi modi, quasi, odio minus dolore impedit fuga eum eligendi? Officia doloremque facere quia. Voluptatum, accusantium!</p>
+                                        <p>
+                                            @Model.Product.Description
+                                        </p>
                                     </div>
                                     <div class="product_sort_info font-xs mb-30">
                                         <ul>
@@ -99,51 +290,43 @@
                                             <li><i class="fi-rs-credit-card mr-5"></i> Cash on Delivery available</li>
                                         </ul>
                                     </div>
-                                    <div class="attr-detail attr-color mb-15">
-                                        <strong class="mr-10">Color</strong>
-                                        <ul class="list-filter color-filter">
-                                            <li><a href="#" data-color="Red"><span class="product-color-red"></span></a></li>
-                                            <li><a href="#" data-color="Yellow"><span class="product-color-yellow"></span></a></li>
-                                            <li class="active"><a href="#" data-color="White"><span class="product-color-white"></span></a></li>
-                                            <li><a href="#" data-color="Orange"><span class="product-color-orange"></span></a></li>
-                                            <li><a href="#" data-color="Cyan"><span class="product-color-cyan"></span></a></li>
-                                            <li><a href="#" data-color="Green"><span class="product-color-green"></span></a></li>
-                                            <li><a href="#" data-color="Purple"><span class="product-color-purple"></span></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="attr-detail attr-size">
-                                        <strong class="mr-10">Size</strong>
-                                        <ul class="list-filter size-filter font-small">
-                                            <li><a href="#">S</a></li>
-                                            <li class="active"><a href="#">M</a></li>
-                                            <li><a href="#">L</a></li>
-                                            <li><a href="#">XL</a></li>
-                                            <li><a href="#">XXL</a></li>
-                                        </ul>
-                                    </div>
+                                    @if (Model.Product.CategoryName == "Vehicle")
+                                    {
+                                        <div class="attr-detail attr-color mb-15">
+                                            <strong class="mr-10">Color</strong>
+                                            <ul class="list-filter color-filter">
+                                                <li><a href="#"><span class="product-color-red"></span></a></li>
+                                                <li><a href="#"><span class="product-color-blue"></span></a></li>
+                                            </ul>
+                                        </div>
+                                    }
+
                                     <div class="bt-1 border-color-1 mt-30 mb-30"></div>
                                     <div class="detail-extralink">
-                                        <div class="detail-qty border radius">
-                                            <a href="#" class="qty-down"><i class="fi-rs-angle-small-down"></i></a>
-                                            <span class="qty-val">1</span>
-                                            <a href="#" class="qty-up"><i class="fi-rs-angle-small-up"></i></a>
-                                        </div>
+                                        
                                         <div class="product-extra-link2">
-                                            <button type="submit" class="button button-add-to-cart">Add to cart</button>
-                                            <a aria-label="Add To Wishlist" class="action-btn hover-up" href="shop-wishlist.html"><i class="fi-rs-heart"></i></a>
-                                            <a aria-label="Compare" class="action-btn hover-up" href="shop-compare.html"><i class="fi-rs-shuffle"></i></a>
+                                            <div onclick="addProductToBasket(@Model.Product.Id)">
+                                                <button type="button" class="button button-add-to-cart">Add to cart</button>
+                                                <a aria-label="Add To Wishlist" class="action-btn hover-up" ><i class="fi-rs-heart"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                     <ul class="product-meta font-xs color-grey mt-50">
                                         <li class="mb-5">SKU: <a href="#">FWM15VKT</a></li>
-                                        <li class="mb-5">Tags: <a href="#" rel="tag">Cloth</a>, <a href="#" rel="tag">Women</a>, <a href="#" rel="tag">Dress</a> </li>
-                                        <li>Availability:<span class="in-stock text-success ml-5">8 Items In Stock</span></li>
+                                        <li class="mb-5">
+                                            Tags:
+                                            @foreach (var tag in @Model.Product.Tags)
+                                            {
+                                                <a href="#" rel="tag">@tag</a>
+                                            }
+                                        </li>
+                                        <li>Availability:<span class="in-stock text-success ml-5">@Model.Product.StockNumber Items In Stock</span></li>
                                     </ul>
                                 </div>
                                 <!-- Detail Info -->
                             </div>
                         </div>
-                        <div class="tab-style3">
+                        <div class="tab-style3" id="NavTabsForScroll">
                             <ul class="nav nav-tabs text-uppercase">
                                 <li class="nav-item">
                                     <a class="nav-link active" id="Description-tab" data-bs-toggle="tab" href="#Description">Description</a>
@@ -152,44 +335,14 @@
                                     <a class="nav-link" id="Additional-info-tab" data-bs-toggle="tab" href="#Additional-info">Additional info</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" id="Reviews-tab" data-bs-toggle="tab" href="#Reviews">Reviews (3)</a>
+                                    <a class="nav-link" id="Reviews-tab" data-bs-toggle="tab" href="#Reviews">Reviews (@Model.TotalCommentsCount)</a>
                                 </li>
                             </ul>
                             <div class="tab-content shop_info_tab entry-main-content">
                                 <div class="tab-pane fade show active" id="Description">
-                                    <div class="">
-                                        <p>
-                                            Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop
-                                            tightly neurotic hungrily some and dear furiously this apart.
-                                        </p>
-                                        <p>
-                                            Spluttered narrowly yikes left moth in yikes bowed this that grizzly much hello on spoon-fed that alas rethought much decently richly and wow against the frequent fluidly at formidable acceptably flapped
-                                            besides and much circa far over the bucolically hey precarious goldfinch mastodon goodness gnashed a jellyfish and one however because.
-                                        </p>
-                                        <ul class="product-more-infor mt-30">
-                                            <li><span>Type Of Packing</span> Bottle</li>
-                                            <li><span>Color</span> Green, Pink, Powder Blue, Purple</li>
-                                            <li><span>Quantity Per Case</span> 100ml</li>
-                                            <li><span>Ethyl Alcohol</span> 70%</li>
-                                            <li><span>Piece In One</span> Carton</li>
-                                        </ul>
-                                        <hr class="wp-block-separator is-style-dots">
-                                        <p>
-                                            Laconic overheard dear woodchuck wow this outrageously taut beaver hey hello far meadowlark imitatively egregiously hugged that yikes minimally unanimous pouted flirtatiously as beaver beheld above forward
-                                            energetic across this jeepers beneficently cockily less a the raucously that magic upheld far so the this where crud then below after jeez enchanting drunkenly more much wow callously irrespective limpet.
-                                        </p>
-                                        <h4 class="mt-30">Packaging & Delivery</h4>
-                                        <hr class="wp-block-separator is-style-wide">
-                                        <p>
-                                            Less lion goodness that euphemistically robin expeditiously bluebird smugly scratched far while thus cackled sheepishly rigid after due one assenting regarding censorious while occasional or this more crane
-                                            went more as this less much amid overhung anathematic because much held one exuberantly sheep goodness so where rat wry well concomitantly.
-                                        </p>
-                                        <p>
-                                            Scallop or far crud plain remarkably far by thus far iguana lewd precociously and and less rattlesnake contrary caustic wow this near alas and next and pled the yikes articulate about as less cackled dalmatian
-                                            in much less well jeering for the thanks blindly sentimental whimpered less across objectively fanciful grimaced wildly some wow and rose jeepers outgrew lugubrious luridly irrationally attractively
-                                            dachshund.
-                                        </p>
-                                    </div>
+                                    <p>
+                                        @Model.Product.Description
+                                    </p>
                                 </div>
                                 <div class="tab-pane fade" id="Additional-info">
                                     <table class="font-md">
@@ -281,7 +434,7 @@
                                         </tbody>
                                     </table>
                                 </div>
-                               
+
                                 <div class="tab-pane fade" id="Reviews">
                                     <!--Comments-->
                                     <div class="comments-area">
@@ -290,23 +443,100 @@
                                                 <h4 class="mb-30">Customer questions & answers</h4>
                                                 <div class="comment-list">
                                                     <!-- Display existing comments -->
-                                                    @foreach (var comment in Model.Comments)
+                                                    @foreach (Comment comment in Model.Comments)
                                                     {
-                                                        <div class="single-comment justify-content-between d-flex">
+                                                        @if(!comment.IsDeleted && !comment.IsArchived)
+                                                        {
+                                                            <div class="single-comment justify-content-between d-flex">
                                                             <div class="user justify-content-between d-flex">
                                                                 <div class="thumb text-center">
-                                                                    <!-- Display user avatar and other user info -->
+                                                                    <img src="@(string.IsNullOrEmpty(comment.User?.ProfileImageUrl) ? "/Assets/assets/imgs/people/avatar1.jpg" : $"/{comment.User.ProfileImageUrl}")" alt="" style="width: 70px; height: 70px">
+                                                                    <h6><a href="#">@comment.User.UserName</a></h6>
+                                                                    <p class="font-xxs">Since 2012</p>
                                                                 </div>
                                                                 <div class="desc">
-                                                                    <!-- Display comment message, rating, date, etc. -->
+                                                                    <div class="product-rate d-inline-block">
+                                                                        <div class="product-rating" style="width:@comment.Rating%">
+                                                                        </div>
+                                                                    </div>
                                                                     <p>@comment.Message</p>
                                                                     <div class="d-flex justify-content-between">
                                                                         <div class="d-flex align-items-center">
-                                                                            <p class="font-xs mr-30">@comment.PostedDate.ToString("MMMM d, yyyy")</p>
-                                                                            <a  class="text-brand btn-reply">Reply <i class="fi-rs-arrow-right"></i></a>
+                                                                            <p class="font-xs mr-30">@comment.CreatedTime.ToString("MMMM d, 'at' h:mm tt");</p>
+
+                                                                            <span style="cursor: pointer;" class="text-brand btn-reply" onclick="showReplyModal(@comment.Id)">Reply <i class="fi-rs-arrow-right"></i></span>
                                                                         </div>
                                                                     </div>
                                                                 </div>
+                                                            </div>
+                                                        </div>
+                                                            
+                                                        }
+
+                                                        @foreach (var reply in Model.Comments.SelectMany(comment => comment.Replies))
+                                                        {
+                                                            @if(!reply.IsDeleted && !reply.IsArchived)
+                                                            {
+                                                                <div class="single-comment justify-content-between d-flex" style="margin-left: 50px">
+                                                                <div class="user justify-content-between d-flex">
+                                                                    <div class="thumb text-center">
+                                                                        <img src="@(string.IsNullOrEmpty(reply.User?.ProfileImageUrl) ? "/Assets/assets/imgs/people/avatar1.jpg" : $"/{reply.User.ProfileImageUrl}")" alt="" style="width: 70px; height: 70px">
+                                                                            @if (reply.User != null)
+                                                                            {
+                                                                                <h6><a href="#">@reply.User.UserName</a></h6>
+                                                                            }
+                                                                        <p class="font-xxs">Since 2012</p>
+                                                                    </div>
+                                                                    <div class="desc">
+                                                                        <p>@reply.Message</p>
+                                                                        <div class="d-flex justify-content-between">
+                                                                            <div class="d-flex align-items-center">
+                                                                                <p class="font-xs mr-30">@reply.CreatedTime.ToString("MMMM d, 'at' h:mm tt");</p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                                
+                                                            }
+                                                        }
+
+                                                        <div class="modal fade" id="replyModal@(comment.Id)" tabindex="-1" role="dialog" aria-labelledby="replyModalLabel" aria-hidden="true">
+                                                            <div class="modal-dialog" role="document">
+                                                                @if (Model.IsAuthenticatedUserExists)
+                                                                {
+                                                                    <div class="modal-content">
+                                                                        <div class="modal-header">
+                                                                            <h5 class="modal-title" id="replyModalLabel">Reply to Comment</h5>
+                                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeReplyModal(@comment.Id)">
+                                                                                <span aria-hidden="true">&times;</span>
+                                                                            </button>
+                                                                        </div>
+                                                                        <div class="modal-body">
+                                                                            <div asp-action="AddReplyComment">
+                                                                                <input type="hidden" id="parentCommentId" name="parentCommentId" value="0" />
+                                                                                <div class="form-group">
+                                                                                    <label for="message" class="col-form-label">Message:</label>
+                                                                                    <textarea class="form-control" id="replyCommentMessage@(comment.Id)" name="message" rows="3"></textarea>
+                                                                                </div>
+                                                                                <button type="button" class="btn btn-primary" onclick="handleAddReplyComment(@comment.Id, @Model.Product.Id)">Submit</button>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                }
+                                                                else
+                                                                {
+                                                                    <div class="modal-content">
+                                                                        <div class="modal-header">
+                                                                            <h4 class="mt-30">Ooops! You Are Not Authenticated.</h4>
+                                                                        </div>
+
+                                                                        <div class="modal-body">
+                                                                            <button class="btn btn-primary">Sign Up</button>
+                                                                        </div>
+                                                                    </div>
+                                                                }
+
                                                             </div>
                                                         </div>
                                                     }
@@ -320,15 +550,26 @@
                                         </div>
                                     </div>
                                     <!--comment form-->
-                                    <div class="comment-form">
-                                        <h4 class="mb-15">Add a review</h4>
-                                        <!-- Comment submission form -->
-                                        <form id="commentForm" asp-action="AddComment" asp-controller="ProductDetails" method="post">
-                                            <input asp-for="Comment.UserName" type="text" placeholder="Your name" required>
-                                            <textarea asp-for="Comment.Message" placeholder="Your review" required></textarea>
-                                            <button type="submit">Submit</button>
-                                        </form>
-                                    </div>
+                                    @if (Model.IsAuthenticatedUserExists)
+                                    {
+                                        <div class="comment-form">
+                                            <h4 class="mb-15">Add a review</h4>
+                                            <!-- Comment submission form -->
+                                            <div id="commentForm">
+                                                <div class="product-rate mb-30" id="product-rating-container">
+                                                    <div id="product-rating" class="product-rating" style="width:90%"></div>
+                                                </div>
+                                                <textarea id="commentMessage" name="Comment.Message" placeholder="Your review" required></textarea>
+                                                <!-- Hidden field to store mapped rating -->
+                                                <input type="hidden" id="Rating" name="Rating" value="0">
+                                                <button type="button" id="submitBtn" onclick="handleAddComment(@Model.Product.Id)">Submit</button>
+                                            </div>
+                                        </div>
+                                    }
+                                    else
+                                    {
+                                        <h4 class="mt-30">Ooops! You Are Not Authenticated.</h4>
+                                    }
                                 </div>
                             </div>
                         </div>
@@ -338,137 +579,13 @@
                             </div>
                             <div class="col-12">
                                 <div class="row related-products">
-                                    <div class="col-lg-3 col-md-4 col-12 col-sm-6">
-                                        <div class="product-cart-wrap small hover-up">
-                                            <div class="product-img-action-wrap">
-                                                <div class="product-img product-img-zoom">
-                                                    <a href="shop-product-right.html" tabindex="0">
-                                                        <img class="default-img" src="~/Assets/assets/imgs/shop/product-2-1.jpg" alt="">
-                                                        <img class="hover-img" src="~/Assets/assets/imgs/shop/product-2-2.jpg" alt="">
-                                                    </a>
-                                                </div>
-                                                <div class="product-action-1">
-                                                    <a aria-label="Quick view" class="action-btn small hover-up" data-bs-toggle="modal" data-bs-target="#quickViewModal
-    "><i class="fi-rs-search"></i></a>
-                                                    <a aria-label="Add To Wishlist" class="action-btn small hover-up" href="shop-wishlist.html" tabindex="0"><i class="fi-rs-heart"></i></a>
-                                                    <a aria-label="Compare" class="action-btn small hover-up" href="shop-compare.html" tabindex="0"><i class="fi-rs-shuffle"></i></a>
-                                                </div>
-                                                <div class="product-badges product-badges-position product-badges-mrg">
-                                                    <span class="hot">Hot</span>
-                                                </div>
-                                            </div>
-                                            <div class="product-content-wrap">
-                                                <h2><a href="shop-product-right.html" tabindex="0">Ulstra Bass Headphone</a></h2>
-                                                <div class="rating-result" title="90%">
-                                                    <span>
-                                                    </span>
-                                                </div>
-                                                <div class="product-price">
-                                                    <span>$238.85 </span>
-                                                    <span class="old-price">$245.8</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-4 col-12 col-sm-6">
-                                        <div class="product-cart-wrap small hover-up">
-                                            <div class="product-img-action-wrap">
-                                                <div class="product-img product-img-zoom">
-                                                    <a href="shop-product-right.html" tabindex="0">
-                                                        <img class="default-img" src="~/Assets/assets/imgs/shop/product-3-1.jpg" alt="">
-                                                        <img class="hover-img" src="~/Assets/assets/imgs/shop/product-4-2.jpg" alt="">
-                                                    </a>
-                                                </div>
-                                                <div class="product-action-1">
-                                                    <a aria-label="Quick view" class="action-btn small hover-up" data-bs-toggle="modal" data-bs-target="#quickViewModal
-    "><i class="fi-rs-search"></i></a>
-                                                    <a aria-label="Add To Wishlist" class="action-btn small hover-up" href="shop-wishlist.html" tabindex="0"><i class="fi-rs-heart"></i></a>
-                                                    <a aria-label="Compare" class="action-btn small hover-up" href="shop-compare.html" tabindex="0"><i class="fi-rs-shuffle"></i></a>
-                                                </div>
-                                                <div class="product-badges product-badges-position product-badges-mrg">
-                                                    <span class="sale">-12%</span>
-                                                </div>
-                                            </div>
-                                            <div class="product-content-wrap">
-                                                <h2><a href="shop-product-right.html" tabindex="0">Smart Bluetooth Speaker</a></h2>
-                                                <div class="rating-result" title="90%">
-                                                    <span>
-                                                    </span>
-                                                </div>
-                                                <div class="product-price">
-                                                    <span>$138.85 </span>
-                                                    <span class="old-price">$145.8</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-4 col-12 col-sm-6">
-                                        <div class="product-cart-wrap small hover-up">
-                                            <div class="product-img-action-wrap">
-                                                <div class="product-img product-img-zoom">
-                                                    <a href="shop-product-right.html" tabindex="0">
-                                                        <img class="default-img" src="~/Assets/assets/imgs/shop/product-4-1.jpg" alt="">
-                                                        <img class="hover-img" src="~/Assets/assets/imgs/shop/product-4-2.jpg" alt="">
-                                                    </a>
-                                                </div>
-                                                <div class="product-action-1">
-                                                    <a aria-label="Quick view" class="action-btn small hover-up" data-bs-toggle="modal" data-bs-target="#quickViewModal
-    "><i class="fi-rs-search"></i></a>
-                                                    <a aria-label="Add To Wishlist" class="action-btn small hover-up" href="shop-wishlist.html" tabindex="0"><i class="fi-rs-heart"></i></a>
-                                                    <a aria-label="Compare" class="action-btn small hover-up" href="shop-compare.html" tabindex="0"><i class="fi-rs-shuffle"></i></a>
-                                                </div>
-                                                <div class="product-badges product-badges-position product-badges-mrg">
-                                                    <span class="new">New</span>
-                                                </div>
-                                            </div>
-                                            <div class="product-content-wrap">
-                                                <h2><a href="shop-product-right.html" tabindex="0">HomeSpeak 12UEA Goole</a></h2>
-                                                <div class="rating-result" title="90%">
-                                                    <span>
-                                                    </span>
-                                                </div>
-                                                <div class="product-price">
-                                                    <span>$738.85 </span>
-                                                    <span class="old-price">$1245.8</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-4 col-12 col-sm-6">
-                                        <div class="product-cart-wrap small hover-up mb-0">
-                                            <div class="product-img-action-wrap">
-                                                <div class="product-img product-img-zoom">
-                                                    <a href="shop-product-right.html" tabindex="0">
-                                                        <img class="default-img" src="~/Assets/assets/imgs/shop/product-5-1.jpg" alt="">
-                                                        <img class="hover-img" src="~/Assets/assets/imgs/shop/product-3-2.jpg" alt="">
-                                                    </a>
-                                                </div>
-                                                <div class="product-action-1">
-                                                    <a aria-label="Quick view" class="action-btn small hover-up" data-bs-toggle="modal" data-bs-target="#quickViewModal
-    "><i class="fi-rs-search"></i></a>
-                                                    <a aria-label="Add To Wishlist" class="action-btn small hover-up" href="shop-wishlist.html" tabindex="0"><i class="fi-rs-heart"></i></a>
-                                                    <a aria-label="Compare" class="action-btn small hover-up" href="shop-compare.html" tabindex="0"><i class="fi-rs-shuffle"></i></a>
-                                                </div>
-                                                <div class="product-badges product-badges-position product-badges-mrg">
-                                                    <span class="hot">Hot</span>
-                                                </div>
-                                            </div>
-                                            <div class="product-content-wrap">
-                                                <h2><a href="shop-product-right.html" tabindex="0">Dadua Camera 4K 2022EF</a></h2>
-                                                <div class="rating-result" title="90%">
-                                                    <span>
-                                                    </span>
-                                                </div>
-                                                <div class="product-price">
-                                                    <span>$89.8 </span>
-                                                    <span class="old-price">$98.8</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    @await Component.InvokeAsync("ProductDetail")
+                                   
                                 </div>
                             </div>
                         </div>
+
+
                         <div class="banner-img banner-big wow fadeIn f-none animated mt-50">
                             <img class="border-radius-10" src="~/Assets/assets/imgs/banner/banner-4.png" alt="">
                             <div class="banner-text">
@@ -482,58 +599,11 @@
                     <div class="widget-category mb-30">
                         <h5 class="section-title style-1 mb-30 wow fadeIn animated">Category</h5>
                         <ul class="categories">
-                            <li><a href="shop-grid-right.html">Shoes & Bags</a></li>
-                            <li><a href="shop-grid-right.html">Blouses & Shirts</a></li>
-                            <li><a href="shop-grid-right.html">Dresses</a></li>
-                            <li><a href="shop-grid-right.html">Swimwear</a></li>
-                            <li><a href="shop-grid-right.html">Beauty</a></li>
-                            <li><a href="shop-grid-right.html">Jewelry & Watch</a></li>
-                            <li><a href="shop-grid-right.html">Accessories</a></li>
+                            @foreach (var category in Model.Categories)
+                            {
+                                <li><a href="shop-grid-right.html">@category.Name</a></li>
+                            }
                         </ul>
-                    </div>
-                    <!-- Fillter By Price -->
-                    <div class="sidebar-widget price_range range mb-30">
-                        <div class="widget-header position-relative mb-20 pb-10">
-                            <h5 class="widget-title mb-10">Fill by price</h5>
-                            <div class="bt-1 border-color-1"></div>
-                        </div>
-                        <div class="price-filter">
-                            <div class="price-filter-inner">
-                                <div id="slider-range"></div>
-                                <div class="price_slider_amount">
-                                    <div class="label-input">
-                                        <span>Range:</span><input type="text" id="amount" name="price" placeholder="Add Your Price" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="list-group">
-                            <div class="list-group-item mb-10 mt-10">
-                                <label class="fw-900">Color</label>
-                                <div class="custome-checkbox">
-                                    <input class="form-check-input" type="checkbox" name="checkbox" id="exampleCheckbox1" value="">
-                                    <label class="form-check-label" for="exampleCheckbox1"><span>Red (56)</span></label>
-                                    <br>
-                                    <input class="form-check-input" type="checkbox" name="checkbox" id="exampleCheckbox2" value="">
-                                    <label class="form-check-label" for="exampleCheckbox2"><span>Green (78)</span></label>
-                                    <br>
-                                    <input class="form-check-input" type="checkbox" name="checkbox" id="exampleCheckbox3" value="">
-                                    <label class="form-check-label" for="exampleCheckbox3"><span>Blue (54)</span></label>
-                                </div>
-                                <label class="fw-900 mt-15">Item Condition</label>
-                                <div class="custome-checkbox">
-                                    <input class="form-check-input" type="checkbox" name="checkbox" id="exampleCheckbox11" value="">
-                                    <label class="form-check-label" for="exampleCheckbox11"><span>New (1506)</span></label>
-                                    <br>
-                                    <input class="form-check-input" type="checkbox" name="checkbox" id="exampleCheckbox21" value="">
-                                    <label class="form-check-label" for="exampleCheckbox21"><span>Refurbished (27)</span></label>
-                                    <br>
-                                    <input class="form-check-input" type="checkbox" name="checkbox" id="exampleCheckbox31" value="">
-                                    <label class="form-check-label" for="exampleCheckbox31"><span>Used (45)</span></label>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="shop-grid-right.html" class="btn btn-sm btn-default"><i class="fi-rs-filter mr-5"></i> Fillter</a>
                     </div>
                     <!-- Product sidebar Widget -->
                     <div class="sidebar-widget product-sidebar  mb-30 p-30 bg-grey border-radius-10">
@@ -541,42 +611,7 @@
                             <h5 class="widget-title mb-10">New products</h5>
                             <div class="bt-1 border-color-1"></div>
                         </div>
-                        <div class="single-post clearfix">
-                            <div class="image">
-                                <img src="~/Assets/assets/imgs/shop/thumbnail-3.jpg" alt="#">
-                            </div>
-                            <div class="content pt-10">
-                                <h5><a href="shop-product-detail.html">Chen Cardigan</a></h5>
-                                <p class="price mb-0 mt-5">$99.50</p>
-                                <div class="product-rate">
-                                    <div class="product-rating" style="width:90%"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single-post clearfix">
-                            <div class="image">
-                                <img src="~/Assets/assets/imgs/shop/thumbnail-4.jpg" alt="#">
-                            </div>
-                            <div class="content pt-10">
-                                <h6><a href="shop-product-detail.html">Chen Sweater</a></h6>
-                                <p class="price mb-0 mt-5">$89.50</p>
-                                <div class="product-rate">
-                                    <div class="product-rating" style="width:80%"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single-post clearfix">
-                            <div class="image">
-                                <img src="~/Assets/assets/imgs/shop/thumbnail-5.jpg" alt="#">
-                            </div>
-                            <div class="content pt-10">
-                                <h6><a href="shop-product-detail.html">Colorful Jacket</a></h6>
-                                <p class="price mb-0 mt-5">$25</p>
-                                <div class="product-rate">
-                                    <div class="product-rating" style="width:60%"></div>
-                                </div>
-                            </div>
-                        </div>
+                        @await Component.InvokeAsync("ProductDetail2")
                     </div>
                     <div class="banner-img wow fadeIn mb-45 animated d-lg-block d-none">
                         <img src="~/Assets/assets/imgs/banner/banner-11.jpg" alt="">

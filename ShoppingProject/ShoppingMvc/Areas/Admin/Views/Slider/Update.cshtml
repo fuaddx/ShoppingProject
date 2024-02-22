@@ -43,7 +43,8 @@
         <h6 class="m-0 font-weight-bold text-primary">Edit Slider</h6>
     </div>
     <div class="card-body">
-        <form asp-action="Update" method="post" enctype="multipart/form-data">
+        <form action="/Admin/Slider/Update" method="post" enctype="multipart/form-data">
+            <input type="hidden" name="id" value="@Model.Id" />
             <div class="form-group">
                 <label asp-for="Title"></label>
                 <input asp-for="Title" class="form-control">
@@ -83,7 +84,7 @@
             </div>
             <div class="text" style="margin-top:10px">
                 <button class="btn btn-success" style="color:white;background:#088178!important">Edit</button>
-                <a asp-controller="Slider" asp-action="Cancel" class="btn btn-danger">Cancel</a>
+                <a href="/Admin/Slider/Index" class="btn btn-danger">Cancel</a>
 
             </div>
         </form>

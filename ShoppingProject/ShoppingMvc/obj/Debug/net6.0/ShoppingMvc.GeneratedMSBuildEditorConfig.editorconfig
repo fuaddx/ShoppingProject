@@ -9,175 +9,219 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ShoppingMvc
 build_property.RootNamespace = ShoppingMvc
-build_property.ProjectDir = C:\Users\ASUS\Desktop\Shopping-old\ShoppingProject\ShoppingMvc\
+build_property.ProjectDir = C:\Users\ASUS\Desktop\FinalShoppingProject\ShoppingProject\ShoppingMvc\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\ASUS\Desktop\Shopping-old\ShoppingProject\ShoppingMvc
+build_property.MSBuildProjectDirectory = C:\Users\ASUS\Desktop\FinalShoppingProject\ShoppingProject\ShoppingMvc
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ASUS/Desktop/Shopping-old/ShoppingProject/ShoppingMvc/Areas/Admin/Views/Category/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Areas/Admin/Views/Seller/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2VsbGVyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/Desktop/Shopping-old/ShoppingProject/ShoppingMvc/Areas/Admin/Views/Category/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Areas/Admin/Views/Seller/SellerDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2VsbGVyXFNlbGxlckRldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/Desktop/Shopping-old/ShoppingProject/ShoppingMvc/Areas/Admin/Views/Category/Update.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcVXBkYXRlLmNzaHRtbA==
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Areas/Admin/Views/Shared/SellerPagination.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXFNlbGxlclBhZ2luYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/Desktop/Shopping-old/ShoppingProject/ShoppingMvc/Areas/Admin/Views/Comments/Comment.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29tbWVudHNcQ29tbWVudC5jc2h0bWw=
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Areas/Admin/Views/Shared/SellerProductsPagination.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXFNlbGxlclByb2R1Y3RzUGFnaW5hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/Desktop/Shopping-old/ShoppingProject/ShoppingMvc/Areas/Admin/Views/Comments/Reply.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29tbWVudHNcUmVwbHkuY3NodG1s
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Areas/Admin/Views/Shared/SliderPagination.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXFNsaWRlclBhZ2luYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/Desktop/Shopping-old/ShoppingProject/ShoppingMvc/Areas/Admin/Views/Product/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxDcmVhdGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ASUS/Desktop/Shopping-old/ShoppingProject/ShoppingMvc/Areas/Admin/Views/Product/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ASUS/Desktop/Shopping-old/ShoppingProject/ShoppingMvc/Areas/Admin/Views/Product/Update.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxVcGRhdGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ASUS/Desktop/Shopping-old/ShoppingProject/ShoppingMvc/Areas/Admin/Views/Shared/ProductPagination.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXFByb2R1Y3RQYWdpbmF0aW9uLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ASUS/Desktop/Shopping-old/ShoppingProject/ShoppingMvc/Areas/Admin/Views/Shared/ProductPagination2.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXFByb2R1Y3RQYWdpbmF0aW9uMi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ASUS/Desktop/Shopping-old/ShoppingProject/ShoppingMvc/Areas/Admin/Views/Shared/_CategoryPaginationPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9DYXRlZ29yeVBhZ2luYXRpb25QYXJ0aWFsLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ASUS/Desktop/Shopping-old/ShoppingProject/ShoppingMvc/Areas/Admin/Views/Shared/_Layout.cshtml]
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Areas/Admin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/Desktop/Shopping-old/ShoppingProject/ShoppingMvc/Areas/Admin/Views/Shared/_TagPaginationPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9UYWdQYWdpbmF0aW9uUGFydGlhbC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ASUS/Desktop/Shopping-old/ShoppingProject/ShoppingMvc/Areas/Admin/Views/Slider/Create.cshtml]
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Areas/Admin/Views/Slider/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2xpZGVyXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/Desktop/Shopping-old/ShoppingProject/ShoppingMvc/Areas/Admin/Views/Slider/Index.cshtml]
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Areas/Admin/Views/Slider/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2xpZGVyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/Desktop/Shopping-old/ShoppingProject/ShoppingMvc/Areas/Admin/Views/Slider/Update.cshtml]
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Areas/Admin/Views/Slider/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2xpZGVyXFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/Desktop/Shopping-old/ShoppingProject/ShoppingMvc/Areas/Admin/Views/Tag/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGFnXENyZWF0ZS5jc2h0bWw=
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Areas/Admin/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/Desktop/Shopping-old/ShoppingProject/ShoppingMvc/Areas/Admin/Views/Tag/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGFnXEluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ASUS/Desktop/Shopping-old/ShoppingProject/ShoppingMvc/Areas/Admin/Views/Tag/Update.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGFnXFVwZGF0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ASUS/Desktop/Shopping-old/ShoppingProject/ShoppingMvc/Areas/Admin/Views/_ViewImports.cshtml]
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/Desktop/Shopping-old/ShoppingProject/ShoppingMvc/Areas/Admin/Views/_ViewStart.cshtml]
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/Desktop/Shopping-old/ShoppingProject/ShoppingMvc/Views/About/Index.cshtml]
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Areas/Seller/Views/Category/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2VsbGVyXFZpZXdzXENhdGVnb3J5XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Areas/Seller/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2VsbGVyXFZpZXdzXENhdGVnb3J5XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Areas/Seller/Views/Category/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2VsbGVyXFZpZXdzXENhdGVnb3J5XFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Areas/Seller/Views/Product/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2VsbGVyXFZpZXdzXFByb2R1Y3RcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Areas/Seller/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2VsbGVyXFZpZXdzXFByb2R1Y3RcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Areas/Seller/Views/Product/ProductComments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2VsbGVyXFZpZXdzXFByb2R1Y3RcUHJvZHVjdENvbW1lbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Areas/Seller/Views/Product/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2VsbGVyXFZpZXdzXFByb2R1Y3RcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Areas/Seller/Views/Shared/CategoryPaginationPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2VsbGVyXFZpZXdzXFNoYXJlZFxDYXRlZ29yeVBhZ2luYXRpb25QYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Areas/Seller/Views/Shared/ProductCommentsPagination.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2VsbGVyXFZpZXdzXFNoYXJlZFxQcm9kdWN0Q29tbWVudHNQYWdpbmF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Areas/Seller/Views/Shared/ProductPagination.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2VsbGVyXFZpZXdzXFNoYXJlZFxQcm9kdWN0UGFnaW5hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Areas/Seller/Views/Shared/TagPaginationPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2VsbGVyXFZpZXdzXFNoYXJlZFxUYWdQYWdpbmF0aW9uUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Areas/Seller/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2VsbGVyXFZpZXdzXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Areas/Seller/Views/Tag/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2VsbGVyXFZpZXdzXFRhZ1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Areas/Seller/Views/Tag/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2VsbGVyXFZpZXdzXFRhZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Areas/Seller/Views/Tag/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2VsbGVyXFZpZXdzXFRhZ1xVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Areas/Seller/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2VsbGVyXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Areas/Seller/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2VsbGVyXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Views/About/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/Desktop/Shopping-old/ShoppingProject/ShoppingMvc/Views/Anouncement/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5vdW5jZW1lbnRcSW5kZXguY3NodG1s
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Views/Auth/BannedPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxCYW5uZWRQYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/Desktop/Shopping-old/ShoppingProject/ShoppingMvc/Views/Auth/Login.cshtml]
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Views/Auth/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/Desktop/Shopping-old/ShoppingProject/ShoppingMvc/Views/Auth/Register.cshtml]
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Views/Auth/ProfileSettings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxQcm9maWxlU2V0dGluZ3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Views/Auth/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/Desktop/Shopping-old/ShoppingProject/ShoppingMvc/Views/Checkout/Index.cshtml]
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Views/Auth/SellerRegistration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxTZWxsZXJSZWdpc3RyYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Views/Checkout/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/Desktop/Shopping-old/ShoppingProject/ShoppingMvc/Views/Home/AccessDenied.cshtml]
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Views/Home/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/Desktop/Shopping-old/ShoppingProject/ShoppingMvc/Views/Home/Index.cshtml]
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/Desktop/Shopping-old/ShoppingProject/ShoppingMvc/Views/ProductDetails/AddComment.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdERldGFpbHNcQWRkQ29tbWVudC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ASUS/Desktop/Shopping-old/ShoppingProject/ShoppingMvc/Views/ProductDetails/Index.cshtml]
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Views/ProductDetails/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdERldGFpbHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/Desktop/Shopping-old/ShoppingProject/ShoppingMvc/Views/Shared/Components/Basket/Default.cshtml]
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Views/Shared/Components/Basket/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQmFza2V0XERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/Desktop/Shopping-old/ShoppingProject/ShoppingMvc/Views/Shared/Components/Checkout/Default.cshtml]
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Views/Shared/Components/Checkout/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2hlY2tvdXRcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/Desktop/Shopping-old/ShoppingProject/ShoppingMvc/Views/Shared/Components/ShopCart/Default.cshtml]
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Views/Shared/Components/ProductDetail2/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUHJvZHVjdERldGFpbDJcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Views/Shared/Components/ProductDetail/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUHJvZHVjdERldGFpbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Views/Shared/Components/ShopCart/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2hvcENhcnRcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/Desktop/Shopping-old/ShoppingProject/ShoppingMvc/Views/Shared/ProductPagination.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFByb2R1Y3RQYWdpbmF0aW9uLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ASUS/Desktop/Shopping-old/ShoppingProject/ShoppingMvc/Views/Shared/_Layout2.cshtml]
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Views/Shared/_Layout2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/Desktop/Shopping-old/ShoppingProject/ShoppingMvc/Views/ShopCart/Index.cshtml]
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Views/ShopCart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcENhcnRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/Desktop/Shopping-old/ShoppingProject/ShoppingMvc/Views/Shopping/Index.cshtml]
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Views/Shopping/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/Desktop/Shopping-old/ShoppingProject/ShoppingMvc/Views/WishList/Index.cshtml]
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Views/WishList/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2lzaExpc3RcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/Desktop/Shopping-old/ShoppingProject/ShoppingMvc/Views/_ViewImports.cshtml]
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/Desktop/Shopping-old/ShoppingProject/ShoppingMvc/Views/_ViewStart.cshtml]
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/Desktop/Shopping-old/ShoppingProject/ShoppingMvc/Views/Shared/_Layout.cshtml]
+[C:/Users/ASUS/Desktop/FinalShoppingProject/ShoppingProject/ShoppingMvc/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-2hb5arifkz
