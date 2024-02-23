@@ -13,4 +13,15 @@ Add the following code to the Configure method in your Application's Startup cla
 
 
 
-      
+      await _db.Expertss.Select(c => new ExpertListItemVm
+            {
+                Expert = c,
+                Id = c.Id,
+                CreatedTime = c.CreatedTime,
+                UpdatedTime = c.UpdatedTime,
+                ImageUrl = c.ImageUrl,
+                IsDeleted = c.IsDeleted,
+                IsArchived = c.IsArchived,
+                Profession = c.Profession,
+                Name = c.Name,
+      }).ToListAsync();

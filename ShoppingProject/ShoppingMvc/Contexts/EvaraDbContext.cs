@@ -26,7 +26,7 @@ namespace ShoppingMvc.Contexts
         public DbSet<SellerData> SellerDatas { get; set; }
         public DbSet<BasketItem> BasketItems { get; set; }
         public DbSet<Experts> Expertss { get; set; }
-        public DbSet<Clients> Clients { get; set; }
+        public DbSet<Clients> Client { get; set; }
         public DbSet<Branches> Brachess { get; set; }
         public DbSet<About> Aboutt { get; set; }
 

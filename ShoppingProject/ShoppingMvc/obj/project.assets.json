@@ -11125,11 +11125,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\FinalShoppingProject\\ShoppingProject\\ShoppingMvc\\ShoppingMvc.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\ShoppingProject\\ShoppingProject\\ShoppingMvc\\ShoppingMvc.csproj",
       "projectName": "ShoppingMvc",
-      "projectPath": "C:\\Users\\ASUS\\Desktop\\FinalShoppingProject\\ShoppingProject\\ShoppingMvc\\ShoppingMvc.csproj",
+      "projectPath": "C:\\Users\\ASUS\\Desktop\\ShoppingProject\\ShoppingProject\\ShoppingMvc\\ShoppingMvc.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\Desktop\\FinalShoppingProject\\ShoppingProject\\ShoppingMvc\\obj\\",
+      "outputPath": "C:\\Users\\ASUS\\Desktop\\ShoppingProject\\ShoppingProject\\ShoppingMvc\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",

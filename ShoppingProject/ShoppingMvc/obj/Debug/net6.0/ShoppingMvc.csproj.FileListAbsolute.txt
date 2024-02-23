@@ -1555,3 +1555,4 @@ C:\Users\ASUS\Desktop\FinalShoppingProject\ShoppingProject\ShoppingMvc\obj\Debug
 C:\Users\ASUS\Desktop\FinalShoppingProject\ShoppingProject\ShoppingMvc\obj\Debug\net6.0\ShoppingMvc.pdb
 C:\Users\ASUS\Desktop\FinalShoppingProject\ShoppingProject\ShoppingMvc\obj\Debug\net6.0\ShoppingMvc.genruntimeconfig.cache
 C:\Users\ASUS\Desktop\FinalShoppingProject\ShoppingProject\ShoppingMvc\obj\Debug\net6.0\ref\ShoppingMvc.dll
+C:\Users\ASUS\Desktop\ShoppingProject\ShoppingProject\ShoppingMvc\obj\Debug\net6.0\ShoppingMvc.sourcelink.json

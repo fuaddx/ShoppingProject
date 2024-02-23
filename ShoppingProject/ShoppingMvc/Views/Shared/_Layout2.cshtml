@@ -56,14 +56,37 @@
                     <div class="col-xl-3 col-lg-4" style="width:42%">
                         <div class="header-info header-info-right">
                             <ul>
-                                @if (User.Identity.IsAuthenticated && !User.IsInRole("Seller"))
+                                @if (User.Identity.IsAuthenticated && !isSeller && !User.IsInRole("Admin"))
                                 {
-
                                     <li><i class="fi-rs-user"></i><a style="font-size:15px">Hi, @User.Identity.Name &#128509;</a></li>
                                     <li>
                                         <a asp-action="Logout" asp-controller="Auth">Logout</a>
                                     </li>
                                     <li><a asp-action="SellerRegistration" asp-controller="Auth">Be a seller</a></li>
+                                }
+                                else if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                                {
+                                    <li>
+                                        <a style="font-size:15px">Hi, @User.Identity.Name &#128509;</a>
+                                    </li>
+                                    <li>
+                                        <a asp-action="Logout" asp-controller="Auth">Logout</a>
+                                    </li>
+                                    <li>
+                                        <a href="/Admin/Slider/Index">Admin Panel</a>
+                                    </li>
+                                }
+                                else if (User.Identity.IsAuthenticated && User.IsInRole("Seller"))
+                                {
+                                    <li>
+                                        <a style="font-size:15px">Hi, @User.Identity.Name &#128509;</a>
+                                    </li>
+                                    <li>
+                                        <a asp-action="Logout" asp-controller="Auth">Logout</a>
+                                    </li>
+                                    <li>
+                                        <a href="/Seller">Seller Panel</a>
+                                    </li>
                                 }
                                 else if (User.Identity.IsAuthenticated)
                                 {
@@ -187,12 +210,6 @@
                         </nav>
                     </div>
                     <div class="header-action-right">
-                        <div class="search-style-2">
-                            <form action="#">
-                                </select>
-                                <input type="text" placeholder="Search for items…">
-                            </form>
-                        </div>
                         <div id="basket">
                             @await Component.InvokeAsync("Basket")
                         </div>
@@ -388,23 +405,23 @@
                     <div class="col-lg-2 col-md-3">
                         <h5 class="widget-title wow fadeIn animated">About</h5>
                         <ul class="footer-list wow fadeIn animated mb-sm-5 mb-md-0">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Delivery Information</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Terms &amp; Conditions</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Support Center</a></li>
+                            <li><a asp-action="Index" asp-controller="About">About Us</a></li>
+                            <li><a asp-action="Index" asp-controller="About">Delivery Information</a></li>
+                            <li><a asp-action="Index" asp-controller="About">Privacy Policy</a></li>
+                            <li><a asp-action="Index" asp-controller="About">Terms &amp; Conditions</a></li>
+                            <li><a asp-action="Index" asp-controller="About">Contact Us</a></li>
+                            <li><a asp-action="Index" asp-controller="About">Support Center</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-2  col-md-3">
                         <h5 class="widget-title wow fadeIn animated">My Account</h5>
                         <ul class="footer-list wow fadeIn animated">
-                            <li><a href="#">Sign In</a></li>
-                            <li><a href="#">View Cart</a></li>
-                            <li><a href="#">My Wishlist</a></li>
-                            <li><a href="#">Track My Order</a></li>
-                            <li><a href="#">Help</a></li>
-                            <li><a href="#">Order</a></li>
+                            <li><a asp-action="Index" asp-controller="About">Sign In</a></li>
+                            <li><a asp-action="Index" asp-controller="About">View Cart</a></li>
+                            <li><a asp-action="Index" asp-controller="About">My Wishlist</a></li>
+                            <li><a asp-action="Index" asp-controller="About">Track My Order</a></li>
+                            <li><a asp-action="Index" asp-controller="About">Help</a></li>
+                            <li><a asp-action="Index" asp-controller="About">Order</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-4">

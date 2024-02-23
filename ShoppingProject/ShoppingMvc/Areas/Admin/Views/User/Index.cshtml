@@ -6,36 +6,37 @@
 
 @section scripts {
     <script>
-
         function applyFilters() {
-            var dateFilter = $("#dateFilter").val();
-            var statusFilter = $("#statusFilter").val();
-            var searchFilter = $("#searchFilter").val();
+            var searchInput = document.getElementById('searchFilter').value.toLowerCase();
+            var dateInput = document.getElementById('dateFilter').value;
 
-            $.ajax({
-                url: '/Admin/ControllerName/ListUsers',
-                type: 'GET',
-                data: {
-                    dateFilter: dateFilter,
-                    statusFilter: statusFilter,
-                    searchFilter: searchFilter,
-                    page: 1,
-                    size: 4
-                },
-                success: function (data) {
-                    document.querySelector('#sellerBody').innerHTML = data;
+            var rows = document.getElementsByClassName('user-row');
+            var noResultsMessage = document.getElementById('noResultsMessage');
 
-                    localStorage.setItem("dateFilter", dateFilter);
-                    localStorage.setItem("statusFilter", statusFilter);
-                    localStorage.setItem("searchFilter", searchFilter);
-                },
-                error: function () {
-                    console.log('Error applying filters');
+            var hasResults = false;
+
+            for (var i = 0; i < rows.length; i++) {
+                var userName = rows[i].querySelector('.title').textContent.toLowerCase();
+                var userEmail = rows[i].querySelector('.text-center').textContent.toLowerCase();
+                var userCreatedTime = rows[i].querySelectorAll('.text-center')[1].textContent;
+
+                var matchesSearch = userName.includes(searchInput) || userEmail.includes(searchInput);
+                var matchesDate = dateInput === '' || userCreatedTime.includes(dateInput);
+
+                if (matchesSearch && matchesDate) {
+                    rows[i].style.display = '';
+                    hasResults = true;
+                } else {
+                    rows[i].style.display = 'none';
                 }
-            });
+            }
 
+            if (!hasResults) {
+                noResultsMessage.style.display = 'block';
+            } else {
+                noResultsMessage.style.display = 'none';
+            }
         }
-
     </script>
     @if (TempData["Create"] != null)
     {
@@ -123,7 +124,7 @@
 }
 <section class="content-main">
     <div class="content-header">
-        <h2 class="content-title">Seller list</h2>
+        <h2 class="content-title">User list</h2>
     </div>
     <div class="card mb-4">
         <header class="card-header">
@@ -134,18 +135,13 @@
                 <div class="col-lg-2 col-md-3 col-6">
                     <input type="date" id="dateFilter" class="form-control" oninput="applyFilters()">
                 </div>
-                <div class="col-lg-2 col-md-3 col-6">
-                    <select class="form-select" id="statusFilter" onchange="applyFilters()">
-                        <option>Show all</option>
-                        <option>Approved</option>
-                        <option>Not Approved</option>
-                    </select>
-                </div>
             </div>
         </header> <!-- card-header end// -->
         <div class="card-body" id="sellerBody">
             <div class="table-responsive">
-                <table class="table table-hover">
+
+
+                <table class="table table-hover" id="userTable">
                     <thead>
                         <tr>
                             <th class="text-center">Seller</th>
@@ -154,10 +150,9 @@
                         </tr>
                     </thead>
                     <tbody>
-
                         @foreach (var item in Model)
                         {
-                            <tr>
+                            <tr class="user-row">
                                 <td width="20%">
                                     <a href="#" class="itemside">
                                         <div class="left">
@@ -180,9 +175,10 @@
                                 <td class="text-center">@item.CreatedTime</td>
                             </tr>
                         }
-
+                      
                     </tbody>
                 </table> <!-- table-responsive.// -->
+                    <div id="noResultsMessage" style="display:none; color:red; font-size:23px;text-align:center">Nothing Found</div>
             </div>
         </div> <!-- card-body end// -->
     </div> <!-- card end// -->
