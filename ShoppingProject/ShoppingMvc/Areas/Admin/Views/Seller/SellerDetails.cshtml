@@ -29,6 +29,40 @@
 
         }
     </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            
+            var priceElements = document.querySelectorAll('.price');
+
+        
+            var totalPrice = 0;
+
+            priceElements.forEach(function (element) {
+                var price = parseFloat(element.textContent.replace('$', ''));
+
+                totalPrice += price;
+            });
+
+            var totalSalesElement = document.querySelector('.text-success');
+            totalSalesElement.textContent = '$' + totalPrice.toFixed(2);
+        });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var priceElements = document.querySelectorAll('.price');
+
+            var totalRevenue = 0;
+
+            priceElements.forEach(function (element) {
+                var price = parseFloat(element.textContent.replace('$', ''));
+
+                totalRevenue += price;
+            });
+
+            var totalRevenueElement = document.getElementById('totalRevenue');
+            totalRevenueElement.textContent = "$" + totalRevenue.toFixed(2);
+        });
+    </script>
     @if (TempData["Create"] != null)
     {
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
@@ -182,9 +216,9 @@
                 <div class="col-md-12 col-lg-4 col-xl-2">
                     <article class="box">
                         <p class="mb-0 text-muted">Total sales:</p>
-                        <h5 class="text-success">238</h5>
+                        <h5 class="text-success"></h5>
                         <p class="mb-0 text-muted">Revenue:</p>
-                        <h5 class="text-success mb-0">$2380</h5>
+                        <h5 class="text-success mb-0" id="totalRevenue"></h5>
                     </article>
                 </div> <!--  col.// -->
                 <div class="col-sm-6 col-lg-4 col-xl-3">

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fYEuFt3cdjOlWCFj9e9YX186MaSZWsu7Ho2+xsnNG/tgO+ByLi2Hb7T8LB0iLw9/YOXiH2WzQW8bpgaDL1IaeA==",
+  "dgSpecHash": "vflTlt/f0xmXYb+ubzzd7iGvdv6HyrSIZYNEyXOU30Qy3u1k/o0iutUi5T0DVbosxMrOyTNS36ZFxlK6BXdbjQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ASUS\\Desktop\\ShoppingProject\\ShoppingProject\\ShoppingMvc\\ShoppingMvc.csproj",
+  "projectFilePath": "C:\\Users\\ASUS\\Desktop\\Testucun\\ShoppingProject\\ShoppingMvc\\ShoppingMvc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

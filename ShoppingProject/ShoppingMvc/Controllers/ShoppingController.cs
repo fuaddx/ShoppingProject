@@ -28,6 +28,7 @@ namespace ShoppingMvc.Controllers
             HomeVm vm = new HomeVm
             {
                 ProductListItems = await _db.Products.Select(p => p.FromProduct_ToProductListItemVm()).ToListAsync(),
+               
             };
             return View(vm);
 
